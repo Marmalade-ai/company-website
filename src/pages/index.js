@@ -39,49 +39,61 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="text-3xl font-semibold leading-tight">
-                Improved Networking
-              </h3>
+              <h3 className="text-3xl font-semibold leading-tight">Improved Networking</h3>
               <p className="mt-8 text-xl font-light leading-relaxed">
-                Once the market analysis process is completed our staff will search for opportunities
-                that are in reach
+                Once the market analysis process is completed our staff will search for
+                opportunities that are in reach
               </p>
             </div>
           }
-          secondarySlot={<StaticImage className="rounded-lg shadow-lg	" src="../images/networking.jpg" alt="Networking" />}
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg	"
+              src="../images/networking.jpg"
+              alt="Networking"
+            />
+          }
         />
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <h3 className="text-3xl font-semibold leading-tight">
-                Automated Matching
-              </h3>
+              <h3 className="text-3xl font-semibold leading-tight">Automated Matching</h3>
               <p className="mt-8 text-xl font-light leading-relaxed">
-                With all the information in place you will be presented with an action plan that your
-                company needs to follow
+                With all the information in place you will be presented with an action plan that
+                your company needs to follow
               </p>
             </div>
           }
-          secondarySlot={<StaticImage className="rounded-lg shadow-lg	" src="../images/matching.jpg" alt="Matching" />}
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg	"
+              src="../images/matching.jpg"
+              alt="Matching"
+            />
+          }
         />
         <SplitSection
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="text-3xl font-semibold leading-tight">
-                Serendipity Chats
-          </h3>
+              <h3 className="text-3xl font-semibold leading-tight">Serendipity Chats</h3>
               <p className="mt-8 text-xl font-light leading-relaxed">
-                Once the market analysis process is completed our staff will search for opportunities
-                that are in reach
-          </p>
+                Once the market analysis process is completed our staff will search for
+                opportunities that are in reach
+              </p>
             </div>
           }
-          secondarySlot={<StaticImage className="rounded-lg shadow-lg	" src="../images/chatting.jpg" alt="Chatting" />}
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg	"
+              src="../images/chatting.jpg"
+              alt="Chatting"
+            />
+          }
         />
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-20 lg:pt-24">
+    <section id="benefits" className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Get Started with Marmalade AI</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -128,101 +140,108 @@ const Index = () => (
       </div>
     </section>
 
-
-    <section id="features" className="py-20 lg:pb-20 lg:pt-24">
+    <section id="pricing" className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Choosing a Plan</h2>
-        <div class="flex flex-col">
-          <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 mt-12">
-            <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-              <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                <table class="min-w-full divide-y divide-gray-200">
-                  <thead class="bg-gray-50">
+        <div className="flex flex-col">
+          <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 mt-12">
+            <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+              <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-50">
                     <tr>
-                      <th scope="col" class="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider">
+                      <th
+                        scope="col"
+                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
+                      >
                         Features
-              </th>
-                      <th scope="col" class="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider">
+                      </th>
+                      <th
+                        scope="col"
+                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
+                      >
                         Free
-              </th>
-                      <th scope="col" class="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider">
+                      </th>
+                      <th
+                        scope="col"
+                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
+                      >
                         $#.##/mo
-              </th>
+                      </th>
                     </tr>
                   </thead>
-                  <tbody class="bg-white divide-y divide-gray-200">
+                  <tbody className="bg-white divide-y divide-gray-200">
                     <tr>
-                      <td class="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div class="text-sm font-medium">Browse Member Profiles</div>
+                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
+                        <div className="text-sm font-medium">Browse Member Profiles</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
                       </td>
                     </tr>
 
                     <tr>
-                      <td class="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div class="text-sm font-medium">Direct Messaging</div>
+                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
+                        <div className="text-sm font-medium">Direct Messaging</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div class="text-sm font-medium">Automated Matching</div>
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
                       </td>
                     </tr>
 
                     <tr>
-                      <td class="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div class="text-sm font-medium">Premium Feature 1</div>
+                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
+                        <div className="text-sm font-medium">Automated Matching</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">No</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div class="text-sm font-medium">Premium Feature 2</div>
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">No</div>
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
                       </td>
                     </tr>
 
                     <tr>
-                      <td class="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div class="text-sm font-medium">Premium Feature 3</div>
+                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
+                        <div className="text-sm font-medium">Premium Feature 1</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">No</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">No</div>
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">
-                        <div class="text-sm text-gray-500">Yes</div>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
                       </td>
                     </tr>
 
+                    <tr>
+                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
+                        <div className="text-sm font-medium">Premium Feature 2</div>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">No</div>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
+                        <div className="text-sm font-medium">Premium Feature 3</div>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">No</div>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="text-sm text-gray-500">Yes</div>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -252,7 +271,7 @@ const Index = () => (
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map(customer => (
+          {customerData.map((customer) => (
             <div key={customer.customerName} className="flex-1 px-3">
               <CustomerCard customer={customer} />
             </div>
