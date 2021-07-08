@@ -7,6 +7,26 @@ a:hover {
   @apply text-primary-darker;
 }
 
+.body-text {
+  @apply mt-2;
+}
+
+h1 {
+  @apply mt-6 text-3xl font-semibold;
+}
+
+h2 {
+  @apply mt-6 text-2xl font-semibold;
+}
+
+h3 {
+  @apply mt-6 text-xl font-semibold;
+}
+
+.page-title {
+  @apply text-center text-3xl font-semibold;
+}
+
 @tailwind components;
 
 @tailwind utilities;
