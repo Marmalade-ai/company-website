@@ -14,7 +14,7 @@ const Footer = () => (
             <a href="../../code-of-conduct/">Code of Conduct</a>
           </li>
           <li>
-            <a href="../../code-of-conduct/">Privacy Policy</a>
+            <a href="../../privacy-policy/">Privacy Policy</a>
           </li>
         </ul>
       </div>
