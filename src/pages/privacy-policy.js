@@ -49,7 +49,7 @@ const Index = () => (
 
         <h3>Third-Party Service Providers and Partners</h3>
         <p className="body-text">
-          At times Chicago Booth will use third parties to process your information on our behalf,
+          At times Marmalade ai will use third parties to process your information on our behalf,
           for example to provide services, analysis, research and development, optimization and
           other internal purposes, including, without limitation, to compile usage data.
         </p>
