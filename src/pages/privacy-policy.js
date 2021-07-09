@@ -11,7 +11,7 @@ const Index = () => (
           Marmalade AI, Inc. has created this Privacy Notice to explain why we collect particular
           information and how we will protect your personal privacy when you visit our websites, or
           otherwise engage with Marmalade AI (e.g., web browsing, online chatting, and online
-          messaging) including through our comapany website and the Marmalade AI web application.
+          messaging) including through our company website and the Marmalade AI web application.
         </p>
         <p className="body-text">
           The following discloses our information collection, use, storage and other data processing
@@ -21,7 +21,7 @@ const Index = () => (
         <p className="body-text">
           Personal information is any information that personally identifies you or from which you
           could be identified. This may include your name, physical address, telephone number, email
-          address, social security number or other numerical identifier and IP address.
+          address, social security number or other numerical identifier, and IP address.
         </p>
         <p className="body-text">
           Marmalade AI may collect your personal information through your access and use of
