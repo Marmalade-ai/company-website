@@ -7,12 +7,8 @@ a:hover {
   @apply text-primary-darker;
 }
 
-.body-text {
-  @apply mt-2;
-}
-
 h1 {
-  @apply mt-6 text-3xl font-semibold;
+  @apply mt-6 text-center text-3xl font-semibold;
 }
 
 h2 {
@@ -23,8 +19,20 @@ h3 {
   @apply mt-6 text-xl font-semibold;
 }
 
-.page-title {
-  @apply text-center text-3xl font-semibold;
+p {
+  @apply mt-2;
+}
+
+ul {
+  @apply list-disc list-inside;
+}
+
+.cardHeading {
+  @apply mt-0 font-semibold text-xl;
+}
+
+.splitHeading {
+  @apply mt-0 text-3xl font-semibold leading-tight;
 }
 
 @tailwind components;

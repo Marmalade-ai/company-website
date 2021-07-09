@@ -8,7 +8,6 @@ import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
-import SvgCharts from '../svg/SvgCharts';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const Index = () => (
@@ -16,7 +15,7 @@ const Index = () => (
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+          <h1 className="text-4xl lg:text-left lg:text-5xl xl:text-6xl font-bold leading-none">
             Connecting with peers. Made easy.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
@@ -39,7 +38,7 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="text-3xl font-semibold leading-tight">Improved Networking</h3>
+              <h3 className="splitHeadingt">Improved Networking</h3>
               <p className="mt-8 text-xl font-light leading-relaxed">
                 Once the market analysis process is completed our staff will search for
                 opportunities that are in reach
@@ -57,7 +56,7 @@ const Index = () => (
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <h3 className="text-3xl font-semibold leading-tight">Automated Matching</h3>
+              <h3 className="splitHeading">Automated Matching</h3>
               <p className="mt-8 text-xl font-light leading-relaxed">
                 With all the information in place you will be presented with an action plan that
                 your company needs to follow
@@ -76,7 +75,7 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="text-3xl font-semibold leading-tight">Serendipity Chats</h3>
+              <h3 className="splitHeading">Serendipity Chats</h3>
               <p className="mt-8 text-xl font-light leading-relaxed">
                 Once the market analysis process is completed our staff will search for
                 opportunities that are in reach
@@ -99,7 +98,7 @@ const Index = () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Improved Networking</p>
+              <h3 className="cardHeading">Collaborate</h3>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -108,7 +107,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Automated Matching</p>
+              <h3 className="cardHeading">Mentor</h3>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -117,7 +116,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Serendipity Chats</p>
+              <h3 className="cardHeading">Find a Gig</h3>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -126,7 +125,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Serendipity Chats</p>
+              <h3 className="cardHeading">Learn Something New</h3>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
