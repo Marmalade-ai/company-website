@@ -31,8 +31,24 @@ ul {
   @apply mt-0 font-semibold text-xl;
 }
 
+.cardHeading {
+  @apply mt-4;
+}
+
+/* Error when attempting to use lg:text-5xl
+   `@apply` cannot be used with lg:text-5xl because 
+   lg:text-5xl is nested inside of an at-rule (@media).
+*/
+.homeSubheading {
+  @apply text-3xl font-semibold;
+}
+
 .splitHeading {
   @apply mt-0 text-3xl font-semibold leading-tight;
+}
+
+.splitBody {
+  @apply mt-8 text-xl font-light leading-relaxed;
 }
 
 @tailwind components;

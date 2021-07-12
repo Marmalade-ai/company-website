@@ -32,14 +32,14 @@ const Index = () => (
     </section>
     <section className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Why Choose Marmalade?</h2>
+        <h2 className="homeSubheading">Why Choose Marmalade?</h2>
 
         <SplitSection
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeadingt">Improved Networking</h3>
-              <p className="mt-8 text-xl font-light leading-relaxed">
+              <h3 className="splitHeading">Improved Networking</h3>
+              <p className="splitBody">
                 Once the market analysis process is completed our staff will search for
                 opportunities that are in reach
               </p>
@@ -57,7 +57,7 @@ const Index = () => (
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
               <h3 className="splitHeading">Automated Matching</h3>
-              <p className="mt-8 text-xl font-light leading-relaxed">
+              <p className="splitBody">
                 With all the information in place you will be presented with an action plan that
                 your company needs to follow
               </p>
@@ -76,7 +76,7 @@ const Index = () => (
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
               <h3 className="splitHeading">Serendipity Chats</h3>
-              <p className="mt-8 text-xl font-light leading-relaxed">
+              <p className="splitBody">
                 Once the market analysis process is completed our staff will search for
                 opportunities that are in reach
               </p>
@@ -94,12 +94,12 @@ const Index = () => (
     </section>
     <section id="benefits" className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Get Started with Marmalade AI</h2>
+        <h2 className="homeSubheading">Get Started with Marmalade AI</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <h3 className="cardHeading">Collaborate</h3>
-              <p className="mt-4">
+              <p className="cardBody">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
@@ -108,7 +108,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <h3 className="cardHeading">Mentor</h3>
-              <p className="mt-4">
+              <p className="cardBody">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
@@ -117,7 +117,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <h3 className="cardHeading">Find a Gig</h3>
-              <p className="mt-4">
+              <p className="cardBody">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
@@ -126,7 +126,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <h3 className="cardHeading">Learn Something New</h3>
-              <p className="mt-4">
+              <p className="cardBody">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
@@ -141,7 +141,7 @@ const Index = () => (
 
     <section id="pricing" className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Choosing a Plan</h2>
+        <h2 className="homeSubheading">Choosing a Plan</h2>
         <div className="flex flex-col">
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 mt-12">
             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -250,7 +250,7 @@ const Index = () => (
       </div>
     </section>
 
-    <section id="stats" className="py-20 lg:pt-32">
+    {/* <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -286,7 +286,7 @@ const Index = () => (
       <p className="mt-8">
         <Button size="xl">Get Started Now</Button>
       </p>
-    </section>
+    </section> */}
   </Layout>
 );
 
