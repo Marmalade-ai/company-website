@@ -9,7 +9,7 @@ const Footer = () => (
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
-        <ul className="mt-4 leading-loose">
+        <ul className="mt-4 leading-loose list-none">
           <li>
             <a href="../../code-of-conduct/">Code of Conduct</a>
           </li>
@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Social Media</h2>
-        <ul className="mt-4 leading-loose">
+        <ul className="mt-4 leading-loose list-none">
           <li>
             <a href="https://twitter.com/MarmaladeAI">Twitter</a>
           </li>
