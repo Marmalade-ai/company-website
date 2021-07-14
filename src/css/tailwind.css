@@ -1,32 +1,35 @@
 @tailwind base;
 
-a {
-  @apply text-primary;
-}
-a:hover {
-  @apply text-primary-darker;
+@layer base {
+  a {
+    @apply text-primary;
+  }
+  a:hover {
+    @apply text-primary-darker;
+  }
+
+  h1 {
+    @apply mt-6 text-center text-3xl font-semibold;
+  }
+
+  h2 {
+    @apply mt-6 text-2xl font-semibold;
+  }
+
+  h3 {
+    @apply mt-6 text-xl font-semibold;
+  }
+
+  p {
+    @apply mt-2;
+  }
+
+  ul {
+    @apply list-disc list-inside;
+  }
 }
 
-h1 {
-  @apply mt-6 text-center text-3xl font-semibold;
-}
-
-h2 {
-  @apply mt-6 text-2xl font-semibold;
-}
-
-h3 {
-  @apply mt-6 text-xl font-semibold;
-}
-
-p {
-  @apply mt-2;
-}
-
-ul {
-  @apply list-disc list-inside;
-}
-
+/** Application-specific classes **/
 .cardHeading {
   @apply mt-0 font-semibold text-xl;
 }
