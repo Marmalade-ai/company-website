@@ -4,8 +4,8 @@ module.exports = {
       colors: {
         primary: {
           lighter: 'hsl(31,91%,73%)',
-          default: 'hsl(34,99%,50%)',
-          darker: 'hsl(23,99%,50%)',
+          default: 'hsl(23,99%,50%)',
+          darker: 'hsl(15,92%,40%)',
         },
       },
     },
