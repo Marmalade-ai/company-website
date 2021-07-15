@@ -1,7 +1,5 @@
 # Marmalade.ai Company Website
 
-
-
 This is an experimental starter built using [gatsby-theme-codebushi](https://github.com/codebushi/gatsby-theme-codebushi), a theme which uses [Tailwind CSS](https://tailwindcss.com/).
 
 ## Company Website
@@ -23,3 +21,9 @@ These libraries do not yet fully support the upgrade to Gatsby 3.x:
 * gatsby-plugin-emotion
 * gatsby-plugin-postcss
 * gatsby-theme-codebushi
+
+## License
+
+Copyright &#169; 2021 [Marmalade.ai](https://marmalade.ai)
+
+This source code is licensed under the [MIT License](./LICENSE). See the [LICENSE](./LICENSE) file for more details.
