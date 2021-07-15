@@ -41,34 +41,6 @@ const About = () => (
               <p>Portland, OR.</p>
             </Card>
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <StaticImage
-                className="rounded-lg shadow-lg	"
-                src="../images/vivian_tran_headshot.jpg"
-                alt="Photo of Vivian Tran."
-              />
-              <p className="mt-4 font-semibold text-xl">Vivian Tran</p>
-              <p className="font-semibold text-lg">Marketing Advisor</p>
-              <p className="mt-4">New segment marketing, healthcare industry marketing manager.</p>
-              <p>UC Berkeley.</p>
-              <p>Berkeley, CA.</p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <StaticImage
-                className="rounded-lg shadow-lg	"
-                src="../images/michael_porto_headshot.jpg"
-                alt="Photo of Michael Porto."
-              />
-              <p className="mt-4 font-semibold text-xl">Michael Porto</p>
-              <p className="font-semibold text-lg">Product Management Advisor</p>
-              <p className="mt-4">Big data, mobile, ML, Intel, Wells Fargo, Ernst & Young.</p>
-              <p>Princeton MS CS.</p>
-              <p>Charlotte, NC.</p>
-            </Card>
-          </div>
         </div>
         <p className="mt-8">
           <Button size="xl">Get Started for Free</Button>
