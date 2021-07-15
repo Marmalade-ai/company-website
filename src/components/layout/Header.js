@@ -1,43 +1,43 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Link } from "gatsby"
-import LogoIcon from '../../svg/LogoIcon';
-import Button from '../Button';
+import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
+import Button from '../Button';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow z-50">
-    <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
+    <nav className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
-        <StaticImage src="../../images/marmalade-logo.jpg" alt="Marmalade AI Logo" />
+          <Link to="/#">
+            <StaticImage src="../../images/marmalade-logo.jpg" alt="Marmalade AI Logo" />
+          </Link>
         </div>
         Marmalade AI
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
+        <Link className="px-4" to="/#">
           Home
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
+        </Link>
+        <Link className="px-4" to="/#benefits">
           Features
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        </Link>
+        <Link className="px-4" to="/#pricing">
           Pricing
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        </Link>
+        <Link className="px-4" to="/#">
           News
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        </Link>
+        <Link className="px-4" to="/#">
           FAQ
-        </AnchorLink>
-        <Link className="px-4" to="../../about/">
+        </Link>
+        <Link className="px-4" to="/about">
           About Us
         </Link>
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">Login</Button>
       </div>
-    </div>
+    </nav>
   </header>
 );
 
