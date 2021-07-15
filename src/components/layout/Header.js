@@ -18,8 +18,11 @@ const Header = () => (
         <Link className="px-4" to="/#">
           Home
         </Link>
-        <Link className="px-4" to="/#benefits">
+        <Link className="px-4" to="/#features">
           Features
+        </Link>
+        <Link className="px-4" to="/#benefits">
+          Benefits
         </Link>
         <Link className="px-4" to="/#pricing">
           Pricing
