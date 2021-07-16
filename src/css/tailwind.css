@@ -34,7 +34,11 @@
   @apply mt-0 font-semibold text-xl;
 }
 
-.cardHeading {
+.cardSubHeading {
+  @apply font-semibold text-lg;
+}
+
+.cardBody {
   @apply mt-4;
 }
 

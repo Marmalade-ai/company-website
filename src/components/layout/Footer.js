@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
+  <footer className="container mx-auto py-16 px-3 mt-20 mb-8 text-gray-800">
     <hr></hr>
     <div className="flex -mx-3">
       <section className="flex-1 px-3">
