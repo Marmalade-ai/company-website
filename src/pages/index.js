@@ -32,7 +32,7 @@ const Index = () => (
     </section>
     <section className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
-        <h2 className="homeSubheading">Why Choose Marmalade?</h2>
+        <h2 className="homeSubHeading">Why Choose Marmalade?</h2>
 
         <SplitSection
           reverseOrder
@@ -94,7 +94,7 @@ const Index = () => (
     </section>
     <section id="benefits" className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
-        <h2 className="homeSubheading">Get Started with Marmalade AI</h2>
+        <h2 className="homeSubHeading">Get Started with Marmalade AI</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
@@ -141,7 +141,7 @@ const Index = () => (
 
     <section id="pricing" className="py-20 lg:pb-20 lg:pt-24">
       <div className="container mx-auto text-center">
-        <h2 className="homeSubheading">Choosing a Plan</h2>
+        <h2 className="homeSubHeading">Choosing a Plan</h2>
         <div className="flex flex-col">
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 mt-12">
             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">

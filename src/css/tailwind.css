@@ -30,11 +30,19 @@
 }
 
 /** Application-specific classes **/
+.aboutSubHeading {
+  @apply leading-none text-center text-3xl font-semibold;
+}
+
 .cardHeading {
   @apply mt-0 font-semibold text-xl;
 }
 
-.cardHeading {
+.cardSubHeading {
+  @apply font-semibold text-lg;
+}
+
+.cardBody {
   @apply mt-4;
 }
 
@@ -42,7 +50,7 @@
    `@apply` cannot be used with lg:text-5xl because 
    lg:text-5xl is nested inside of an at-rule (@media).
 */
-.homeSubheading {
+.homeSubHeading {
   @apply text-3xl font-semibold;
 }
 
