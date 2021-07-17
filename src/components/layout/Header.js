@@ -18,17 +18,14 @@ const Header = () => (
         <Link className="px-4" to="/#">
           Home
         </Link>
-        <Link className="px-4" to="/#benefits">
+        <Link className="px-4" to="/#features">
           Features
+        </Link>
+        <Link className="px-4" to="/#benefits">
+          Benefits
         </Link>
         <Link className="px-4" to="/#pricing">
           Pricing
-        </Link>
-        <Link className="px-4" to="/#">
-          News
-        </Link>
-        <Link className="px-4" to="/#">
-          FAQ
         </Link>
         <Link className="px-4" to="/about">
           About Us
