@@ -27,12 +27,6 @@ const Header = () => (
         <Link className="px-4" to="/#pricing">
           Pricing
         </Link>
-        <Link className="px-4" to="/#">
-          News
-        </Link>
-        <Link className="px-4" to="/#">
-          FAQ
-        </Link>
         <Link className="px-4" to="/about">
           About Us
         </Link>

@@ -34,10 +34,7 @@ const Index = () => (
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
               <h3 className="splitHeading">Improved Networking</h3>
-              <p className="splitBody">
-                Once the market analysis process is completed our staff will search for
-                opportunities that are in reach
-              </p>
+              <p className="splitBody">Meet new people more frequently and more efficiently.</p>
             </div>
           }
           secondarySlot={
@@ -53,8 +50,8 @@ const Index = () => (
             <div className="lg:pr-32 xl:pr-48">
               <h3 className="splitHeading">Automated Matching</h3>
               <p className="splitBody">
-                With all the information in place you will be presented with an action plan that
-                your company needs to follow
+                You provide your profile and networking goals. We suggest people that you should
+                meet. It's that easy.
               </p>
             </div>
           }
@@ -72,8 +69,8 @@ const Index = () => (
             <div className="lg:pl-32 xl:pl-48">
               <h3 className="splitHeading">Serendipity Chats</h3>
               <p className="splitBody">
-                Once the market analysis process is completed our staff will search for
-                opportunities that are in reach
+                Indicate that you are available and we will match you with someone else who is also
+                ready to network.
               </p>
             </div>
           }
@@ -93,19 +90,19 @@ const Index = () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Collaborate</h3>
+              <h3 className="cardHeading">Learn Something New</h3>
               <p className="cardBody">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Keep up with the latest tools, techniques, and technologies by meeting regularly
+                with your peers.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Mentor</h3>
+              <h3 className="cardHeading">Collaborate</h3>
               <p className="cardBody">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Find peers with whom you would like to collaborate, either for paid projects or side
+                projects.
               </p>
             </Card>
           </div>
@@ -113,17 +110,8 @@ const Index = () => (
             <Card className="mb-8">
               <h3 className="cardHeading">Find a Gig</h3>
               <p className="cardBody">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <h3 className="cardHeading">Learn Something New</h3>
-              <p className="cardBody">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Meet peers regularly to create deeper relationships, so that you know who to call on
+                when you need help.
               </p>
             </Card>
           </div>
