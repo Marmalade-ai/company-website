@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 
-const Index = () => (
+const CodeOfConduct = () => (
   <Layout>
     <article className="py-20 lg:pb-20 lg:pt-24">
       <div className="px-6 mx-auto lg:w-2/3">
@@ -89,4 +89,4 @@ const Index = () => (
   </Layout>
 );
 
-export default Index;
+export default CodeOfConduct;
