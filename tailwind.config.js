@@ -1,15 +1,21 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      colors: {
-        primary: {
-          lighter: 'hsl(31,91%,73%)',
-          default: 'hsl(23,99%,50%)',
-          darker: 'hsl(15,92%,40%)',
-        },
+    colors: {
+      white: colors.white,
+      gray: colors.gray,
+      primary: {
+        lighter: 'hsl(31,91%,73%)',
+        DEFAULT: 'hsl(23,99%,50%)',
+        darker: 'hsl(15,92%,40%)',
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
-};
+}
