@@ -12,7 +12,7 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
           <h1 className="text-4xl lg:text-left lg:text-5xl xl:text-6xl font-bold leading-none">
-            Connecting with peers. Made easy.
+            Connecting with peers. <br/> Made easy.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
             Uniquely enabling freelancers to meet efficiently with their peers.

@@ -1,13 +1,16 @@
+const tailwindcss = require('tailwindcss');
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
   plugins: [
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-plugin-gatsby-cloud',
     {
-      resolve: `gatsby-theme-codebushi`,
+      resolve: `gatsby-plugin-postcss`,
       options: {
-        tailwindConfig: `tailwind.config.js`,
-      },
+        postCssPlugins: [tailwindcss("./tailwind.config.js"), autoprefixer]
+      }
     },
   ],
 };
