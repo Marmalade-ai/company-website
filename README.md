@@ -10,9 +10,16 @@ https://marmalade.ai
 
 - Clone repository.
 - `npm install`
-- `npm install -g gatsby-cli` (version 3.7.1 or newer)
-- Run `npm run develop` in the terminal to start the dev site.
+- `npm install -g gatsby-cli` (version 3.9.0 or newer)
+- `npm run develop` to start the developer version of the site, which rebuilds automatically when you save changes to the source code.
 - View site at http://localhost:8000/ while the development server is running.
+
+## Development Workflow
+
+- Whenever [package.json](./package.json) changes, you need to re-run `npm install` to get the full set of dependencies.
+- **Never** _push_ to `origin/master`. You should only _pull_ from `origin/master`.
+- Always work on a branch and push _that_ branch to `origin` for merging to `master` branch on GitHub through a Pull Request. You should follow that process even if nobody but you will review that Pull Request.
+- On GitHub, only the person who created a Pull Request should `Merge` that Pull Request, because that person knows best when the Pull Request is complete and ready to be merged.
 
 ## License
 
