@@ -1,3 +1,6 @@
+
+# dotenv environment variables files
+.env
 .env.production
 .env.development
 
@@ -55,20 +58,17 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variables file
-.env
-
 # gatsby files
 .cache/
 public
 
-# Mac files
-.DS_Store
-
 # Yarn
+yarn.lock
 yarn-error.log
 .pnp/
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-yarn.lock
+
+# Mac files
+.DS_Store
