@@ -12,7 +12,7 @@ https://marmalade.ai
 - `npm install`
 - `npm install -g gatsby-cli` (version 3.9.0 or newer)
 - `npm run develop` to start the developer version of the site, which rebuilds automatically when you save changes to the source code.
-- View site at http://localhost:8000/ while the development server is running.
+- View site at http://localhost:8000/ when the development server is running.
 
 ## Development Workflow
 
