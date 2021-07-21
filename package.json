@@ -9,7 +9,12 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "info": "gatsby info"
+    "info": "gatsby info",
+    "lint": "npx eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier . --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix"
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",
@@ -20,6 +25,7 @@
     "gatsby-plugin-sharp": "^3.7.1",
     "gatsby-source-filesystem": "^3.9.0",
     "postcss": "^8.3.5",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.1",
