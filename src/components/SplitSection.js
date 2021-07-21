@@ -20,14 +20,14 @@ SplitSection.propTypes = {
   id: PropTypes.string,
   primarySlot: PropTypes.element,
   secondarySlot: PropTypes.element,
-  reverseOrder: PropTypes.symbol,
+  reverseOrder: PropTypes.bool,
 };
 
 SplitSection.defaultProps = {
   id: '',
   primarySlot: null,
   secondarySlot: null,
-  reverseOrder: null,
+  reverseOrder: false,
 };
 
 export default SplitSection;
