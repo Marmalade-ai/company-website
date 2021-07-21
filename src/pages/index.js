@@ -54,7 +54,7 @@ const Index = () => (
               <h3 className="splitHeading">Automated Matching</h3>
               <p className="splitBody">
                 You provide your profile and networking goals. We suggest people
-                that you should meet. It's that easy.
+                that you should meet. It&apos;s that easy.
               </p>
             </div>
           }

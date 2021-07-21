@@ -91,7 +91,7 @@ const PrivacyPolicy = () => (
         </p>
         <p>
           Occasionally, we may contract with a third party to communicate on our
-          behalf to the third-party's contacts. We do not collect the email
+          behalf to the third-party&apos;s contacts. We do not collect the email
           addresses or contact information from these third parties, and we do
           not have access to their mailing lists.
         </p>
@@ -108,13 +108,13 @@ const PrivacyPolicy = () => (
           information with any third parties.
         </p>
 
-        <h2>Children's Privacy</h2>
+        <h2>Children&apos;s Privacy</h2>
         <p>
           Marmalade AI does not knowingly collect information from children as
           defined by local law, and does not target its websites or mobile
           applications to children under these ages. We encourage parents and
-          guardians to take an active role in their children's online and mobile
-          activities and interests.
+          guardians to take an active role in their children&apos;s online and
+          mobile activities and interests.
         </p>
 
         <h2>Data Retention</h2>
