@@ -10,7 +10,10 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "info": "gatsby info",
-    "lint": "npx eslint ."
+    "lint": "npx eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier . --check",
+    "prettier:fix": "npm run prettier -- --write"
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",
