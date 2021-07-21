@@ -16,9 +16,21 @@ https://marmalade.ai
 
 ## Development Workflow
 
-- Whenever [package.json](./package.json) changes, you need to re-run `npm install` to get the full set of dependencies.
+- Whenever [package.json](./package.json) changes, you need to re-install packages:
+  ```bash
+  npm install
+  ```
+  to get the full set of dependencies.
+- To run one of the `scripts` defined in [package.json](./package.json) from the command line:
+  ```bash
+  npm run [script_name]
+  ```
+  For example, to run the linter, letting it fix errors automatically:
+  ```bash
+  npm run lint:fix
+  ```
 - **Never** _push_ to `origin/master`. You should only _pull_ from `origin/master`.
-- Always work on a branch and push _that_ branch to `origin` for merging to `master` branch on GitHub through a Pull Request. You should follow that process even if nobody but you will review that Pull Request.
+- **Always** work on a branch and push _that_ branch to `origin` for merging to `master` branch on GitHub through a Pull Request. You should follow that process even if no one but you will review that Pull Request.
 - On GitHub, only the person who created a Pull Request should `Merge` that Pull Request, because that person knows best when the Pull Request is complete and ready to be merged.
 
 ## License
