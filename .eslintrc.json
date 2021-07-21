@@ -9,8 +9,8 @@
   },
   "rules": {
     "react/jsx-filename-extension": [
-      "warn", 
-      { 
+      "warn",
+      {
         "extensions": [".js", ".jsx"]
       }
     ]
