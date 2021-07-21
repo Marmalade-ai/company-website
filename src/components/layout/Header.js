@@ -9,7 +9,10 @@ const Header = () => (
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
           <Link to="/#">
-            <StaticImage src="../../images/marmalade-logo-sm.jpg" alt="Marmalade AI Logo" />
+            <StaticImage
+              src="../../images/marmalade-logo-sm.jpg"
+              alt="Marmalade AI Logo"
+            />
           </Link>
         </div>
         Marmalade AI

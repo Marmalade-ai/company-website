@@ -7,7 +7,10 @@ const NotFound = () => (
       <div className="px-6 mx-auto lg:w-2/3 text-center">
         <h1>404</h1>
         <h2>Not Found</h2>
-        <p>The page you are looking for may have been moved or deleted. Try searching again.</p>
+        <p>
+          The page you are looking for may have been moved or deleted. Try
+          searching again.
+        </p>
       </div>
     </section>
   </Layout>

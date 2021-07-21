@@ -1,10 +1,10 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import HeroImage from '../svg/HeroImage';
-import { StaticImage } from 'gatsby-plugin-image';
 
 const Index = () => (
   <Layout>
@@ -15,7 +15,8 @@ const Index = () => (
             Making freelancer networking easier.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            How freelancers connect with peers to share gigs and stay up-to-date.
+            How freelancers connect with peers to share gigs and stay
+            up-to-date.
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
@@ -34,7 +35,9 @@ const Index = () => (
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
               <h3 className="splitHeading">Improved Networking</h3>
-              <p className="splitBody">Meet new people more frequently and more efficiently.</p>
+              <p className="splitBody">
+                Meet new people more frequently and more efficiently.
+              </p>
             </div>
           }
           secondarySlot={
@@ -50,8 +53,8 @@ const Index = () => (
             <div className="lg:pr-32 xl:pr-48">
               <h3 className="splitHeading">Automated Matching</h3>
               <p className="splitBody">
-                You provide your profile and networking goals. We suggest people that you should
-                meet. It's that easy.
+                You provide your profile and networking goals. We suggest people
+                that you should meet. It's that easy.
               </p>
             </div>
           }
@@ -69,8 +72,8 @@ const Index = () => (
             <div className="lg:pl-32 xl:pl-48">
               <h3 className="splitHeading">Serendipity Chats</h3>
               <p className="splitBody">
-                Indicate that you are available and we will match you with someone else who is also
-                ready to network.
+                Indicate that you are available and we will match you with
+                someone else who is also ready to network.
               </p>
             </div>
           }
@@ -92,8 +95,8 @@ const Index = () => (
             <Card className="mb-8">
               <h3 className="cardHeading">Learn Something New</h3>
               <p className="cardBody">
-                Keep up with the latest tools, techniques, and technologies by meeting regularly
-                with your peers.
+                Keep up with the latest tools, techniques, and technologies by
+                meeting regularly with your peers.
               </p>
             </Card>
           </div>
@@ -101,8 +104,8 @@ const Index = () => (
             <Card className="mb-8">
               <h3 className="cardHeading">Collaborate</h3>
               <p className="cardBody">
-                Find peers with whom you would like to collaborate, either for paid projects or side
-                projects.
+                Find peers with whom you would like to collaborate, either for
+                paid projects or side projects.
               </p>
             </Card>
           </div>
@@ -110,8 +113,8 @@ const Index = () => (
             <Card className="mb-8">
               <h3 className="cardHeading">Find a Gig</h3>
               <p className="cardBody">
-                Meet peers regularly to create deeper relationships, so that you know who to call on
-                when you need help.
+                Meet peers regularly to create deeper relationships, so that you
+                know who to call on when you need help.
               </p>
             </Card>
           </div>
@@ -155,7 +158,9 @@ const Index = () => (
                   <tbody className="bg-white divide-y divide-gray-200">
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">Browse Member Profiles</div>
+                        <div className="text-sm font-medium">
+                          Browse Member Profiles
+                        </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm text-gray-500">Yes</div>
@@ -167,7 +172,9 @@ const Index = () => (
 
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">Direct Messaging</div>
+                        <div className="text-sm font-medium">
+                          Direct Messaging
+                        </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm text-gray-500">Yes</div>
@@ -179,7 +186,9 @@ const Index = () => (
 
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">Automated Matching</div>
+                        <div className="text-sm font-medium">
+                          Automated Matching
+                        </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm text-gray-500">Yes</div>
@@ -191,7 +200,9 @@ const Index = () => (
 
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">Premium Feature 1</div>
+                        <div className="text-sm font-medium">
+                          Premium Feature 1
+                        </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm text-gray-500">No</div>
@@ -203,7 +214,9 @@ const Index = () => (
 
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">Premium Feature 2</div>
+                        <div className="text-sm font-medium">
+                          Premium Feature 2
+                        </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm text-gray-500">No</div>
@@ -215,7 +228,9 @@ const Index = () => (
 
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">Premium Feature 3</div>
+                        <div className="text-sm font-medium">
+                          Premium Feature 3
+                        </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm text-gray-500">No</div>

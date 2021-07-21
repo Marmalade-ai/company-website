@@ -1,7 +1,7 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout/Layout';
 import Card from '../components/Card';
-import { StaticImage } from 'gatsby-plugin-image';
 
 const About = () => (
   <Layout>
@@ -14,27 +14,36 @@ const About = () => (
             <ul>
               <li>Provide a place for freelancers to connect with peers.</li>
               <li>
-                Help freelancers stay up-to-date with the latest technologies and techniques in
-                fields closely related to their area of expertise.
+                Help freelancers stay up-to-date with the latest technologies
+                and techniques in fields closely related to their area of
+                expertise.
               </li>
             </ul>
             <h3 className="cardHeading">Improve networking skills</h3>
             <ul>
               <li>Help freelancers to network more frequently.</li>
               <li>
-                Make it easier to build stronger relationships, rather than accumulating a list of
-                contacts.
+                Make it easier to build stronger relationships, rather than
+                accumulating a list of contacts.
               </li>
-              <li>Provide resources for freelancers to improve their networking skills.</li>
+              <li>
+                Provide resources for freelancers to improve their networking
+                skills.
+              </li>
             </ul>
             <h3 className="cardHeading">Encourage collaboration</h3>
             <ul>
-              <li>Provide a place to find people with skills that complement your own.</li>
               <li>
-                Foster small working groups, relieving the isolation of solo work without needing to
-                join a company.
+                Provide a place to find people with skills that complement your
+                own.
               </li>
-              <li>Enable freelancers to collaborate with others to share gigs.</li>
+              <li>
+                Foster small working groups, relieving the isolation of solo
+                work without needing to join a company.
+              </li>
+              <li>
+                Enable freelancers to collaborate with others to share gigs.
+              </li>
             </ul>
           </div>
         </div>
@@ -42,7 +51,9 @@ const About = () => (
     </section>
     <section id="founders" className="lg:pb-10 lg:pt-10">
       <div className="container mx-auto text-center">
-        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">Our Founders</h2>
+        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">
+          Our Founders
+        </h2>
         <div className="grid grid-cols-2 sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
@@ -53,7 +64,9 @@ const About = () => (
               />
               <h3 className="cardHeading">Craig Fisk</h3>
               <p className="cardSubHeading">CEO</p>
-              <p>Series A mobile CRM, new software products/channels at Intel.</p>
+              <p>
+                Series A mobile CRM, new software products/channels at Intel.
+              </p>
               <p>Chicago Booth MBA.</p>
               <p>San Jose, CA.</p>
             </Card>
@@ -68,8 +81,8 @@ const About = () => (
               <h3 className="cardHeading">Jim Tyhurst</h3>
               <p className="cardSubHeading">CTO</p>
               <p>
-                Software architect, Machine Learning / Natural Language Processing (ML/NLP),
-                independent consultant.
+                Software architect, Machine Learning / Natural Language
+                Processing (ML/NLP), independent consultant.
               </p>
               <p>UCLA PhD.</p>
               <p>Portland, OR.</p>
@@ -84,7 +97,9 @@ const About = () => (
               />
               <p className="cardHeading">Vivian Tran</p>
               <p className="cardSubHeading">Marketing Advisor</p>
-              <p>New segment marketing, healthcare industry marketing manager.</p>
+              <p>
+                New segment marketing, healthcare industry marketing manager.
+              </p>
               <p>UC Berkeley.</p>
               <p>Berkeley, CA.</p>
             </Card>

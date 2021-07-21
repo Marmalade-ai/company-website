@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-20 mb-8 text-gray-800">
-    <hr></hr>
+    <hr />
     <div className="flex -mx-3">
       <section className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Marmalade AI, Inc.</h2>
@@ -36,7 +36,9 @@ const Footer = () => (
               <a href="https://github.com/marmalade-ai">GitHub</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/marmalade-ai">LinkedIn</a>
+              <a href="https://www.linkedin.com/company/marmalade-ai">
+                LinkedIn
+              </a>
             </li>
           </ul>
         </nav>
