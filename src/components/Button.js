@@ -28,13 +28,13 @@ const Button = ({ children, className = '', size }) => {
 Button.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
-  size: PropTypes.number,
+  size: PropTypes.string,
 };
 
 Button.defaultProps = {
   children: null,
   className: '',
-  size: null,
+  size: '',
 };
 
 export default Button;
