@@ -9,7 +9,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "info": "gatsby info"
+    "info": "gatsby info",
+    "lint": "npx eslint ."
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",
