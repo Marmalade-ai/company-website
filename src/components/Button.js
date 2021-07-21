@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const sizes = {
   default: `py-3 px-8`,
@@ -6,7 +7,6 @@ const sizes = {
   xl: `py-5 px-16 text-lg`,
 };
 
-// eslint-disable-next-line react/prop-types
 const Button = ({ children, className = '', size }) => {
   return (
     <button
@@ -23,6 +23,18 @@ const Button = ({ children, className = '', size }) => {
       {children}
     </button>
   );
+};
+
+Button.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+  size: PropTypes.number,
+};
+
+Button.defaultProps = {
+  children: null,
+  className: '',
+  size: null,
 };
 
 export default Button;

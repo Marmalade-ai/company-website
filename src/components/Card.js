@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Card = ({ className, children }) => (
   <div
@@ -10,5 +11,15 @@ const Card = ({ className, children }) => (
     {children}
   </div>
 );
+
+Card.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+};
+
+Card.defaultProps = {
+  children: null,
+  className: '',
+};
 
 export default Card;

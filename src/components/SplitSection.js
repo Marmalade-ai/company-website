@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const SplitSection = ({ id, primarySlot, secondarySlot, reverseOrder }) => (
   <section id={id} className="py-20">
@@ -14,5 +15,19 @@ const SplitSection = ({ id, primarySlot, secondarySlot, reverseOrder }) => (
     </div>
   </section>
 );
+
+SplitSection.propTypes = {
+  id: PropTypes.string,
+  primarySlot: PropTypes.element,
+  secondarySlot: PropTypes.element,
+  reverseOrder: PropTypes.symbol,
+};
+
+SplitSection.defaultProps = {
+  id: '',
+  primarySlot: null,
+  secondarySlot: null,
+  reverseOrder: null,
+};
 
 export default SplitSection;
