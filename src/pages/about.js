@@ -7,7 +7,7 @@ const About = () => (
   <Layout>
     <section id="mission" className="lg:pb-10 lg:pt-10">
       <div className="container mx-auto">
-        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">Our Mission</h2>
+        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">Mission</h2>
         <div className="grid sm:flex-row sm:-mx-3 mt-6">
           <div className="flex-1 px-3">
             <h3 className="cardHeading">Make freelancing easier</h3>
@@ -51,10 +51,8 @@ const About = () => (
     </section>
     <section id="founders" className="lg:pb-10 lg:pt-10">
       <div className="container mx-auto text-center">
-        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">
-          Our Founders
-        </h2>
-        <div className="grid grid-cols-2 sm:flex-row sm:-mx-3 mt-12">
+        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">Founders</h2>
+        <div className="grid grid-cols-1 flex-col -mx-3 md:grid-cols-2 md:mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
