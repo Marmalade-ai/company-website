@@ -1,8 +1,10 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
+import SEO from '../components/seo';
 
 const CodeOfConduct = () => (
   <Layout>
+    <SEO title="Code of Conduct" description="Code of Counduct" />
     <article className="py-20 lg:pb-20 lg:pt-24">
       <div className="px-6 mx-auto lg:w-2/3">
         <h1>Code of Conduct</h1>

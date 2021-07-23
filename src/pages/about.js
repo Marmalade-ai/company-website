@@ -2,9 +2,11 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout/Layout';
 import Card from '../components/Card';
+import SEO from '../components/seo';
 
 const About = () => (
   <Layout>
+    <SEO title="About Us" description="About Us and Our Mission" />
     <section id="mission" className="lg:pb-10 lg:pt-10">
       <div className="container mx-auto">
         <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">Our Mission</h2>

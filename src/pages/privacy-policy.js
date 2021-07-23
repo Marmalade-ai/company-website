@@ -1,8 +1,10 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
+import SEO from '../components/seo';
 
 const PrivacyPolicy = () => (
   <Layout>
+    <SEO title="Privacy Policy" description="Privacy Policy" />
     <article className="py-20 lg:pb-20 lg:pt-24">
       <div className="px-6 mx-auto lg:w-2/3">
         <h1>Privacy Policy</h1>

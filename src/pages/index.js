@@ -5,9 +5,11 @@ import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import HeroImage from '../svg/HeroImage';
+import SEO from '../components/seo';
 
 const Index = () => (
   <Layout>
+    <SEO title="Home" description="What is Marmalade AI?" />
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
