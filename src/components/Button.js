@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const sizes = {
   default: `py-3 px-8`,
-  lg: `py-4 px-12`,
+  lg: `py-4 px-12 mx-4`,
   xl: `py-5 px-16 text-lg`,
 };
 
@@ -34,7 +34,7 @@ Button.propTypes = {
 Button.defaultProps = {
   children: null,
   className: '',
-  size: '',
+  size: sizes.default,
 };
 
 export default Button;
