@@ -20,6 +20,12 @@ const About = () => (
                 and techniques in fields closely related to their area of
                 expertise.
               </li>
+              <li>
+                Remove bias and make it easier for younger, multicultural
+                freelancers to build out their working network. Marmalade AI
+                provides professional matches to people you might not otherwise
+                meet. e.g. we are removing bias from the networking process.
+              </li>
             </ul>
             <h3 className="cardHeading">Improve networking skills</h3>
             <ul>
@@ -46,7 +52,17 @@ const About = () => (
               <li>
                 Enable freelancers to collaborate with others to share gigs.
               </li>
+              <li>
+                Provide a straightforward, easy framework for mentoring, for
+                those interested in participating as part of their professional
+                networking.
+              </li>
             </ul>
+            <h3 className="cardHeading">Ecological Footprint</h3>
+            <li>
+              Be environmentally progressive. In particular, make it easier to
+              work remotely and to reduce our ecological footprint.
+            </li>
           </div>
         </div>
       </div>

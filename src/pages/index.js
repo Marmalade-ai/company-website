@@ -22,6 +22,9 @@ const Index = () => (
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
+            <a href="https://forum.marmalade.ai/">
+              <Button size="lg">Forum</Button>
+            </a>
           </p>
         </div>
         <div className="lg:w-1/3">
@@ -44,7 +47,7 @@ const Index = () => (
           }
           secondarySlot={
             <StaticImage
-              className="rounded-lg shadow-lg	"
+              className="rounded-lg shadow-lg"
               src="../images/networking.jpg"
               alt="Networking"
             />

@@ -21,14 +21,11 @@ const Header = () => (
         <Link className="px-4" to="/#">
           Home
         </Link>
-        <Link className="px-4" to="/#features">
-          Features
+        <Link className="px-4" to="/niches">
+          Niches
         </Link>
-        <Link className="px-4" to="/#benefits">
-          Benefits
-        </Link>
-        <Link className="px-4" to="/#pricing">
-          Pricing
+        <Link className="px-4" to="/faq">
+          FAQ
         </Link>
         <Link className="px-4" to="/about">
           About Us
