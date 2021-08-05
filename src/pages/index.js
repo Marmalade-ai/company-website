@@ -22,9 +22,6 @@ const Index = () => (
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
-            <a href="https://forum.marmalade.ai/">
-              <Button size="lg">Forum</Button>
-            </a>
           </p>
         </div>
         <div className="lg:w-1/3">
