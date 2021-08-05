@@ -31,9 +31,6 @@ const Header = () => (
           About Us
         </Link>
       </div>
-      <div className="hidden md:block">
-        <Button className="text-sm">Login</Button>
-      </div>
     </nav>
   </header>
 );
