@@ -13,7 +13,20 @@ const Footer = () => (
         </ul>
       </section>
       <section className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Important Links</h2>
+        <h2 className="text-lg font-semibold">Resources</h2>
+        <nav>
+          <ul className="mt-4 leading-loose list-none">
+            <li>
+              <Link to="/faq">FAQ</Link>
+            </li>
+            <li>
+              <a href="https://forum.marmalade.ai/">Forum</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section className="flex-1 px-3">
+        <h2 className="text-lg font-semibold">Policies</h2>
         <nav>
           <ul className="mt-4 leading-loose list-none">
             <li>
