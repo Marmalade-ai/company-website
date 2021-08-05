@@ -13,9 +13,16 @@ module.exports = {
         darker: 'hsl(15,92%,40%)',
       },
     },
+    order: {
+      first: '-9999',
+      last: '9999',
+    },
   },
   variants: {
     extend: {},
+  },
+  corePlugins: {
+    order: true,
   },
   plugins: [],
 };
