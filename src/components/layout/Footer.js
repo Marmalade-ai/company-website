@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-20 mb-8 text-gray-800">
     <hr />
-    <div className="grid -mx-3 grid-cols-1 md:grid-cols-4">
+    <div className="flex flex-col md:flex-row -mx-3">
       <section className="flex-1 px-3 order-last md:order-first">
         <h2 className="text-lg font-semibold">Marmalade AI, Inc.</h2>
         <ul className="mt-4 leading-loose list-none">
