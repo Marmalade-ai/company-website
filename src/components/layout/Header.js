@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import Button from '../Button';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow z-50">
