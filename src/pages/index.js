@@ -25,9 +25,6 @@ const Index = () => (
             <Link to="/form">
               <Button size="lg">Get Started</Button>
             </Link>
-            <a href="https://forum.marmalade.ai/">
-              <Button size="lg">Forum</Button>
-            </a>
           </p>
         </div>
         <div className="lg:w-1/3">
@@ -130,129 +127,6 @@ const Index = () => (
         <p className="mt-8">
           <Button size="xl">Get Started for Free</Button>
         </p>
-      </div>
-    </section>
-
-    <section id="pricing" className="py-20 lg:pb-20 lg:pt-24">
-      <div className="container mx-auto text-center">
-        <h2 className="homeSubHeading">Choosing a Plan</h2>
-        <div className="flex flex-col">
-          <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 mt-12">
-            <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-              <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                <table className="min-w-full divide-y divide-gray-200">
-                  <thead className="bg-gray-50">
-                    <tr>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
-                      >
-                        Features
-                      </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
-                      >
-                        Free 60-day trial
-                      </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
-                      >
-                        $5.00/mo
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="bg-white divide-y divide-gray-200">
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Browse Member Profiles
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Direct Messaging
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Automated Matching
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Premium Feature 1
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">No</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Premium Feature 2
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">No</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Premium Feature 3
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">No</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   </Layout>

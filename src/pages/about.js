@@ -129,7 +129,7 @@ const About = () => (
               />
               <p className="cardHeading">Michael Porto</p>
               <p className="cardSubHeading">Product Management Advisor</p>
-              <p>Big data, mobile, ML, Intel, Wells Fargo, Ernst & Young.</p>
+              <p>Big data, mobile, ML, Intel, Wells Fargo, EY.</p>
               <p>Princeton MS CS.</p>
               <p>Charlotte, NC.</p>
             </Card>
