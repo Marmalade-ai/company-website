@@ -77,16 +77,6 @@
   @apply mt-8 text-xl font-light leading-relaxed;
 }
 
-.formButton {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  background-color: hsl(23, 99%, 50%);
-}
-
 @tailwind components;
 
 @tailwind utilities;

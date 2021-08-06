@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/seo';
+import Button from '../components/Button';
 
 const Form = () => (
   <Layout>
@@ -60,9 +61,9 @@ const Form = () => (
             Other
           </label>{' '}
           <br />
-          <button className="formButton mt-4" type="submit">
+          <Button className="mt-4" type="submit">
             Submit
-          </button>
+          </Button>
         </form>
       </div>
     </article>
