@@ -32,11 +32,6 @@ const Footer = () => (
             <li>
               <a href="https://twitter.com/MarmaladeAI">Twitter</a>
             </li>
-            <li>
-              <a href="https://www.linkedin.com/company/marmalade-ai">
-                LinkedIn
-              </a>
-            </li>
           </ul>
         </nav>
       </section>
