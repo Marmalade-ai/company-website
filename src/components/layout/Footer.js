@@ -32,14 +32,6 @@ const Footer = () => (
             <li>
               <a href="https://twitter.com/MarmaladeAI">Twitter</a>
             </li>
-            <li>
-              <a href="https://github.com/marmalade-ai">GitHub</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/marmalade-ai">
-                LinkedIn
-              </a>
-            </li>
           </ul>
         </nav>
       </section>
@@ -52,9 +44,6 @@ const Footer = () => (
             </li>
             <li>
               <Link to="/privacy-policy">Privacy Policy</Link>
-            </li>
-            <li>
-              <Link to="/terms-of-service">Terms of Service</Link>
             </li>
           </ul>
         </nav>
