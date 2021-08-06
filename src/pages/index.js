@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
@@ -21,7 +22,9 @@ const Index = () => (
             up-to-date.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Link to="/form">
+              <Button size="lg">Get Started</Button>
+            </Link>
             <a href="https://forum.marmalade.ai/">
               <Button size="lg">Forum</Button>
             </a>
