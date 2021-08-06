@@ -39,7 +39,7 @@ const PrivacyPolicy = () => (
           form.
         </p>
 
-        <h2>We us various technologies to collect information</h2>
+        <h2>We use various technologies to collect information</h2>
         <h3>Cookies</h3>
         <p>
           The Marmalade AI website uses cookies. Cookies are text files that are
