@@ -16,9 +16,11 @@ const AlphaApplicationForm = () => (
           action="/alphaApplicationFormAccepted"
           method="get"
         >
-          <label htmlFor="name">Name:</label>
-          <br />
-          <input type="text" id="name" name="user_name" size="60" />
+          <label htmlFor="name">
+            Name:
+            <br />
+            <input type="text" id="name" name="user_name" size="60" />
+          </label>
           <br />
           <br />
           <label htmlFor="mail">
@@ -30,64 +32,64 @@ const AlphaApplicationForm = () => (
           <br />
           <label htmlFor="msg">
             How will this networking application help you?
+            <br />
+            <textarea id="msg" name="user_message" rows="5" cols="60" />
           </label>
-          <br />
-          <textarea id="msg" name="user_message" rows="5" cols="60" />
           <br />
           <p>Are you a freelancer?</p>
           <div className="pl-4">
-            <input type="radio" id="yesRadio" name="user_fl" value="yes" />
-            <label className="pl-2 pr-4" htmlFor="yesRadio">
-              Yes
+            <label htmlFor="yesRadio">
+              <input type="radio" id="yesRadio" name="user_fl" value="yes" />
+              &nbsp;Yes
             </label>
             <br />
-            <input type="radio" id="noRadio" name="user_fl" value="no" />
-            <label className="pl-2 pr-4" htmlFor="noRadio">
-              No
+            <label htmlFor="noRadio">
+              <input type="radio" id="noRadio" name="user_fl" value="no" />
+              &nbsp;No
             </label>
           </div>
           <p>What is your field of expertise?</p>
           <div className="pl-4">
-            <input
-              type="radio"
-              id="dmRadio"
-              name="user_field"
-              value="digital_marketing"
-            />
-            <label className="pl-2 pr-4" htmlFor="dmRadio">
-              Digital Marketing
+            <label htmlFor="dmRadio">
+              <input
+                type="radio"
+                id="dmRadio"
+                name="user_field"
+                value="digital_marketing"
+              />
+              &nbsp;Digital Marketing
             </label>
             <br />
-            <input
-              type="radio"
-              id="mlRadio"
-              name="user_field"
-              value="machine_learning"
-            />
-            <label className="pl-2 pr-4" htmlFor="mlRadio">
-              Machine Learning
+            <label htmlFor="mlRadio">
+              <input
+                type="radio"
+                id="mlRadio"
+                name="user_field"
+                value="machine_learning"
+              />
+              &nbsp;Machine Learning
             </label>
             <br />
-            <input
-              type="radio"
-              id="uxdRadio"
-              name="user_field"
-              value="ux_design"
-            />
-            <label className="pl-2 pr-4" htmlFor="uxdRadio">
-              UX Design
+            <label htmlFor="uxdRadio">
+              <input
+                type="radio"
+                id="uxdRadio"
+                name="user_field"
+                value="ux_design"
+              />
+              &nbsp;UX Design
             </label>
-            <input
-              type="radio"
-              id="otherRadio"
-              name="user_field"
-              value="other"
-            />
-            <label className="pl-2 pr-4" htmlFor="otherRadio">
-              Other
+            <br />
+            <label htmlFor="otherRadio">
+              <input
+                type="radio"
+                id="otherRadio"
+                name="user_field"
+                value="other"
+              />
+              &nbsp;Other
             </label>
           </div>
-          <br />
           <button className="formButton mt-4" type="submit">
             Register
           </button>
