@@ -10,7 +10,10 @@ import SEO from '../components/seo';
 
 const Index = () => (
   <Layout>
-    <SEO title="Home" description="What is Marmalade AI?" />
+    <SEO
+      title="Marmalade AI Home"
+      description="Marmalade AI is making freelancer networking easier"
+    />
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
@@ -22,7 +25,7 @@ const Index = () => (
             up-to-date.
           </p>
           <p className="mt-8 md:mt-12">
-            <Link to="/form">
+            <Link to="/alphaApplicationForm">
               <Button size="lg">Get Started</Button>
             </Link>
           </p>
@@ -125,7 +128,9 @@ const Index = () => (
           </div>
         </div>
         <p className="mt-8">
-          <Button size="xl">Get Started for Free</Button>
+          <Link to="/alphaApplicationForm">
+            <Button size="lg">Get Started</Button>
+          </Link>
         </p>
       </div>
     </section>

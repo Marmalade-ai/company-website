@@ -61,6 +61,16 @@
   @apply mt-4;
 }
 
+.formButton {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background-color: hsl(23, 99%, 50%);
+}
+
 /* Error when attempting to use lg:text-5xl
    `@apply` cannot be used with lg:text-5xl because 
    lg:text-5xl is nested inside of an at-rule (@media).

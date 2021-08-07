@@ -13,6 +13,14 @@
       {
         "extensions": [".js", ".jsx"]
       }
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "every": ["nesting", "id"]
+        }
+      }
     ]
   }
 }
