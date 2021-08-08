@@ -20,13 +20,13 @@ const Communities = () => (
               <Link to="/communities/digital-marketing">Digital Marketing</Link>
             </li>
             <li>
-              <Link to="/communities/machineLearning">Machine Learning</Link>
+              <Link to="/communities/machine-learning">Machine Learning</Link>
             </li>
             <li>
-              <Link to="/communities/uxDesign">UX Design</Link>
+              <Link to="/communities/ux-design">UX Design</Link>
             </li>
             <li>
-              <Link to="/communities/other">
+              <Link to="/communities/other-freelancers">
                 Other freelancers and independent consultants
               </Link>
             </li>
