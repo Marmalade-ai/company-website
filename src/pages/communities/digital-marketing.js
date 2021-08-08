@@ -59,16 +59,35 @@ const DigitalMarketing = () => (
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in digital marketing, I would like to join the free
-          Early Access program to use the Marmalade AI peer networking platform.
-          I will be able to forward invitations to others I work with (or others
-          I would like to work with). I will be happy to participate in the{' '}
-          <a href="https://forum.marmalade.ai/t/early-access">Early Access</a>{' '}
-          topic of the{' '}
-          <a href="https://forum.marmalade.ai/">Marmalade AI Forum</a>, where I
-          will provide feedback regarding this <i>preview</i> version of the
-          application. Yay, freelancers!
+          Alpha testing program to use the Marmalade AI peer networking
+          platform. I understand that &quot;Alpha&quot; means this is a very
+          early pre-release of the application with minimal functionality.
+          However:
         </p>
-        <p className="mt-8 md:mt-12">
+        <div className="ml-10">
+          <ul className="list-outside">
+            <li>
+              I will be introduced to other freelancers, who I would probably
+              not meet otherwise.
+            </li>
+            <li>
+              I will be able to forward invitations to others I work with (or
+              others I would like to work with).
+            </li>
+            <li>
+              I will participate in the{' '}
+              <a href="https://forum.marmalade.ai/t/marmalade-ai-alpha-discussion-lounge/">
+                Alpha
+              </a>{' '}
+              discussion topic of the{' '}
+              <a href="https://forum.marmalade.ai/">Marmalade AI Forum</a>,
+              where I will provide feedback regarding this Alpha version of the
+              application.
+            </li>
+          </ul>
+        </div>
+        Yay, freelancers!
+        <p className="mt-6">
           <Button size="lg">Sign me up!</Button>
         </p>
       </div>
