@@ -25,7 +25,7 @@ const Index = () => (
             up-to-date.
           </p>
           <p className="mt-8 md:mt-12">
-            <Link to="/alphaApplicationForm">
+            <Link to="/alphaGoogleForm">
               <Button size="lg">Get Started</Button>
             </Link>
           </p>
