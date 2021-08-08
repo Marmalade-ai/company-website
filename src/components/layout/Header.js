@@ -27,7 +27,7 @@ const Header = () => (
           FAQ
         </Link>
         <Link className="px-4" to="/about">
-          About Us
+          About
         </Link>
       </div>
     </nav>
