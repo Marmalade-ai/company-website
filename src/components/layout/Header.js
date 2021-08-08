@@ -20,8 +20,8 @@ const Header = () => (
         <Link className="px-4" to="/#">
           Home
         </Link>
-        <Link className="px-4" to="/niches">
-          Niches
+        <Link className="px-4" to="/communities">
+          Communities
         </Link>
         <Link className="px-4" to="/faq">
           FAQ
