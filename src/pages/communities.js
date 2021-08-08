@@ -25,11 +25,6 @@ const Communities = () => (
             <li>
               <Link to="/communities/ux-design">UX Design</Link>
             </li>
-            <li>
-              <Link to="/communities/other-freelancers">
-                Other freelancers and independent consultants
-              </Link>
-            </li>
           </ul>
         </nav>
       </div>
