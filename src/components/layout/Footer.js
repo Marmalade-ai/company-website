@@ -22,6 +22,9 @@ const Footer = () => (
             <li>
               <a href="https://forum.marmalade.ai/">Forum</a>
             </li>
+            <li>
+              <Link to="/communities">Communities</Link>
+            </li>
           </ul>
         </nav>
       </section>
