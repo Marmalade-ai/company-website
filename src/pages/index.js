@@ -72,7 +72,7 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">Serendipity Chats</h3>
+              <h3 className="splitHeading">Serendipity</h3>
               <p className="splitBody">
                 Indicate that you are available and we will match you with
                 someone else who is also ready to network.
@@ -113,7 +113,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Find a Gig</h3>
+              <h3 className="cardHeading">Find a Project</h3>
               <p className="cardBody">
                 Meet peers regularly to create deeper relationships, so that you
                 know who to call on when you need help.
