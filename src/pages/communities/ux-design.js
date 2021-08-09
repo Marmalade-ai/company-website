@@ -34,7 +34,7 @@ const UXDesign = () => (
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
               <p className="splitBody">
-                UX design enables interaction on a touchscreen.
+                UX designers test interactions on multiple devices.
               </p>
             </div>
           }
