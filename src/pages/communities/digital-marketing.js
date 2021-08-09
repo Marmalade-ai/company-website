@@ -76,7 +76,7 @@ const DigitalMarketing = () => (
             </li>
             <li>
               I will participate in the{' '}
-              <a href="https://forum.marmalade.ai/t/marmalade-ai-alpha-discussion-lounge/">
+              <a href="https://forum.marmalade.ai/t/marmalade-ai-early-access-users-lounge/">
                 Alpha
               </a>{' '}
               discussion topic of the{' '}
