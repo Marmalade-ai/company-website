@@ -37,7 +37,8 @@ const DigitalMarketing = () => (
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
               <p className="splitBody">
-                Search Engine Optimization (SEO) is key to inbound marketing.
+                Search Engine Optimization (SEO) is key to inbound marketing and
+                it is changing rapidly.
               </p>
             </div>
           }
@@ -51,17 +52,17 @@ const DigitalMarketing = () => (
         />
         <p>
           Freelancers in digital marketing specialize in areas such as SEO,
-          content, new market development, website development, positioning,
-          competitive analysis, Wordpress, collateral, influencer marketing,
+          Wordpress, content, new market development, website development,
+          positioning, competitive analysis, collateral, influencer marketing,
           branding, inbound marketing, growth, data analytics, ecommerce, paid
           media / advertising, social media, events, and storytelling.
         </p>
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in digital marketing, I would like to join the free
-          Alpha testing program to use the Marmalade AI peer networking
-          platform. I understand that &quot;Alpha&quot; means this is a very
-          early pre-release of the application with minimal functionality.
+          Early Access testing program to use the Marmalade AI peer networking
+          platform. I understand that &quot;Early Access&quot; means this is a
+          very early pre-release of the application with minimal functionality.
           However:
         </p>
         <div className="ml-10">
@@ -75,14 +76,12 @@ const DigitalMarketing = () => (
               others I would like to work with).
             </li>
             <li>
-              I will participate in the{' '}
-              <a href="https://forum.marmalade.ai/t/marmalade-ai-early-access-users-lounge/">
-                Alpha
-              </a>{' '}
-              discussion topic of the{' '}
-              <a href="https://forum.marmalade.ai/">Marmalade AI Forum</a>,
-              where I will provide feedback regarding this Alpha version of the
-              application.
+              I will participate in an Early Access discussion topic of the{' '}
+              <a target="_blank" href="https://forum.marmalade.ai/">
+                Marmalade AI Forum
+              </a>
+              , where I will provide feedback regarding this Early Access
+              version of the application.
             </li>
           </ul>
         </div>

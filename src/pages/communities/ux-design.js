@@ -48,16 +48,17 @@ const UXDesign = () => (
         />
         <p>
           Freelancers in UX design specialize in areas such as graphic design,
-          mobile, healthcare, industrial, UX research, CX, creative design,
-          wireframing, conversational design, prototyping, customer journeys,
-          and A/B testing.
+          creative design, UX design, CX, wireframing, conversational design,
+          prototyping, customer journeys, A/B testing, mobile, packaging,
+          healthcare, and industrial.
         </p>
         <h2>Sign up to try it!</h2>
         <p>
-          As a freelancer in UX design, I would like to join the free Alpha
-          testing program to use the Marmalade AI peer networking platform. I
-          understand that &quot;Alpha&quot; means this is a very early
-          pre-release of the application with minimal functionality. However:
+          As a freelancer in UX design, I would like to join the free Early
+          Access testing program to use the Marmalade AI peer networking
+          platform. I understand that &quot;Early Access&quot; means this is a
+          very early pre-release of the application with minimal functionality.
+          However:
         </p>
         <div className="ml-10">
           <ul className="list-outside">
@@ -70,14 +71,12 @@ const UXDesign = () => (
               others I would like to work with).
             </li>
             <li>
-              I will participate in the{' '}
-              <a href="https://forum.marmalade.ai/t/marmalade-ai-early-access-users-lounge/">
-                Alpha
-              </a>{' '}
-              discussion topic of the{' '}
-              <a href="https://forum.marmalade.ai/">Marmalade AI Forum</a>,
-              where I will provide feedback regarding this Alpha version of the
-              application.
+              I will participate in an Early Access discussion topic of the{' '}
+              <a target="_blank" href="https://forum.marmalade.ai/">
+                Marmalade AI Forum
+              </a>
+              , where I will provide feedback regarding this Early Access
+              version of the application.
             </li>
           </ul>
         </div>

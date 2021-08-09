@@ -53,17 +53,17 @@ const MachineLearning = () => (
         />
         <p>
           Freelancers in machine learning specialize in areas such as model
-          production, data preparation, NLP, computational linguistics, AI, deep
-          learning, statistics, visual recognition, data science, supervised or
-          unsupervised learning, real-time processing, retail customer, and
-          product data.
+          production, data preparation, supervised or unsupervised learning,
+          statistics, deep learning, visual recognition, data science, NLP,
+          retail customer or product data, AI, and real-time processing of
+          streaming events.
         </p>
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in machine learning, I would like to join the free
-          Alpha testing program to use the Marmalade AI peer networking
-          platform. I understand that &quot;Alpha&quot; means this is a very
-          early pre-release of the application with minimal functionality.
+          Early Access testing program to use the Marmalade AI peer networking
+          platform. I understand that &quot;Early Access&quot; means this is a
+          very early pre-release of the application with minimal functionality.
           However:
         </p>
         <div className="ml-10">
@@ -77,14 +77,12 @@ const MachineLearning = () => (
               others I would like to work with).
             </li>
             <li>
-              I will participate in the{' '}
-              <a href="https://forum.marmalade.ai/t/marmalade-ai-early-access-users-lounge/">
-                Alpha
-              </a>{' '}
-              discussion topic of the{' '}
-              <a href="https://forum.marmalade.ai/">Marmalade AI Forum</a>,
-              where I will provide feedback regarding this Alpha version of the
-              application.
+              I will participate in an Early Access discussion topic of the{' '}
+              <a target="_blank" href="https://forum.marmalade.ai/">
+                Marmalade AI Forum
+              </a>
+              , where I will provide feedback regarding this Early Access
+              version of the application.
             </li>
           </ul>
         </div>
