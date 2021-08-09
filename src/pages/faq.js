@@ -5,9 +5,11 @@ import SEO from '../components/seo';
 const Faq = () => (
   <Layout>
     <SEO title="FAQ" description="Frequently Asked Questions" />
-    <article className="py-20 lg:pb-20 lg:pt-24">
+    <div className="container mx-auto mt-10">
+      <h1>Frequently Asked Questions</h1>
+    </div>
+    <article className="py-20 lg:pb-4 lg:pt-4">
       <div className="px-6 mx-auto lg:w-2/3">
-        <h1>Frequently Asked Questions</h1>
         <h2>How does it work?</h2>
         <p>
           Create a login, then that information, esp. your profile

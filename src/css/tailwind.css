@@ -9,15 +9,15 @@
   }
 
   h1 {
-    @apply mt-6 text-center text-3xl font-semibold;
+    @apply mb-4 font-semibold text-4xl lg:text-5xl;
   }
 
   h2 {
-    @apply mt-6 text-2xl font-semibold;
+    @apply mt-6 font-semibold text-2xl lg:text-3xl;
   }
 
   h3 {
-    @apply mt-6 text-xl font-semibold;
+    @apply mt-6 font-semibold text-xl;
   }
 
   p {
@@ -46,7 +46,7 @@
 
 /** Application-specific classes **/
 .aboutSubHeading {
-  @apply leading-none text-center text-3xl font-semibold;
+  @apply leading-none font-semibold text-3xl lg:text-4xl;
 }
 
 .cardHeading {
