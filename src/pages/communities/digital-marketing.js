@@ -77,7 +77,11 @@ const DigitalMarketing = () => (
             </li>
             <li>
               I will participate in an Early Access discussion topic of the{' '}
-              <a target="_blank" href="https://forum.marmalade.ai/">
+              <a
+                href="https://forum.marmalade.ai/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Marmalade AI Forum
               </a>
               , where I will provide feedback regarding this Early Access
