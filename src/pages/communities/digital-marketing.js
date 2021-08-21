@@ -107,7 +107,7 @@ const DigitalMarketing = () => (
           want to go with the communications side of things, so please let us
           know what you think.
         </p>
-        <h2>Evolution and Road map</h2>
+        <h2>Evolution and Road Map</h2>
         <p>
           How did we come to focus on virtual networking for digital marketing
           freelancers, what&apos;s in it for you, and how can you help guide its

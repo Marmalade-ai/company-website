@@ -84,7 +84,7 @@ const UXDesign = () => (
           Let that sink in: <i>virtual network</i>. All you need to do is keep
           your profile current with the kind of work you do.
         </p>
-        <h2>Evolution and Road map</h2>
+        <h2>Evolution and Road Map</h2>
         <p>
           How did Marmalade AI come to focus on virtual networking for UX design
           freelancers, what&apos;s in it for you, and how can you help guide its

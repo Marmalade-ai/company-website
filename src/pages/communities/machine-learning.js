@@ -102,7 +102,7 @@ const MachineLearning = () => (
           That&apos;s the vision for the communications side of this platform,
           so please let us know what you think.
         </p>
-        <h2>Evolution and Road map</h2>
+        <h2>Evolution and Road Map</h2>
         <p>
           So how did we come to focus on virtual networking for machine learning
           freelancers, what&apos;s in it for you, and how can you help guide its
