@@ -57,7 +57,7 @@ const UXDesign = () => (
           outside the door, hoping to be chosen for a project.
         </p>
         <p>
-          We're excited that you found us! We want you to be able to use
+          We&apos;re excited that you found us! We want you to be able to use
           Marmalade AI to answer that very question: &quot;How can you help me
           do better as a freelancer in UX design?&quot;
         </p>
@@ -73,9 +73,9 @@ const UXDesign = () => (
           reflects your profile, so it is specific to you, and that is the whole
           point. It even changes when you change your profile. You can use your
           virtual network to find help for part of a project where you realize
-          it's not your thing, or to help others in the same way. Or to pop up a
-          virtual room on a topic and expedite learning the latest. The idea is
-          that you can use the platform to do everything you did through
+          it&apos;s not your thing, or to help others in the same way. Or to pop
+          up a virtual room on a topic and expedite learning the latest. The
+          idea is that you can use the platform to do everything you did through
           traditional networking but more exactly and faster. Marmalade AI wants
           to make networking as efficient and useful as possible, and get out of
           the way.
@@ -87,7 +87,7 @@ const UXDesign = () => (
         <h3>Evolution and Road map</h3>
         <p>
           How did Marmalade AI come to focus on virtual networking for UX design
-          freelancers, what's in it for you, and how can you help guide its
+          freelancers, what&apos;s in it for you, and how can you help guide its
           evolution to be really useful to you?
         </p>
         <p>
@@ -102,8 +102,8 @@ const UXDesign = () => (
           freelancers who can find each other more easily, share projects, keep
           their knowledge base up-to-date. There is no shortage of applications
           that favor the buyer of freelance UX design services. In some cases,
-          these are very broad. In other cases, they're very narrow. We're not
-          doing that.
+          these are very broad. In other cases, they&apos;re very narrow.
+          We&apos;re not doing that.
         </p>
         <h3>Community First, Then Everything Else</h3>
         <p>
@@ -117,21 +117,21 @@ const UXDesign = () => (
           freelancer is in control.
         </p>
         <p>
-          Marmalade AI's core idea is to make networking virtual. By doing so,
-          the platform makes networking much more efficient. It's not really all
-          that complicated of an idea. Would you want to read a book by somebody
-          you don't know? Well, yes, if it's relevant. Same thing with virtual
-          networking.
+          Marmalade AI&apos;s core idea is to make networking virtual. By doing
+          so, the platform makes networking much more efficient. It&apos;s not
+          really all that complicated of an idea. Would you want to read a book
+          by somebody you don&apos;t know? Well, yes, if it&apos;s relevant.
+          Same thing with virtual networking.
         </p>
         <h3>Behind the Scenes</h3>
         <p>
           Marmalade AI works by applying NLP (Natural Language Processing,
-          machine learning, AI -- whatever you want to call it) to freelancers'
-          profiles. Your virtual network evolves as more people join. You can
-          invite people you currently work with or would like to connect with.
-          It also is automatic, and if you change the wording of your profile,
-          eventually your virtual network will change. It's like affective
-          reality.
+          machine learning, AI -- whatever you want to call it) to
+          freelancers&apos; profiles. Your virtual network evolves as more
+          people join. You can invite people you currently work with or would
+          like to connect with. It also is automatic, and if you change the
+          wording of your profile, eventually your virtual network will change.
+          It&apos;s like affective reality.
         </p>
         <p>
           UX design freelancers tend to work from a portfolio and maybe share
@@ -178,7 +178,11 @@ const UXDesign = () => (
             </li>
             <li>
               I will participate in an Early Access discussion topic of the{' '}
-              <a target="_blank" href="https://forum.marmalade.ai/">
+              <a
+                href="https://forum.marmalade.ai/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Marmalade AI Forum
               </a>
               , where I will provide feedback regarding this Early Access
