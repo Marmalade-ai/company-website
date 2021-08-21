@@ -53,7 +53,7 @@ const About = () => (
                 work without needing to join a company.
               </li>
               <li>
-                Enable freelancers to collaborate with others to share gigs.
+                Enable freelancers to collaborate with others to share projects.
               </li>
               <li>
                 Provide a straightforward, easy framework for mentoring, for
