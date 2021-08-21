@@ -62,7 +62,7 @@ const MachineLearning = () => (
           the cold water waiting to try to go over the dam?
         </p>
         <p>
-          We&apos;re excited that you found us! We want you to be able to use
+          We are excited that you found us! We want you to be able to use
           Marmalade AI to answer that very question: &quot;How can you help me
           do better as a freelancer in machine learning?&quot;
         </p>
@@ -74,38 +74,37 @@ const MachineLearning = () => (
         </p>
         <p>
           The long answer is: use Marmalade AI to have a network where you can
-          raise the level of your work. We&apos;re in the era of virtualization
-          to provide more effective environments -- think of Docker images and
+          raise the level of your work. We are in the era of virtualization to
+          provide more effective environments -- think of Docker images and
           Kubernetes orchestration -- so why not a <i>virtual network</i> for
-          freelancers? It&apos;s the same idea. Your virtual network reflects
-          your profile. It is specific to you. Your virtual network changes when
-          you change your profile (caveat: it changes the next time our NLP
-          engine runs; not in real time currently).
+          freelancers? It is the same idea. Your virtual network reflects your
+          profile. It is specific to you. Your virtual network changes when you
+          change your profile (caveat: it changes the next time our NLP engine
+          runs; not in real time currently).
         </p>
         <p>
           This means you can use your virtual network, for example, to find
           someone to help on part of a project where you realize you lack the
-          expertise. Or you can help someone by providing the expertise
-          they&apos;re lacking. A lot of projects have scope in which I can do
-          what I&apos;m good at, but one-tenth of the scope might be in a less
-          familiar area that will double the project time. This is just reality.
-          The goal of Marmalade AI is to be a platform where your virtual
-          network enables you to focus on what you&apos;re good at. That&apos;s
-          all transactional.
+          expertise. Or you can help someone by providing the expertise they are
+          lacking. A lot of projects have scope in which I can do what I am good
+          at, but one-tenth of the scope might be in a less familiar area that
+          will double the project time. This is just reality. The goal of
+          Marmalade AI is to be a platform where your virtual network enables
+          you to focus on what you are good at. That is all transactional.
         </p>
         <p>
-          There&apos;s also the learning aspect. You need to be up-to-date in
+          There is also the learning aspect. You need to be up-to-date in
           peripheral expertise. Maybe pop up a virtual room at 3:00pm (Pacific)
           today to discuss the latest in GPT-3 or BERT and send notifications
           about it just to people who have indicated an interest in that topic.
-          It&apos;s like Quora or Reddit but more exact and closer to real time.
-          That&apos;s the vision for the communications side of this platform,
-          so please let us know what you think.
+          It is like Quora or Reddit but more exact and closer to real time.
+          That is the vision for the communications side of this platform, so
+          please let us know what you think.
         </p>
         <h2>Evolution and Road Map</h2>
         <p>
           So how did we come to focus on virtual networking for machine learning
-          freelancers, what&apos;s in it for you, and how can you help guide its
+          freelancers, what is in it for you, and how can you help guide its
           evolution to be really useful for you?
         </p>
         <p>
@@ -125,10 +124,10 @@ const MachineLearning = () => (
           Yet, pretty much everybody said they had the same three big problems
           with networking: 1) one-on-ones in any context always seem less
           accurate than they could be (thank god for serendipity!) 2) everybody
-          feels like they&apos;re the worst person on the planet at keeping
-          their network up-to-date on what they&apos;re doing (some of these
-          people could be helpful, if they only knew!) 3) everybody thinks they
-          already have the biggest possible network (you can&apos;t spend{' '}
+          feels like they are the worst person on the planet at keeping their
+          network up-to-date on what they are doing (some of these people could
+          be helpful, if they only knew!) 3) everybody thinks they already have
+          the biggest possible network (you cannot spend
           <i>all</i> of your time networking!)
         </p>
         <p>
@@ -178,7 +177,7 @@ const MachineLearning = () => (
         <p>
           We have many, many questions you can help with, and we reserve the
           right to be wrong and change our thinking. For example, will you be
-          open to communication with people you don&apos;t know? We think if the
+          open to communication with people you do not know? We think if the
           context is vague, the answer is no. But if the context is relevant,
           the answer is yes. Or, we think this eventually should be a
           subscription service free of ads, with pay-for-use for communications.

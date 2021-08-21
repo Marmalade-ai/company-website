@@ -57,7 +57,7 @@ const UXDesign = () => (
           outside the door, hoping to be chosen for a project.
         </p>
         <p>
-          We&apos;re excited that you found us! We want you to be able to use
+          We are excited that you found us! We want you to be able to use
           Marmalade AI to answer that very question: &quot;How can you help me
           do better as a freelancer in UX design?&quot;
         </p>
@@ -69,13 +69,13 @@ const UXDesign = () => (
         </p>
         <p>
           The longer answer is: by using Marmalade AI to build a network where
-          you can raise the level of your work. Your <i>virtual network</i>{' '}
+          you can raise the level of your work. Your <i>virtual network</i>·
           reflects your profile, so it is specific to you, and that is the whole
           point. It even changes when you change your profile. You can use your
           virtual network to find help for part of a project where you realize
-          it&apos;s not your thing, or to help others in the same way. Or to pop
-          up a virtual room on a topic and expedite learning the latest. The
-          idea is that you can use the platform to do everything you did through
+          it is not your thing, or to help others in the same way. Or to pop up
+          a virtual room on a topic and expedite learning the latest. The idea
+          is that you can use the platform to do everything you did through
           traditional networking but more exactly and faster. Marmalade AI wants
           to make networking as efficient and useful as possible, and get out of
           the way.
@@ -87,7 +87,7 @@ const UXDesign = () => (
         <h2>Evolution and Road Map</h2>
         <p>
           How did Marmalade AI come to focus on virtual networking for UX design
-          freelancers, what&apos;s in it for you, and how can you help guide its
+          freelancers, what is in it for you, and how can you help guide its
           evolution to be really useful to you?
         </p>
         <p>
@@ -102,8 +102,8 @@ const UXDesign = () => (
           freelancers who can find each other more easily, share projects, keep
           their knowledge base up-to-date. There is no shortage of applications
           that favor the buyer of freelance UX design services. In some cases,
-          these are very broad. In other cases, they&apos;re very narrow.
-          We&apos;re not doing that.
+          these are very broad. In other cases, they are very narrow. We are not
+          doing that.
         </p>
         <h2>Community First, Then Everything Else</h2>
         <p>
@@ -118,10 +118,10 @@ const UXDesign = () => (
         </p>
         <p>
           Marmalade AI&apos;s core idea is to make networking virtual. By doing
-          so, the platform makes networking much more efficient. It&apos;s not
+          so, the platform makes networking much more efficient. It is not
           really all that complicated of an idea. Would you want to read a book
-          by somebody you don&apos;t know? Well, yes, if it&apos;s relevant.
-          Same thing with virtual networking.
+          by somebody you do not know? Well, yes, if it is relevant. Same thing
+          with virtual networking.
         </p>
         <h2>Behind the Scenes</h2>
         <p>
@@ -131,11 +131,11 @@ const UXDesign = () => (
           people join. You can invite people you currently work with or would
           like to connect with. It also is automatic, and if you change the
           wording of your profile, eventually your virtual network will change.
-          It&apos;s like affective reality.
+          It is like affective reality.
         </p>
         <p>
           UX design freelancers tend to work from a portfolio and maybe share
-          examples of their design thinking over Dribbble, behance, or similar
+          examples of their design thinking over Dribbble, Behance, or similar
           sites. Do we need to replicate any of that? We think probably not.
           Just put a link to your portfolio in your profile.
         </p>
