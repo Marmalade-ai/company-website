@@ -17,7 +17,7 @@ const Index = () => (
             Making freelancer networking easier.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            How freelancers connect with peers to share gigs and stay
+            How freelancers connect with peers to share projects and stay
             up-to-date.
           </p>
           <p className="mt-8 md:mt-12">
