@@ -55,8 +55,8 @@ const MachineLearning = () => (
         <p>
           &quot;How can you help me do <b>better</b> as a freelancer in machine
           learning?&quot; If you found us through a search engine query, would
-          that be like the one you used? Or did you actually get <i>irrelevant</i> results 
-          to that query? Results that implied you were
+          that be like the one you used? Or did you actually get{' '}
+          <i>irrelevant</i> results to that query? Results that implied you were
           flying solo, hoping to appease the pricing gods by commoditizing your
           services, and putting you in the company of hordes of freelancers in
           the cold water waiting to try to go over the dam?

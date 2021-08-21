@@ -69,8 +69,8 @@ const UXDesign = () => (
         </p>
         <p>
           The longer answer is: by using Marmalade AI to build a network where
-          you can raise the level of your work. Your <i>virtual network</i> reflects 
-          your profile, so it is specific to you, and that is the whole
+          you can raise the level of your work. Your <i>virtual network</i>·
+          reflects your profile, so it is specific to you, and that is the whole
           point. It even changes when you change your profile. You can use your
           virtual network to find help for part of a project where you realize
           it is not your thing, or to help others in the same way. Or to pop up
