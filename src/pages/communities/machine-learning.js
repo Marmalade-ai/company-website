@@ -51,22 +51,22 @@ const MachineLearning = () => (
             />
           }
         />
-        <h3>How Can I Do Better as a Freelancer in Machine Learning?</h3>
+        <h2>How Can I Do Better as a Freelancer in Machine Learning?</h2>
         <p>
           &quot;How can you help me do <b>better</b> as a freelancer in machine
           learning?&quot; If you found us through a search engine query, would
-          that be like the one you used? Or did you actually get IRRELEVANT
-          results to that query. Results that implied you were flying solo,
-          hoping to appease the pricing gods by commoditizing your services, and
-          putting you in the company of hordes of freelancers in the cold water
-          waiting to try to go over the dam?
+          that be like the one you used? Or did you actually get{' '}
+          <i>irrelevant</i> results to that query? Results that implied you were
+          flying solo, hoping to appease the pricing gods by commoditizing your
+          services, and putting you in the company of hordes of freelancers in
+          the cold water waiting to try to go over the dam?
         </p>
         <p>
           We&apos;re excited that you found us! We want you to be able to use
           Marmalade AI to answer that very question: &quot;How can you help me
           do better as a freelancer in machine learning?&quot;
         </p>
-        <h3>Virtual Network</h3>
+        <h2>Virtual Network</h2>
         <p>
           The short answer is: sign up and use the virtual network that
           automatically is created by applying NLP to your profile, which you
@@ -102,7 +102,7 @@ const MachineLearning = () => (
           That&apos;s the vision for the communications side of this platform,
           so please let us know what you think.
         </p>
-        <h3>Evolution and Road map</h3>
+        <h2>Evolution and Road map</h2>
         <p>
           So how did we come to focus on virtual networking for machine learning
           freelancers, what&apos;s in it for you, and how can you help guide its
@@ -143,7 +143,7 @@ const MachineLearning = () => (
           thirdly add ability for buy-side participation with demand-side
           (freelancer) control of how the market works.
         </p>
-        <h3>Community First, Then Everything Else</h3>
+        <h2>Community First, Then Everything Else</h2>
         <p>
           The road map is subject to your guidance. &quot;Unbundling,&quot;
           &quot;self-organizing,&quot; like &quot;the world until 1800&quot;
@@ -156,7 +156,7 @@ const MachineLearning = () => (
           to enable more exact connections more easily. How exactly that plays
           out in creating a platform for community is really up to you.
         </p>
-        <h3>Behind the Scenes</h3>
+        <h2>Behind the Scenes</h2>
         <p>
           Finally we get to the good part! OK, so Marmalade AI is using NLP in R
           with MLOps on Google Cloud to connect with phones, tablets, laptops,
@@ -201,7 +201,7 @@ const MachineLearning = () => (
           systems, sentiment analysis, anomaly detection, and regression
           analysis.
         </p>
-        <h3>Please Tell Use What to Do Next!</h3>
+        <h2>Please Tell Use What to Do Next!</h2>
         <p>
           If we missed a machine learning specialization, please tick
           &quot;other&quot; and let us know. More broadly, platform evolution is

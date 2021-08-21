@@ -46,7 +46,7 @@ const UXDesign = () => (
             />
           }
         />
-        <h3>How Can I Do Better as a Freelancer in UX Design?</h3>
+        <h2>How Can I Do Better as a Freelancer in UX Design?</h2>
         <p>
           &quot;How can you help me do <b>better</b> as a freelancer in UX
           design?&quot; We hope that is the kind of Google query that brought
@@ -61,7 +61,7 @@ const UXDesign = () => (
           Marmalade AI to answer that very question: &quot;How can you help me
           do better as a freelancer in UX design?&quot;
         </p>
-        <h3>Virtual Network</h3>
+        <h2>Virtual Network</h2>
         <p>
           The easy answer is: by signing up and working with the virtual network
           that is automatically created on the basis of your profile, which you
@@ -84,7 +84,7 @@ const UXDesign = () => (
           Let that sink in: <i>virtual network</i>. All you need to do is keep
           your profile current with the kind of work you do.
         </p>
-        <h3>Evolution and Road map</h3>
+        <h2>Evolution and Road map</h2>
         <p>
           How did Marmalade AI come to focus on virtual networking for UX design
           freelancers, what&apos;s in it for you, and how can you help guide its
@@ -105,7 +105,7 @@ const UXDesign = () => (
           these are very broad. In other cases, they&apos;re very narrow.
           We&apos;re not doing that.
         </p>
-        <h3>Community First, Then Everything Else</h3>
+        <h2>Community First, Then Everything Else</h2>
         <p>
           Our idea is to enable a brotherhood and sisterhood of freelancers, and
           put the freelancers in control. So down the road -- once we have the
@@ -123,7 +123,7 @@ const UXDesign = () => (
           by somebody you don&apos;t know? Well, yes, if it&apos;s relevant.
           Same thing with virtual networking.
         </p>
-        <h3>Behind the Scenes</h3>
+        <h2>Behind the Scenes</h2>
         <p>
           Marmalade AI works by applying NLP (Natural Language Processing,
           machine learning, AI -- whatever you want to call it) to
@@ -149,7 +149,7 @@ const UXDesign = () => (
           research, information architecture, UI developer, interaction design,
           and UX writer.
         </p>
-        <h3>Please Tell Use What to Do Next!</h3>
+        <h2>Please Tell Use What to Do Next!</h2>
         <p>
           If we missed a UX design specialization, please tick &quot;other&quot;
           and let us know. More broadly, we said a little about what we think is
