@@ -13,9 +13,9 @@ const AlphaApplicationForm = () => (
         <h1>Registration Form</h1>
         <iframe
           title="Marmalade AI Early Access Application Form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfAL3E09E_rBDYqZNwUtVdzw1bfJZW8JvBJrSaujvNFopb-Bg/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdT90WCJfKbasApQoSExCwnO9jr-EwTrDYuPq-r0FNB2J4ktg/viewform?embedded=true"
           width="640"
-          height="1741"
+          height="1280"
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
