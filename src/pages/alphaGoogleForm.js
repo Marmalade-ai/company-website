@@ -6,7 +6,7 @@ const AlphaApplicationForm = () => (
   <Layout>
     <SEO
       title="Application Form"
-      description="Register for Marmalade AI Networking"
+      description="Apply for Marmalade AI's Early Access program."
     />
     <article className="py-20 lg:pb-20 lg:pt-24">
       <div className="px-6 mx-auto lg:w-2/3">

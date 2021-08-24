@@ -26,7 +26,7 @@ const Index = () => (
           </p>
           <p className="mt-8 md:mt-12">
             <Link to="/alphaGoogleForm">
-              <Button size="lg">Get Started</Button>
+              <Button size="lg">Apply for Early Access</Button>
             </Link>
           </p>
         </div>
@@ -128,8 +128,8 @@ const Index = () => (
           </div>
         </div>
         <p className="mt-8">
-          <Link to="/alphaApplicationForm">
-            <Button size="lg">Get Started</Button>
+          <Link to="/alphaGoogleForm">
+            <Button size="lg">Apply for Early Access</Button>
           </Link>
         </p>
       </div>
