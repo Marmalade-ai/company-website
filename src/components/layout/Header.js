@@ -14,7 +14,7 @@ const Header = () => (
             />
           </Link>
         </div>
-        Marmalade AI
+        <Link to="/#">Marmalade AI</Link>
       </div>
       <div className="flex mt-4 sm:mt-0">
         <Link className="px-4" to="/#">
