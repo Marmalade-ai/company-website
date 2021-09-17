@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
@@ -9,7 +10,10 @@ import SEO from '../components/seo';
 
 const Index = () => (
   <Layout>
-    <SEO title="Home" description="What is Marmalade AI?" />
+    <SEO
+      title="Marmalade AI Home"
+      description="Marmalade AI is making freelancer networking easier"
+    />
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
@@ -21,7 +25,9 @@ const Index = () => (
             up-to-date.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Link to="/alphaGoogleForm">
+              <Button size="lg">Apply for Early Access</Button>
+            </Link>
           </p>
         </div>
         <div className="lg:w-1/3">
@@ -122,7 +128,9 @@ const Index = () => (
           </div>
         </div>
         <p className="mt-8">
-          <Button size="xl">Get Started for Free</Button>
+          <Link to="/alphaGoogleForm">
+            <Button size="lg">Apply for Early Access</Button>
+          </Link>
         </p>
       </div>
     </section>
