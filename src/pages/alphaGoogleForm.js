@@ -15,7 +15,7 @@ const AlphaApplicationForm = () => (
           title="Marmalade AI Early Access Application Form"
           src="https://docs.google.com/forms/d/e/1FAIpQLSek65nhm_18_mXcINJv3tg_n7_JqKjaAE_G0PW-Ar3LaqBVKg/viewform?embedded=true"
           width="640"
-          height="1408"
+          height="1780"
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
