@@ -5,12 +5,15 @@ import SEO from '../components/seo';
 const PrivacyPolicy = () => (
   <Layout>
     <SEO title="Privacy Policy" description="Privacy Policy" />
-    <article className="py-20 lg:pb-20 lg:pt-24">
+    <div className="container mx-auto mt-10">
+      <h1>Privacy Policy</h1>
+    </div>
+    <article className="py-20 lg:pb-4 lg:pt-4">
       <div className="px-6 mx-auto lg:w-2/3">
-        <h1>Privacy Policy</h1>
-        <p>
+        <p className="mt-6 font-semibold text-xl">
           Last Updated: <time dateTime="2021-07-14 11:42">July 14, 2021</time>
         </p>
+
         <p>
           Marmalade AI, Inc. has created this Privacy Notice to explain why we
           collect particular information and how we will protect your personal
@@ -39,7 +42,7 @@ const PrivacyPolicy = () => (
           form.
         </p>
 
-        <h2>We us various technologies to collect information</h2>
+        <h2>We use various technologies to collect information</h2>
         <h3>Cookies</h3>
         <p>
           The Marmalade AI website uses cookies. Cookies are text files that are

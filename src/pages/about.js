@@ -7,12 +7,15 @@ import SEO from '../components/seo';
 const About = () => (
   <Layout>
     <SEO title="About Us" description="About Us and Our Mission" />
-    <section id="mission" className="lg:pb-10 lg:pt-10">
-      <div className="container mx-auto">
-        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">Mission</h2>
-        <div className="grid sm:flex-row sm:-mx-3 mt-6">
+    <div className="container mx-auto mt-10">
+      <h1>About Us</h1>
+    </div>
+    <section id="mission" className="lg:pb-10 lg:pt-4">
+      <div className="container mx-auto lg:w-2/3">
+        <h2 className="aboutSubHeading">Mission</h2>
+        <div className="grid sm:flex-row sm:-mx-3 mt-0">
           <div className="flex-1 px-3">
-            <h3 className="cardHeading">Make freelancing easier</h3>
+            <h3>Make freelancing easier</h3>
             <ul>
               <li>Provide a place for freelancers to connect with peers.</li>
               <li>
@@ -27,7 +30,7 @@ const About = () => (
                 meet. e.g. we are removing bias from the networking process.
               </li>
             </ul>
-            <h3 className="cardHeading">Improve networking skills</h3>
+            <h3>Improve networking skills</h3>
             <ul>
               <li>Help freelancers to network more frequently.</li>
               <li>
@@ -39,7 +42,7 @@ const About = () => (
                 skills.
               </li>
             </ul>
-            <h3 className="cardHeading">Encourage collaboration</h3>
+            <h3>Encourage collaboration</h3>
             <ul>
               <li>
                 Provide a place to find people with skills that complement your
@@ -50,7 +53,7 @@ const About = () => (
                 work without needing to join a company.
               </li>
               <li>
-                Enable freelancers to collaborate with others to share gigs.
+                Enable freelancers to collaborate with others to share projects.
               </li>
               <li>
                 Provide a straightforward, easy framework for mentoring, for
@@ -58,7 +61,7 @@ const About = () => (
                 networking.
               </li>
             </ul>
-            <h3 className="cardHeading">Ecological Footprint</h3>
+            <h3>Ecological Footprint</h3>
             <li>
               Be environmentally progressive. In particular, make it easier to
               work remotely and to reduce our ecological footprint.
@@ -68,8 +71,8 @@ const About = () => (
       </div>
     </section>
     <section id="founders" className="lg:pb-10 lg:pt-10">
-      <div className="container mx-auto text-center">
-        <h2 className="aboutSubHeading lg:text-5xl xl:text-6xl">Founders</h2>
+      <div className="container mx-auto">
+        <h2 className="aboutSubHeading">Founders</h2>
         <div className="grid grid-cols-1 flex-col -mx-3 md:grid-cols-2 md:mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
@@ -129,7 +132,7 @@ const About = () => (
               />
               <p className="cardHeading">Michael Porto</p>
               <p className="cardSubHeading">Product Management Advisor</p>
-              <p>Big data, mobile, ML, Intel, Wells Fargo, Ernst & Young.</p>
+              <p>Big data, mobile, ML, Intel, Wells Fargo, EY.</p>
               <p>Princeton MS CS.</p>
               <p>Charlotte, NC.</p>
             </Card>

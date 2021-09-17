@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
@@ -9,7 +10,10 @@ import SEO from '../components/seo';
 
 const Index = () => (
   <Layout>
-    <SEO title="Home" description="What is Marmalade AI?" />
+    <SEO
+      title="Marmalade AI Home"
+      description="Marmalade AI is making freelancer networking easier"
+    />
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
@@ -17,14 +21,13 @@ const Index = () => (
             Making freelancer networking easier.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            How freelancers connect with peers to share gigs and stay
+            How freelancers connect with peers to share projects and stay
             up-to-date.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
-            <a href="https://forum.marmalade.ai/">
-              <Button size="lg">Forum</Button>
-            </a>
+            <Link to="/alphaGoogleForm">
+              <Button size="lg">Apply for Early Access</Button>
+            </Link>
           </p>
         </div>
         <div className="lg:w-1/3">
@@ -75,7 +78,7 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">Serendipity Chats</h3>
+              <h3 className="splitHeading">Serendipity</h3>
               <p className="splitBody">
                 Indicate that you are available and we will match you with
                 someone else who is also ready to network.
@@ -116,7 +119,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Find a Gig</h3>
+              <h3 className="cardHeading">Find a Project</h3>
               <p className="cardBody">
                 Meet peers regularly to create deeper relationships, so that you
                 know who to call on when you need help.
@@ -125,131 +128,10 @@ const Index = () => (
           </div>
         </div>
         <p className="mt-8">
-          <Button size="xl">Get Started for Free</Button>
+          <Link to="/alphaGoogleForm">
+            <Button size="lg">Apply for Early Access</Button>
+          </Link>
         </p>
-      </div>
-    </section>
-
-    <section id="pricing" className="py-20 lg:pb-20 lg:pt-24">
-      <div className="container mx-auto text-center">
-        <h2 className="homeSubHeading">Choosing a Plan</h2>
-        <div className="flex flex-col">
-          <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 mt-12">
-            <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-              <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                <table className="min-w-full divide-y divide-gray-200">
-                  <thead className="bg-gray-50">
-                    <tr>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
-                      >
-                        Features
-                      </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
-                      >
-                        Free 60-day trial
-                      </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium bg-primary text-white uppercase tracking-wider"
-                      >
-                        $5.00/mo
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="bg-white divide-y divide-gray-200">
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Browse Member Profiles
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Direct Messaging
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Automated Matching
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Premium Feature 1
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">No</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Premium Feature 2
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">No</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 whitespace-nowrap flex items-center ml-4 ">
-                        <div className="text-sm font-medium">
-                          Premium Feature 3
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">No</div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-500">Yes</div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   </Layout>

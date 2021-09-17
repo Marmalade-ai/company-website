@@ -9,15 +9,15 @@
   }
 
   h1 {
-    @apply mt-6 text-center text-3xl font-semibold;
+    @apply mb-4 font-semibold text-4xl lg:text-5xl;
   }
 
   h2 {
-    @apply mt-6 text-2xl font-semibold;
+    @apply mt-6 font-semibold text-2xl lg:text-3xl;
   }
 
   h3 {
-    @apply mt-6 text-xl font-semibold;
+    @apply mt-6 font-semibold text-xl;
   }
 
   p {
@@ -27,11 +27,26 @@
   ul {
     @apply list-disc list-inside;
   }
+
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 540px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+
+  input,
+  textarea {
+    border: 1px solid #999;
+  }
 }
 
 /** Application-specific classes **/
 .aboutSubHeading {
-  @apply leading-none text-center text-3xl font-semibold;
+  @apply leading-none font-semibold text-3xl lg:text-4xl;
 }
 
 .cardHeading {
@@ -44,6 +59,16 @@
 
 .cardBody {
   @apply mt-4;
+}
+
+.formButton {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background-color: hsl(23, 99%, 50%);
 }
 
 /* Error when attempting to use lg:text-5xl
