@@ -8,6 +8,39 @@ module.exports = {
     author: `Marmalade AI`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-M97RDW8",
+  
+        // Include GTM in development.
+        //
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
+  
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        /*
+        defaultDataLayer: { platform: "gatsby" },
+  
+        // Specify optional GTM environment details.
+        gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+        gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+        dataLayerName: "YOUR_DATA_LAYER_NAME",
+        */
+        // Name of the event that is triggered
+        // on every Gatsby route change.
+        //
+        // Defaults to gatsby-route-change
+        /*
+        routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
+        */
+       // Defaults to false
+        enableWebVitalsTracking: true,
+      },
+    },
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-plugin-gatsby-cloud',
@@ -41,33 +74,6 @@ module.exports = {
         whitelist: ['whitelist'], // Don't remove this selector
         ignore: ['/ignored.css', 'prismjs/', 'docsearch.js/'], // Ignore files/folders
         purgeOnly: ['components/', '/main.css', 'bootstrap/', '/tailwind.css'], // Purge only these files/folders
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          'UA-167791928-1', // Google Analytics / GA
-        ],
-        // This object gets passed directly to the gtag config command.
-        // This config will be shared across all trackingIds.
-        // See https://www.gatsbyjs.com/plugins/gatsby-plugin-google-gtag/
-        gtagConfig: {
-          optimize_id: 'GTM-PF4HKDF',
-          anonymize_ip: true, // Some countries require this, e.g. Germany.
-          cookie_expires: 0,
-        },
-        // This object is used for configuration specific to this plugin
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: false,
-          // respectDNT indicates whether Google Global Site Tag should be
-          // loaded for visitors that have 'Do Not Track' enabled.
-          respectDNT: true, // true = do not load
-          // Avoids sending pageview hits from custom paths
-          exclude: ['/preview/**', '/do-not-track/me/too/'],
-        },
       },
     },
   ],
