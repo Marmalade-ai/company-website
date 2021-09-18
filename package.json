@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",
-    "gatsby": "^3.9.1",
+    "gatsby": "^3.14.0",
     "gatsby-plugin-gatsby-cloud": "^2.9.1",
     "gatsby-plugin-google-tagmanager": "^3.13.0",
     "gatsby-plugin-image": "^1.7.1",
@@ -46,5 +46,9 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1"
+  },
+  "engines": {
+    "node": "14.17.6",
+    "npm": "7.24.0"
   }
 }
