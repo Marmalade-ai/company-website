@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/seo';
 
+
 const Faq = () => (
   <Layout>
     <SEO title="FAQ" description="Frequently Asked Questions" />
@@ -16,7 +17,7 @@ const Faq = () => (
           Create a login, then that information, esp. your profile
           (&quot;About&quot; section, which you can write from scratch or cut
           and paste from Linkedin, About.me, etc.) is run through NLP
-          (&quot;machine learning&quot;, AI) to create a virtual network of
+          (&quot;machine learning,&quot; AI) to create a virtual network of
           people it seems like you should know. If you change the wording of
           your profile, your network changes. You can do searches for specific
           topics, skills, geographies, too. This is the base upon which we hope
@@ -33,7 +34,8 @@ const Faq = () => (
 
         <h2>What do I need to do to get started?</h2>
         <p>
-          Register, login, fill in MyProfile (including &quot;About&quot;, which
+          Once you have been accepted into the Early Access program, you will have a link to the app.
+          Register, login, fill in MyProfile (including &quot;About,&quot; which
           you might cut and paste from Linkedin, About.me, or similar sources),
           upload a photo, browse Profiles, connect with people.
         </p>

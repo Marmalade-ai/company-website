@@ -242,7 +242,7 @@ const MachineLearning = () => (
         </div>
         Yay, freelancers!
         <p className="mt-6">
-          <Button size="lg">Sign me up!</Button>
+          <Button size="lg">Apply for Early Access</Button>
         </p>
       </div>
     </article>
