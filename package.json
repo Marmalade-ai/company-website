@@ -5,9 +5,9 @@
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop -H 0.0.0.0",
+    "develop": "gatsby develop --host 0.0.0.0",
     "build": "gatsby build",
-    "serve": "gatsby serve -H 0.0.0.0",
+    "serve": "gatsby serve --host 0.0.0.0",
     "clean": "gatsby clean",
     "info": "gatsby info",
     "lint": "npx eslint .",
