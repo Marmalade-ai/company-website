@@ -26,7 +26,8 @@ const UXDesign = () => (
             <StaticImage
               className="rounded-lg shadow-lg"
               src="../../images/christina-wocintechchat-com-J7EDyqUwXJI-unsplash_300.jpg"
-              alt="UX design immerses the user in the experience."
+              alt="A happy user viewing a phone app."
+              title="UX design improves the user experience."
             />
           }
         />
@@ -42,7 +43,8 @@ const UXDesign = () => (
             <StaticImage
               className="rounded-lg shadow-lg	"
               src="../../images/taras-shypka-iFSvn82XfGo-unsplash_300.jpg"
-              alt="UX design enables interaction on a touchscreen."
+              alt="Tablet in front of a large computer screen."
+              title="Designing for multiple devices."
             />
           }
         />
