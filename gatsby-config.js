@@ -61,8 +61,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GatsbyJS',
-        short_name: 'GatsbyJS',
+        name: 'Marmalade.ai | Home',
+        short_name: 'Marmalade.ai',
+        description: 'Marmalade.ai | Making freelancer networking easier.',
         start_url: '/',
         background_color: '#6b37bf',
         theme_color: '#6b37bf',
