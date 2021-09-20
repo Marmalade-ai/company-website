@@ -14,7 +14,7 @@ const Faq = () => (
       <div className="px-6 mx-auto lg:w-2/3">
         <h2>How does it work?</h2>
         <p>
-          Create a login, then that information, esp. your profile
+          Create a login, then that information, especially your profile
           (&quot;About&quot; section, which you can write from scratch or cut
           and paste from Linkedin, About.me, etc.) is run through NLP
           (&quot;machine learning,&quot; AI) to create a virtual network of
