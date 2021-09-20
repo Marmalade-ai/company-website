@@ -52,7 +52,8 @@ const Index = () => (
             <StaticImage
               className="rounded-lg shadow-lg"
               src="../images/networking.jpg"
-              alt="Networking"
+              alt="People collaborating in small groups."
+              title="Meet new people more efficiently."
             />
           }
         />
@@ -70,7 +71,8 @@ const Index = () => (
             <StaticImage
               className="rounded-lg shadow-lg	"
               src="../images/matching.jpg"
-              alt="Matching"
+              alt="A gameboard with pieces matched up."
+              title="We match you with people that you should meet."
             />
           }
         />
@@ -89,7 +91,8 @@ const Index = () => (
             <StaticImage
               className="rounded-lg shadow-lg	"
               src="../images/chatting.jpg"
-              alt="Chatting"
+              alt="A person chatting through a phone app."
+              title="We match you with people who are eager to network."
             />
           }
         />

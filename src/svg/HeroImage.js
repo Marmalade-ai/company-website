@@ -50,6 +50,7 @@ const HeroImage = () => (
       />
     </defs>
     <g opacity=".2">
+      <title>Work efficiently to build your professional network.</title>
       <path
         d="M1007.26 726.43a18.25 18.25 0 01-1.73 2.67q-8.64-6.09-17.57-11.93c.12-.25.25-.51.39-.77a16.74 16.74 0 016-6.51c3.29-2 7-2.48 10-.86s4.76 4.93 4.94 8.77a16.85 16.85 0 01-2.03 8.63z"
         fill="#3f3d56"

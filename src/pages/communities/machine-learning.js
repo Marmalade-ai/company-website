@@ -30,7 +30,8 @@ const MachineLearning = () => (
             <StaticImage
               className="rounded-lg shadow-lg"
               src="../../images/pandas_screenshot_300.png"
-              alt="Freelancers in machine learning frequently use the Python Pandas library to prepare data."
+              alt="Screenshot of a Python script using Pandas to create a dataframe."
+              title="A Python script to load data into a Pandas dataframe."
             />
           }
         />
@@ -47,7 +48,8 @@ const MachineLearning = () => (
             <StaticImage
               className="rounded-lg shadow-lg	"
               src="../../images/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash_300.jpg"
-              alt="Freelancers in machine learning often create charts of time series data."
+              alt="A chart of time series data."
+              title="A chart of time series data."
             />
           }
         />

@@ -10,7 +10,8 @@ const Header = () => (
           <Link to="/#">
             <StaticImage
               src="../../images/marmalade-logo-sm.jpg"
-              alt="Marmalade AI Logo"
+              alt="The Marmalade AI Logo."
+              title="Marmalade AI, Inc."
             />
           </Link>
         </div>

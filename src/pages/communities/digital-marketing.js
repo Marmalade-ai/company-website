@@ -29,7 +29,8 @@ const DigitalMarketing = () => (
             <StaticImage
               className="rounded-lg shadow-lg"
               src="../../images/kobu-agency-7okkFhxrxNw-unsplash_300.jpg"
-              alt="Digital marketing means collaboration to get feedback."
+              alt="Two women collaborating at a computer screen."
+              title="Collaborating to get feedback."
             />
           }
         />
@@ -46,7 +47,8 @@ const DigitalMarketing = () => (
             <StaticImage
               className="rounded-lg shadow-lg	"
               src="../../images/pexels-freeboilergrants-7119258_300.jpg"
-              alt="Search Engine Optimization (SEO) is key to inbound marketing."
+              alt="Scrabble tiles spelling SEO."
+              title="SEO is essential to inbound marketing."
             />
           }
         />

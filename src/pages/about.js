@@ -80,6 +80,7 @@ const About = () => (
                 className="mb-8 rounded-lg shadow-lg	"
                 src="../images/craig_fisk_headshot.jpg"
                 alt="Photo of Craig Fisk."
+                title="Craig Fisk, CEO"
               />
               <h3 className="cardHeading">Craig Fisk</h3>
               <p className="cardSubHeading">CEO</p>
@@ -96,6 +97,7 @@ const About = () => (
                 className="mb-8 rounded-lg shadow-lg	"
                 src="../images/jim_tyhurst_headshot.jpg"
                 alt="Photo of Jim Tyhurst."
+                title="Jim Tyhurst, CTO"
               />
               <h3 className="cardHeading">Jim Tyhurst</h3>
               <p className="cardSubHeading">CTO</p>
@@ -113,6 +115,7 @@ const About = () => (
                 className="mb-8 rounded-lg shadow-lg	"
                 src="../images/vivian_tran_headshot.jpg"
                 alt="Photo of Vivian Tran."
+                title="Vivian Tran, Marketing Advisor"
               />
               <p className="cardHeading">Vivian Tran</p>
               <p className="cardSubHeading">Marketing Advisor</p>
@@ -129,6 +132,7 @@ const About = () => (
                 className="mb-8 rounded-lg shadow-lg	"
                 src="../images/michael_porto_headshot.jpg"
                 alt="Photo of Michael Porto."
+                title="Michael Porto, Product Management Advisor"
               />
               <p className="cardHeading">Michael Porto</p>
               <p className="cardSubHeading">Product Management Advisor</p>
