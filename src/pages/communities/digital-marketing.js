@@ -197,7 +197,7 @@ const DigitalMarketing = () => (
         <p>
           In the sign-up form, we ask freelancers in digital marketing to
           identify their specializations. So indicate in the registration your
-          interest in areas such as SEO, Wordpress, content, new market
+          interest in areas such as SEO, WordPress, content, new market
           development, website development, positioning, competitive analysis,
           collateral, influencer marketing, branding, inbound marketing, growth,
           data analytics, ecommerce, paid media and advertising, social media,
