@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { FaTwitter } from 'react-icons/fa';
 
 const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-20 mb-8 text-gray-800">
@@ -33,7 +34,12 @@ const Footer = () => (
         <nav>
           <ul className="mt-4 leading-loose list-none">
             <li>
-              <a href="https://twitter.com/MarmaladeAI">Twitter</a>
+              <a href="https://twitter.com/MarmaladeAI">
+                <div className="flex flex-row">
+                  <FaTwitter />
+                  &nbsp; Twitter
+                </div>
+              </a>
             </li>
           </ul>
         </nav>
