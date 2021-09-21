@@ -14,6 +14,14 @@ https://marmalade.ai
 - `npm run develop` to start the developer version of the site, which rebuilds automatically when you save changes to the source code.
 - View site at http://localhost:8000/ when the development server is running.
 
+### `vscode` set-up
+
+We use several extensions to [vscode](https://code.visualstudio.com/Download) in our development environment for enforcing format conventions and for checking for common coding errors:
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) Code Formatter.
+- [PostCSS](https://marketplace.visualstudio.com/items?itemName=csstools.postcss) Language Support.
+
 ## Development Workflow
 
 - Whenever [package.json](./package.json) changes, you need to re-install packages:
