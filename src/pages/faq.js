@@ -33,12 +33,10 @@ const Faq = () => (
 
         <h2>What do I need to do to get started?</h2>
         <p>
-          Once you have been accepted into the Early Access program (click to
-          <Link to="/alphaGoogleForm"> Apply for Early Access</Link>), you will
-          have a link to the app. Register, login, fill in MyProfile (including
-          &quot;About,&quot; which you might cut and paste from Linkedin,
-          About.me, or similar sources), upload a photo, browse Profiles,
-          connect with people.
+          First, <Link to="/alphaGoogleForm"> apply for early access</Link>.
+          Once you have been accepted into the Early Access program, you will
+          have a link to the app, where you can register, login, and complete
+          your profile. Then you can start connecting with people!
         </p>
 
         <h2>

@@ -17,6 +17,12 @@ module.exports = {
       first: '-9999',
       last: '9999',
     },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        xl: '2rem',
+      },
+    },
   },
   variants: {
     extend: {},
