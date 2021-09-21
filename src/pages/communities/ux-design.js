@@ -4,6 +4,7 @@ import Button from '../../components/Button';
 import Layout from '../../components/layout/Layout';
 import SEO from '../../components/seo';
 import SplitSection from '../../components/SplitSection';
+import { Link } from 'gatsby';
 
 const UXDesign = () => (
   <Layout>
@@ -193,8 +194,10 @@ const UXDesign = () => (
           </ul>
         </div>
         Yay, freelancers!
-        <p className="mt-6">
-          <Button size="lg">Apply for Early Access</Button>
+        <p className="mt-8">
+          <Link to="/alphaGoogleForm">
+            <Button size="lg">Apply for Early Access</Button>
+          </Link>
         </p>
       </div>
     </article>
