@@ -247,7 +247,7 @@ const DigitalMarketing = () => (
           </ul>
         </div>
         Yay, freelancers!
-        <p className="mt-6">
+        <p className="mt-8">
           <Link to="/alphaGoogleForm">
             <Button size="lg">Apply for Early Access</Button>
           </Link>
