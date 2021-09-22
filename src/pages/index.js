@@ -42,7 +42,7 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">#1 Accurate Networking</h3>
+              <h3 className="splitHeading">1. Accurate Networking</h3>
               <p className="splitBody">
                 Have access to a network that is actually relevant to your
                 freelancing work.
@@ -61,7 +61,7 @@ const Index = () => (
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <h3 className="splitHeading">#2 Automatic Networking</h3>
+              <h3 className="splitHeading">2. Automatic Networking</h3>
               <p className="splitBody">
                 You provide your profile and description. We match you with
                 people automatically. It&apos;s that easy.
@@ -81,7 +81,7 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">#3 Appropriate Networking</h3>
+              <h3 className="splitHeading">3. Appropriate Networking</h3>
               <p className="splitBody">
                 Marmalade AI networking reflects the fact that freelancers may
                 be younger, multicultural, and want to work outside of a
