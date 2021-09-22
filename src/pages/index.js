@@ -42,9 +42,10 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">Improved Networking</h3>
+              <h3 className="splitHeading">1. Accurate Networking</h3>
               <p className="splitBody">
-                Meet new people more frequently and more efficiently.
+                Have access to a network that is actually relevant to your
+                freelancing work.
               </p>
             </div>
           }
@@ -52,18 +53,18 @@ const Index = () => (
             <StaticImage
               className="rounded-lg shadow-lg"
               src="../images/networking.jpg"
-              alt="People collaborating in small groups."
-              title="Meet new people more efficiently."
+              alt="Marmalade AI provides accurate networking of people so they can collaborate."
+              title="Marmalade AI gives you access to a network that accurately reflects you."
             />
           }
         />
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <h3 className="splitHeading">Automated Matching</h3>
+              <h3 className="splitHeading">2. Automatic Networking</h3>
               <p className="splitBody">
-                You provide your profile and networking goals. We suggest people
-                that you should meet. It&apos;s that easy.
+                You provide your profile and description. We match you with
+                people automatically. It&apos;s that easy.
               </p>
             </div>
           }
@@ -71,8 +72,8 @@ const Index = () => (
             <StaticImage
               className="rounded-lg shadow-lg	"
               src="../images/matching.jpg"
-              alt="A gameboard with pieces matched up."
-              title="We match you with people that you should meet."
+              alt="Marmalade AI networking happens automatically based on your profile, like a gameboard with pieces matched up."
+              title="Marmalade AI automatically matches you with people with whom you should network."
             />
           }
         />
@@ -80,10 +81,11 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">Serendipity</h3>
+              <h3 className="splitHeading">3. Appropriate Networking</h3>
               <p className="splitBody">
-                Indicate that you are available and we will match you with
-                someone else who is also ready to network.
+                Marmalade AI networking reflects the fact that freelancers may
+                be younger, multicultural, and want to work outside of a
+                corporate environment.
               </p>
             </div>
           }
@@ -92,7 +94,7 @@ const Index = () => (
               className="rounded-lg shadow-lg	"
               src="../images/chatting.jpg"
               alt="A person chatting through a phone app."
-              title="We match you with people who are eager to network."
+              title="Marmalade AI provides culturally appropriate networking."
             />
           }
         />
@@ -107,7 +109,7 @@ const Index = () => (
               <h3 className="cardHeading">Learn Something New</h3>
               <p className="cardBody">
                 Keep up with the latest tools, techniques, and technologies by
-                meeting regularly with your peers.
+                way of other freelancers.
               </p>
             </Card>
           </div>
@@ -115,17 +117,17 @@ const Index = () => (
             <Card className="mb-8">
               <h3 className="cardHeading">Collaborate</h3>
               <p className="cardBody">
-                Find peers with whom you would like to collaborate, either for
-                paid projects or side projects.
+                Find freelancers with whom you would like to collaborate on paid
+                projects, for side projects, or just to stay current.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Find a Project</h3>
+              <h3 className="cardHeading">Sharpen your Specialization</h3>
               <p className="cardBody">
-                Meet peers regularly to create deeper relationships, so that you
-                know who to call on when you need help.
+                Out of a larger network of accurate matches, you may form a
+                small group with deeper relationships.
               </p>
             </Card>
           </div>
