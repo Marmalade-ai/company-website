@@ -1,10 +1,10 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 import Button from '../../components/Button';
 import Layout from '../../components/layout/Layout';
 import SEO from '../../components/seo';
 import SplitSection from '../../components/SplitSection';
-import { Link } from 'gatsby';
 
 const DigitalMarketing = () => (
   <Layout>
