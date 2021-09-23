@@ -77,7 +77,7 @@ const About = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg"
                 src="../images/craig_fisk_headshot.jpg"
                 alt="Photo of Craig Fisk."
                 title="Craig Fisk, CEO"
@@ -94,7 +94,7 @@ const About = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
                 src="../images/jim_tyhurst_headshot.jpg"
                 alt="Photo of Jim Tyhurst."
                 title="Jim Tyhurst, CTO"
@@ -112,7 +112,7 @@ const About = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
                 src="../images/vivian_tran_headshot.jpg"
                 alt="Photo of Vivian Tran."
                 title="Vivian Tran, Marketing Advisor"
@@ -129,7 +129,7 @@ const About = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
                 src="../images/michael_porto_headshot.jpg"
                 alt="Photo of Michael Porto."
                 title="Michael Porto, Product Management Advisor"
