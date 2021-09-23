@@ -15,56 +15,40 @@ const About = () => (
         <h2 className="aboutSubHeading">Mission</h2>
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
           <div className="flex-1 px-3">
-            <h3>Make freelancing easier</h3>
+            <h3>Make freelancer networking easier</h3>
             <ul>
-              <li>Provide a place for freelancers to connect with peers.</li>
               <li>
-                Help freelancers stay up-to-date with the latest technologies
-                and techniques in fields closely related to their area of
-                expertise.
+                The Marmalade AI freelancer networking app is a place for
+                freelancers to connect with each other to share work, expertise,
+                and community.
               </li>
               <li>
-                Remove bias and make it easier for younger, multicultural
-                freelancers to build out their working network. Marmalade AI
-                provides professional matches to people you might not otherwise
-                meet. e.g. we are removing bias from the networking process.
-              </li>
-            </ul>
-            <h3>Improve networking skills</h3>
-            <ul>
-              <li>Help freelancers to network more frequently.</li>
-              <li>
-                Make it easier to build stronger relationships, rather than
-                accumulating a list of contacts.
-              </li>
-              <li>
-                Provide resources for freelancers to improve their networking
-                skills.
+                We want to make it easier to stay up-to-date with the latest
+                technologies and techniques in fields closely related to your
+                specializations by connecting with other freelancers.
               </li>
             </ul>
             <h3>Encourage collaboration</h3>
             <ul>
               <li>
+                Enable building stronger relationships that lead to
+                collaboration, rather than just accumulating a list of contacts.
+              </li>
+              <li>
                 Provide a place to find people with skills that complement your
-                own.
-              </li>
-              <li>
-                Foster small working groups, relieving the isolation of solo
-                work without needing to join a company.
-              </li>
-              <li>
-                Enable freelancers to collaborate with others to share projects.
-              </li>
-              <li>
-                Provide a straightforward, easy framework for mentoring, for
-                those interested in participating as part of their professional
-                networking.
+                own in small working groups, maybe even for mentoring.
               </li>
             </ul>
-            <h3>Ecological Footprint</h3>
+            <h3>Be culturally and economically progressive</h3>
             <li>
-              Be environmentally progressive. In particular, make it easier to
-              work remotely and to reduce our ecological footprint.
+              Remove bias and make it easier for younger, multicultural
+              freelancers to build out their working network through matches
+              with people who might not otherwise meet.
+            </li>
+            <li>
+              Be environmentally responsible. In particular, make it easier to
+              work remotely and to reduce our ecological footprint. This is the
+              future of work.
             </li>
           </div>
         </div>
