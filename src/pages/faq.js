@@ -9,7 +9,7 @@ const Faq = () => (
     <div className="container mx-auto mt-10">
       <h1>Frequently Asked Questions</h1>
     </div>
-    <article className="py-20 lg:pb-4 lg:pt-4">
+    <article className="pt-2">
       <div className="px-6 mx-auto lg:w-2/3">
         <h2>How does it work?</h2>
         <p>
