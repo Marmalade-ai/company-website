@@ -14,7 +14,7 @@ const Index = () => (
       title="Marmalade AI Home"
       description="Marmalade AI is making freelancer networking easier"
     />
-    <section className="pt-20 md:pt-40">
+    <section className="pt-10">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
           <h1 className="text-4xl lg:text-left lg:text-5xl xl:text-6xl font-bold leading-none">
@@ -35,7 +35,10 @@ const Index = () => (
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-20 lg:pt-24">
+    <div className="pt-5">
+      <hr />
+    </div>
+    <section id="features" className="pt-10">
       <div className="container mx-auto text-center">
         <h2 className="homeSubHeading">Why Choose Marmalade?</h2>
         <SplitSection
@@ -100,7 +103,10 @@ const Index = () => (
         />
       </div>
     </section>
-    <section id="benefits" className="py-20 lg:pb-20 lg:pt-24">
+    <div className="pt-5">
+      <hr />
+    </div>
+    <section id="benefits" className="pt-10">
       <div className="container mx-auto text-center">
         <h2 className="homeSubHeading">Get Started with Marmalade AI</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">

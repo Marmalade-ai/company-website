@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { FaTwitter } from 'react-icons/fa';
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-20 mb-8 text-gray-800">
+  <footer className="container mx-auto pt-10 md:pt-20 pb-8 text-gray-800">
     <hr />
     <div className="flex flex-col md:flex-row -mx-3">
       <section className="flex-1 px-3 order-last md:order-first">

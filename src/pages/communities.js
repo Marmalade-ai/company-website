@@ -7,25 +7,23 @@ const Communities = () => (
   <Layout>
     <SEO
       title="Communities"
-      description="Marmalade AI specifically designed to help several freelancer communities of practice."
+      description="Marmalade AI is specifically designed to help several freelancer communities of practice."
     />
     <div className="container mx-auto mt-10">
       <h1>Communities</h1>
     </div>
-    <article className="py-20 lg:pb-4 lg:pt-4">
+    <article className="pt-4">
       <div className="px-6 mx-auto lg:w-2/3">
         <nav>
-          <ul className="mt-4 leading-loose list-none">
-            <li>
-              <Link to="/communities/digital-marketing">Digital Marketing</Link>
-            </li>
-            <li>
-              <Link to="/communities/machine-learning">Machine Learning</Link>
-            </li>
-            <li>
-              <Link to="/communities/ux-design">UX Design</Link>
-            </li>
-          </ul>
+          <h2>
+            <Link to="/communities/digital-marketing">Digital Marketing</Link>
+          </h2>
+          <h2>
+            <Link to="/communities/machine-learning">Machine Learning</Link>
+          </h2>
+          <h2>
+            <Link to="/communities/ux-design">UX Design</Link>
+          </h2>
         </nav>
       </div>
     </article>

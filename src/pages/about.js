@@ -10,7 +10,7 @@ const About = () => (
     <div className="container mx-auto mt-10">
       <h1>About Us</h1>
     </div>
-    <section id="mission" className="lg:pb-10 lg:pt-4">
+    <section id="mission" className="pt-4">
       <div className="container mx-auto lg:w-2/3">
         <h2 className="aboutSubHeading">Mission</h2>
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
@@ -70,10 +70,10 @@ const About = () => (
         </div>
       </div>
     </section>
-    <section id="founders" className="lg:pb-10 lg:pt-10">
+    <section id="founders" className="pt-8">
       <div className="container mx-auto">
         <h2 className="aboutSubHeading">Founders</h2>
-        <div className="grid grid-cols-1 flex-col -mx-3 md:grid-cols-2 md:mt-12">
+        <div className="pt-4 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2">
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
