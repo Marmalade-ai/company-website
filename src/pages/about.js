@@ -145,9 +145,17 @@ const About = () => (
                 alt="The Marmalade AI Logo."
                 title="Marmalade AI, Inc."
               />
-              ) suggests quickness and informality (thanks, Jujube Li!), while{' '}
-              <b>Marmalade AI</b> combines sticky essence with harnessing the
-              power of Artificial Intelligence.
+              ) suggests quickness and informality (thanks,{' '}
+              <a
+                href="https://www.linkedin.com/in/jujube/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Jujube Li
+              </a>
+              ), while &quot;<b>Marmalade AI</b>&quot; combines the stickiness
+              of marmalade preserves with harnessing the power of Artificial
+              Intelligence.
             </p>
           </div>
         </div>
