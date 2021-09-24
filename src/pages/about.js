@@ -3,6 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout/Layout';
 import Card from '../components/Card';
 import SEO from '../components/seo';
+import { Link } from 'gatsby';
 
 const About = () => (
   <Layout>
@@ -145,9 +146,18 @@ const About = () => (
                 alt="The Marmalade AI Logo."
                 title="Marmalade AI, Inc."
               />
-              ) suggests quickness and informality (thanks, Jujube Li!), while{' '}
-              <b>Marmalade AI</b> combines sticky essence with harnessing the
-              power of Artificial Intelligence.
+              ) suggests quickness and informality (thanks,{' '}
+              <a
+                href="https://www.linkedin.com/in/jujube/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Jujube Li
+              </a>
+              ), while
+              <b> &quot;Marmalade AI&quot;</b> combines the stickiness of
+              (&quot;Marmalade&quot;) with harnessing the power of Artificial
+              Intelligence.
             </p>
           </div>
         </div>
