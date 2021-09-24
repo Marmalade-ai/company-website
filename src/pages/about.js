@@ -154,9 +154,8 @@ const About = () => (
               >
                 Jujube Li
               </a>
-              ), while
-              <b> &quot;Marmalade AI&quot;</b> combines the stickiness of
-              (&quot;Marmalade&quot;) with harnessing the power of Artificial
+              ), while &quot;<b>Marmalade AI</b>&quot; combines the stickiness
+              of marmalade preserves with harnessing the power of Artificial
               Intelligence.
             </p>
           </div>
