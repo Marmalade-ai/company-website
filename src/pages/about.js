@@ -138,7 +138,7 @@ const About = () => (
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
           <div className="flex-1 px-3 pt-4 md:max-w-xl">
             <p className="pt-2">
-              The &quot;splat&quot; logo (
+              The <b>splat logo</b> (
               <StaticImage
                 className="w-6 h-6"
                 src="../images/marmalade-logo-tiny.png"
@@ -146,8 +146,8 @@ const About = () => (
                 title="Marmalade AI, Inc."
               />
               ) suggests quickness and informality (thanks, Jujube Li!), while
-              &quot;Marmalade AI&quot; combines sticky essence with harnessing
-              the power of Artificial Intelligence.
+              <b>Marmalade AI</b> combines sticky essence with harnessing the
+              power of Artificial Intelligence.
             </p>
           </div>
         </div>
