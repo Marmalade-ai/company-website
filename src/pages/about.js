@@ -145,7 +145,7 @@ const About = () => (
                 alt="The Marmalade AI Logo."
                 title="Marmalade AI, Inc."
               />
-              ) suggests quickness and informality (thanks, Jujube Li!), while
+              ) suggests quickness and informality (thanks, Jujube Li!), while{' '}
               <b>Marmalade AI</b> combines sticky essence with harnessing the
               power of Artificial Intelligence.
             </p>
