@@ -3,7 +3,6 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout/Layout';
 import Card from '../components/Card';
 import SEO from '../components/seo';
-import { Link } from 'gatsby';
 
 const About = () => (
   <Layout>
