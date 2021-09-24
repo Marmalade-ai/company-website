@@ -132,6 +132,27 @@ const About = () => (
         </div>
       </div>
     </section>
+    <section id="logoInfo" className="pt-8">
+      <div className="container mx-auto">
+        <h2 className="aboutSubHeading">What&apos;s with the logo and name?</h2>
+        <div className="grid sm:flex-row sm:-mx-3 mt-0">
+          <div className="flex-1 px-3 pt-4 md:max-w-xl">
+            <p className="pt-2">
+              The &quot;splat&quot; logo (
+              <StaticImage
+                className="w-6 h-6"
+                src="../images/marmalade-logo-tiny.png"
+                alt="The Marmalade AI Logo."
+                title="Marmalade AI, Inc."
+              />
+              ) suggests quickness and informality (thanks, Jujube Li!), while
+              &quot;Marmalade AI&quot; combines sticky essence with harnessing
+              the power of Artificial Intelligence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 );
 
