@@ -55,7 +55,7 @@ const Index = () => (
           secondarySlot={
             <StaticImage
               className="rounded-lg shadow-lg"
-              src="../images/networking.jpg"
+              src="../images/istockphoto-1220226086-400.jpg"
               alt="Marmalade AI provides accurate networking of people so they can collaborate."
               title="Marmalade AI gives you access to a network that accurately reflects you."
             />
