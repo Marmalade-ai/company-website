@@ -12,16 +12,16 @@ const Communities = () => (
     <div className="container mx-auto mt-10">
       <h1>Communities</h1>
     </div>
-    <article className="pt-4">
-      <div className="px-6 mx-auto lg:w-2/3">
+    <article className="pt-2">
+      <div className="container mx-auto">
         <nav>
-          <h2>
+          <h2 className="px-10">
             <Link to="/communities/digital-marketing">Digital Marketing</Link>
           </h2>
-          <h2>
+          <h2 className="px-10">
             <Link to="/communities/machine-learning">Machine Learning</Link>
           </h2>
-          <h2>
+          <h2 className="px-10">
             <Link to="/communities/ux-design">UX Design</Link>
           </h2>
         </nav>

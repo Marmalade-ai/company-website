@@ -10,74 +10,23 @@ const About = () => (
     <div className="container mx-auto mt-10">
       <h1>About Us</h1>
     </div>
-    <section id="mission" className="pt-4">
-      <div className="container mx-auto lg:w-2/3">
-        <h2 className="aboutSubHeading">Mission</h2>
-        <div className="grid sm:flex-row sm:-mx-3 mt-0">
-          <div className="flex-1 px-3">
-            <h3>Make freelancing easier</h3>
-            <ul>
-              <li>Provide a place for freelancers to connect with peers.</li>
-              <li>
-                Help freelancers stay up-to-date with the latest technologies
-                and techniques in fields closely related to their area of
-                expertise.
-              </li>
-              <li>
-                Remove bias and make it easier for younger, multicultural
-                freelancers to build out their working network. Marmalade AI
-                provides professional matches to people you might not otherwise
-                meet. e.g. we are removing bias from the networking process.
-              </li>
-            </ul>
-            <h3>Improve networking skills</h3>
-            <ul>
-              <li>Help freelancers to network more frequently.</li>
-              <li>
-                Make it easier to build stronger relationships, rather than
-                accumulating a list of contacts.
-              </li>
-              <li>
-                Provide resources for freelancers to improve their networking
-                skills.
-              </li>
-            </ul>
-            <h3>Encourage collaboration</h3>
-            <ul>
-              <li>
-                Provide a place to find people with skills that complement your
-                own.
-              </li>
-              <li>
-                Foster small working groups, relieving the isolation of solo
-                work without needing to join a company.
-              </li>
-              <li>
-                Enable freelancers to collaborate with others to share projects.
-              </li>
-              <li>
-                Provide a straightforward, easy framework for mentoring, for
-                those interested in participating as part of their professional
-                networking.
-              </li>
-            </ul>
-            <h3>Ecological Footprint</h3>
-            <li>
-              Be environmentally progressive. In particular, make it easier to
-              work remotely and to reduce our ecological footprint.
-            </li>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="founders" className="pt-8">
+    <section id="founders" className="pt-4">
       <div className="container mx-auto">
         <h2 className="aboutSubHeading">Founders</h2>
-        <div className="pt-4 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2">
+        <div className="container md:max-w-xl">
+          <p>
+            It is an understatement to say we live in interesting times.
+            Collective spirit and innovation are key to the future. We came
+            together through user research into the problems people have with
+            networking and each of us decided it was possible to contribute to
+            making it better.
+          </p>
+        </div>
+        <div className="pt-8 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2">
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg"
                 src="../images/craig_fisk_headshot.jpg"
                 alt="Photo of Craig Fisk."
                 title="Craig Fisk, CEO"
@@ -94,7 +43,7 @@ const About = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
                 src="../images/jim_tyhurst_headshot.jpg"
                 alt="Photo of Jim Tyhurst."
                 title="Jim Tyhurst, CTO"
@@ -112,7 +61,7 @@ const About = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
                 src="../images/vivian_tran_headshot.jpg"
                 alt="Photo of Vivian Tran."
                 title="Vivian Tran, Marketing Advisor"
@@ -129,7 +78,7 @@ const About = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StaticImage
-                className="mb-8 rounded-lg shadow-lg	"
+                className="mb-8 w-32 h-32 rounded-lg shadow-lg	"
                 src="../images/michael_porto_headshot.jpg"
                 alt="Photo of Michael Porto."
                 title="Michael Porto, Product Management Advisor"
@@ -140,6 +89,66 @@ const About = () => (
               <p>Princeton MS CS.</p>
               <p>Charlotte, NC.</p>
             </Card>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mission" className="pt-8">
+      <div className="container mx-auto">
+        <h2 className="aboutSubHeading">What&apos;s in it for you?</h2>
+        <div className="grid sm:flex-row sm:-mx-3 mt-0">
+          <div className="flex-1 px-3 pt-4 md:max-w-xl">
+            <ul>
+              <li className="pt-2">
+                For everyone, but especially for younger, multicultural
+                freelancers, we want to <b>remove bias</b> and make it easier to
+                build out a useful network. Marmalade AI{' '}
+                <b>matches you to people you might not otherwise meet</b>.
+              </li>
+              <li className="pt-2">
+                We want to make it easier to <b>build stronger relationships</b>
+                , rather than just accumulating a list of contacts or providing
+                networking as entertainment.
+              </li>
+              <li className="pt-2">
+                We want to <b>encourage collaboration</b>,{' '}
+                <b>finding skills that match</b> or <b>complement your own</b>,
+                and <b>fostering small working groups</b> that relieve the
+                isolation of solo work without needing to join a company.
+              </li>
+              <li className="pt-2">
+                We want to provide a place for <b>mentoring</b>, where those
+                with <b>more experience</b> and those with{' '}
+                <b>less experience</b> can <b>both grow</b> in their
+                professional life.
+              </li>
+              <li className="pt-2">
+                Let&apos;s be environmentally progressive! In particular, make
+                it easier to work remotely and to{' '}
+                <b>reduce our ecological footprint</b>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="logoInfo" className="pt-8">
+      <div className="container mx-auto">
+        <h2 className="aboutSubHeading">What&apos;s with the logo and name?</h2>
+        <div className="grid sm:flex-row sm:-mx-3 mt-0">
+          <div className="flex-1 px-3 pt-4 md:max-w-xl">
+            <p className="pt-2">
+              The <b>splat logo</b> (
+              <StaticImage
+                className="w-6 h-6"
+                src="../images/marmalade-logo-tiny.png"
+                alt="The Marmalade AI Logo."
+                title="Marmalade AI, Inc."
+              />
+              ) suggests quickness and informality (thanks, Jujube Li!), while{' '}
+              <b>Marmalade AI</b> combines sticky essence with harnessing the
+              power of Artificial Intelligence.
+            </p>
           </div>
         </div>
       </div>

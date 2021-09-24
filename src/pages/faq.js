@@ -10,7 +10,7 @@ const Faq = () => (
       <h1>Frequently Asked Questions</h1>
     </div>
     <article className="pt-2">
-      <div className="px-6 mx-auto lg:w-2/3">
+      <div className="container mx-auto md:max-w-xl">
         <h2>How does it work?</h2>
         <p>
           Create a login, then that information, especially your profile
