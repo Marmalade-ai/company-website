@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/seo';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Communities = () => (
   <Layout>
@@ -16,14 +17,44 @@ const Communities = () => (
       <div className="container mx-auto">
         <nav>
           <h2 className="px-10">
-            <Link to="/communities/digital-marketing">Digital Marketing</Link>
+            <Link to="/communities/digital-marketing">
+              <StaticImage
+                className="rounded-lg shadow-lg"
+                src="../images/digitalmarketing_earth_32.png"
+                alt="Marmalade AI digital marketing community."
+                title="Marmalade AI digital marketing community."
+              />{' '}
+              Digital Marketing
+            </Link>
           </h2>
           <h2 className="px-10">
-            <Link to="/communities/machine-learning">Machine Learning</Link>
+            <Link to="/communities/machine-learning">
+              <StaticImage
+                className="rounded-lg shadow-lg"
+                src="../images/machinelearning_minerals_32.png"
+                alt="Marmalade AI machine learning community."
+                title="Marmalade AI machine learning community."
+              />{' '}
+              Machine Learning
+            </Link>
           </h2>
           <h2 className="px-10">
-            <Link to="/communities/ux-design">UX Design</Link>
+            <Link to="/communities/ux-design">
+              <StaticImage
+                className="rounded-lg shadow-lg"
+                src="../images/UXdesign_soil_32.png"
+                alt="Marmalade AI UX design community."
+                title="Marmalade AI UX design community."
+              />{' '}
+              UX Design
+            </Link>
           </h2>
+          <br />
+          <br />
+          <p>
+            The above are the freelancer communities for Early Access. We intend
+            to add many more.
+          </p>
         </nav>
       </div>
     </article>

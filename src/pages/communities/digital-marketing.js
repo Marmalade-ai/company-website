@@ -13,7 +13,15 @@ const DigitalMarketing = () => (
       description="Digital Marketing community of freelancers."
     />
     <div className="container mx-auto mt-10">
-      <h1>Digital Marketing</h1>
+      <h1>
+        <StaticImage
+          className="rounded-lg shadow-lg"
+          src="../../images/digitalmarketing_earth_64.png"
+          alt="Marmalade AI digital marketing community."
+          title="Marmalade AI digital marketing community."
+        />{' '}
+        Digital Marketing
+      </h1>
     </div>
     <article className="py-20 lg:pb-4 lg:pt-4">
       <div className="px-6 mx-auto lg:w-2/3">
