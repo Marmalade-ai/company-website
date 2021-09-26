@@ -13,7 +13,7 @@ const About = () => (
     <section id="founders" className="pt-4">
       <div className="container mx-auto">
         <h2 className="aboutSubHeading">Founders</h2>
-        <div className="container md:max-w-xl">
+        <div className="container">
           <p>
             It is an understatement to say we live in interesting times.
             Collective spirit and innovation are key to the future. We came
@@ -97,7 +97,7 @@ const About = () => (
       <div className="container mx-auto">
         <h2 className="aboutSubHeading">What&apos;s in it for you?</h2>
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
-          <div className="flex-1 px-3 pt-4 md:max-w-xl">
+          <div className="flex-1 px-3 pt-4">
             <ul>
               <li className="pt-2">
                 For everyone, but especially for younger, multicultural
@@ -136,7 +136,7 @@ const About = () => (
       <div className="container mx-auto">
         <h2 className="aboutSubHeading">What&apos;s with the logo and name?</h2>
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
-          <div className="flex-1 px-3 pt-4 md:max-w-xl">
+          <div className="flex-1 px-3 pt-4">
             <p className="pt-2">
               The <b>splat logo</b> (
               <StaticImage
