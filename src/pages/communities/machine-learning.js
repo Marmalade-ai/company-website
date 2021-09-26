@@ -13,7 +13,15 @@ const MachineLearning = () => (
       description="Machine Learning community of freelancers."
     />
     <div className="container mx-auto mt-10">
-      <h1>Machine Learning</h1>
+      <h1>
+        <StaticImage
+          className="rounded-lg shadow-lg rounded-lg-vertical-align"
+          src="../../images/machinelearning_minerals_64.png"
+          alt="Marmalade AI machine learning community."
+          title="Marmalade AI machine learning community."
+        />{' '}
+        Machine Learning
+      </h1>
     </div>
     <article className="py-20 lg:pb-4 lg:pt-4">
       <div className="px-6 mx-auto lg:w-2/3">
