@@ -15,7 +15,7 @@ const MachineLearning = () => (
     <div className="container mx-auto mt-10">
       <h1>
         <StaticImage
-          className="rounded-lg shadow-lg"
+          className="rounded-lg shadow-lg rounded-lg-vertical-align"
           src="../../images/machinelearning_minerals_64.png"
           alt="Marmalade AI machine learning community."
           title="Marmalade AI machine learning community."

@@ -15,7 +15,7 @@ const DigitalMarketing = () => (
     <div className="container mx-auto mt-10">
       <h1>
         <StaticImage
-          className="rounded-lg shadow-lg"
+          className="rounded-lg shadow-lg rounded-lg-vertical-align"
           src="../../images/digitalmarketing_earth_64.png"
           alt="Marmalade AI digital marketing community."
           title="Marmalade AI digital marketing community."

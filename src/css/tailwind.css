@@ -90,3 +90,8 @@
 @tailwind components;
 
 @tailwind utilities;
+
+/* Craig added 2021-9-25 */
+.rounded-lg-vertical-align {
+    vertical-align:middle;
+}

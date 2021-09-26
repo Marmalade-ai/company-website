@@ -12,7 +12,7 @@ const UXDesign = () => (
     <div className="container mx-auto mt-10">
       <h1>
         <StaticImage
-          className="rounded-lg shadow-lg"
+          className="rounded-lg shadow-lg rounded-lg-vertical-align"
           src="../../images/UXdesign_soil_64.png"
           alt="Marmalade AI UX design community."
           title="Marmalade AI UX design community."
