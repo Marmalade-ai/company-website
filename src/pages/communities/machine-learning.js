@@ -30,8 +30,8 @@ const MachineLearning = () => (
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
               <p className="splitBody">
-                Freelancers in machine learning frequently use the Python Pandas
-                library to prepare data.
+                Freelancers in machine learning are generally familiar with the
+                Python Pandas library for data preparation.
               </p>
             </div>
           }
@@ -65,144 +65,150 @@ const MachineLearning = () => (
         <h2>How Can I Do Better as a Freelancer in Machine Learning?</h2>
         <p>
           &quot;How can you help me do <b>better</b> as a freelancer in machine
-          learning?&quot; If you found us through a search engine query, would
-          that be like the one you used? Or did you actually get{' '}
-          <i>irrelevant</i> results to that query? Results that implied you were
-          flying solo, hoping to appease the pricing gods by commoditizing your
-          services, and putting you in the company of hordes of freelancers in
-          the cold water waiting to try to go over the dam?
+          learning?&quot;
         </p>
         <p>
-          We are excited that you found us! We want you to be able to use
-          Marmalade AI to answer that very question: &quot;How can you help me
-          do better as a freelancer in machine learning?&quot;
+          If you found us through a <b>search query</b>, was that like the one
+          you used? Did you get mostly <i>irrelevant</i> results? Results that
+          assumed you were looking for solo work, commoditized your skills, and
+          removed differentiation?
+        </p>
+        <p>
+          We are excited that you found us anyway! We want you to be able to use
+          Marmalade AI to answer that very <b>question</b>: &quot;How can you
+          help me do better as a freelancer in machine learning?&quot;
         </p>
         <h2>Virtual Network</h2>
         <p>
-          The short answer is: sign up and use the virtual network that
+          The <b>short answer</b> is: sign up and use the virtual network that
           automatically is created by applying NLP to your profile, which you
           can copy and paste from elsewhere, or write from scratch.
         </p>
         <p>
-          The long answer is: use Marmalade AI to have a network where you can
-          raise the level of your work. We are in the era of virtualization to
-          provide more effective environments -- think of Docker images and
-          Kubernetes orchestration -- so why not a <i>virtual network</i> for
-          freelancers? It is the same idea. Your virtual network reflects your
-          profile. It is specific to you. Your virtual network changes when you
-          change your profile (caveat: it changes the next time our NLP engine
-          runs; not in real time currently).
+          The <b>long answer</b> is: use Marmalade AI to have a network where
+          you can raise the level of your work. We are in the era of
+          virtualization to provide more effective environments -- think of
+          Docker images and Kubernetes orchestration -- so why not a{' '}
+          <i>virtual network</i> for freelancers? It is the same idea.
         </p>
         <p>
-          This means you can use your virtual network, for example, to find
-          someone to help on part of a project where you realize you lack the
+          Your <b>virtual network</b> reflects your profile. It is specific to
+          you. Your virtual network changes when you change your profile
+          (caveat: it changes the next time our engine runs, which is not in
+          real time currently).
+        </p>
+        <p>
+          This means you can use your virtual network to find someone to{' '}
+          <b>help</b> on part of a project where you realize you lack the
           expertise. Or you can help someone by providing the expertise they are
-          lacking. A lot of projects have scope in which I can do what I am good
+          lacking. Maybe I am not familiar with the latest in spaCy, or Hugging
+          Face, but that now has become relevant to a project.
+        </p>
+        <p>
+          A lot of projects have <b>scope</b> in which I can do what I am good
           at, but one-tenth of the scope might be in a less familiar area that
-          will double the project time. This is just reality. The goal of
+          will expand the project time. This is just reality. The goal of
           Marmalade AI is to be a platform where your virtual network enables
-          you to focus on what you are good at. That is all transactional.
+          you to focus on what you are good at.
         </p>
         <p>
-          There is also the learning aspect. You need to be up-to-date in
-          peripheral expertise. Maybe pop up a virtual room at 3:00pm (Pacific)
-          today to discuss the latest in GPT-3 or BERT and send notifications
-          about it just to people who have indicated an interest in that topic.
-          It is like Quora or Reddit but more exact and closer to real time.
-          That is the vision for the communications side of this platform, so
-          please let us know what you think.
-        </p>
-        <h2>Evolution and Road Map</h2>
-        <p>
-          So how did we come to focus on virtual networking for machine learning
-          freelancers, what is in it for you, and how can you help guide its
-          evolution to be really useful for you?
+          That is all <b>transactional</b>, <b>and</b> there are also
+          partnerships for <b>learning</b>. You need to be up-to-date in
+          peripheral expertise. Maybe you can pop up a virtual room at 3:00pm
+          (Pacific) today to discuss the latest in GPT-3 or BERT, and send
+          notifications about it just to people who have indicated an interest
+          in that topic.
         </p>
         <p>
-          We started from a lot of &quot;user research.&quot; We learned many
-          things. Many interesting, little details. For example: Twice-weekly
+          Like Quora, Reddit, Slack, Clubhouse, etc., but <b>more exact</b> and
+          close to real time. That is the vision for the communications side of
+          this platform, so please let us know what you need.
+        </p>
+        <h2>Evolution</h2>
+        <p>
+          We started from a lot of &quot;<b>user research</b>.&quot; We learned
+          many things. Many interesting details. For example: Twice-weekly
           ping-pong meetups attended predominantly by machine learning software
           engineers and investment bankers are way more efficient than monthly
           Meetup.com events for networking. Or, in the case of Japanese-English
-          simultaneous interpreting gigs in the financial markets (New York and
-          Tokyo), the &quot;freelancers&quot; have 10 agency business cards and
-          the agencies do all the work of talking to clients and figuring out
-          who is available when for what? Many, many similar details. The
-          details are the important part. You have to enable the details to get
-          it to work.
+          simultaneous interpreting gigs in the financial markets in New York
+          and Tokyo, &quot;freelancers&quot; have 10 agency business cards.
+          Agencies do all the work of talking to clients and figuring out who is
+          available when for what? Many, many similar details. The details are
+          the important part. You have to enable the details to get it to work.
         </p>
         <p>
-          Yet, pretty much everybody said they had the same three big problems
-          with networking: 1) one-on-ones in any context always seem less
-          accurate than they could be (thank god for serendipity!) 2) everybody
-          feels like they are the worst person on the planet at keeping their
-          network up-to-date on what they are doing (some of these people could
-          be helpful, if they only knew!) 3) everybody thinks they already have
-          the biggest possible network (you cannot spend
-          <i>all</i> of your time networking!)
+          Yet, pretty much everybody said they had the{' '}
+          <b>same big problems with networking</b>: one-on-ones seem less
+          accurate than they could be (mitigated somewhat by serendipity!).
+          Everybody feels like they are the worst person on the planet at
+          keeping their network up-to-date (you cannot spend <i>all</i> of your
+          time networking!). And everyone feels like they already have the
+          biggest network they can handle.
         </p>
         <p>
-          Problem #3 subsumes the other two, so we are starting with that by
-          creating virtual networks that require very little effort.
-        </p>
-        <p>
-          The road map is to start with simple matching (<i>alpha</i>, aka
-          &quot;Early Access&quot;) that evolves into using NLP to facilitate
-          freelancer communities and integrate communications (<i>beta</i>);
-          then add tools making it easier to work together on projects; and
-          thirdly add ability for buy-side participation with demand-side
-          (freelancer) control of how the market works.
+          So we start with <b>virtual matching</b> (using simple matching in the{' '}
+          <i>alpha</i>, aka &quot;Early Access&quot;) that will evolve into
+          using NLP to facilitate freelancer communities as the networks get
+          larger.
         </p>
         <h2>Community First, Then Everything Else</h2>
         <p>
-          The road map is subject to your guidance. &quot;Unbundling,&quot;
-          &quot;self-organizing,&quot; like &quot;the world until 1800&quot;
-          (Naval Ravikant, founder of AngelList), whatever you want to call it:
-          the evolution of Marmalade AI is really subject to what you have to
-          say about it.
+          The <b>road map is subject to your guidance</b>.
+          &quot;Self-organizing&quot; : the evolution of Marmalade AI is really
+          subject to what you have to say about it. That is why we have a
+          Marmalade AI{' '}
+          <a
+            href="https://forum.marmalade.ai/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            forum
+          </a>{' '}
+          and this is Early Access.
         </p>
         <p>
-          We do think that a core idea is using technology (NLP, virtualization)
-          to enable more exact connections more easily. How exactly that plays
-          out in creating a platform for community is really up to you.
+          We think a core idea is using technology (NLP, virtualization) to
+          enable more <b>exact connections</b> more easily. How that plays out
+          is TBD by your feeback.
         </p>
         <h2>Behind the Scenes</h2>
         <p>
-          Finally we get to the good part! OK, so Marmalade AI is using NLP in R
-          with MLOps on Google Cloud to connect with phones, tablets, laptops,
-          desktops (Vue.js) as clients. Before that we wrote Python code using
-          XPath to look at thousands of freelancer profiles. The data is always
-          in the cloud and the client system is just an interface to it.
+          Marmalade AI is going to use <b>NLP</b> in <b>R</b> with MLOps on{' '}
+          <b>Google Cloud</b> connected with phones, tablets, laptops, desktops
+          through a <b>Vue.js</b> (more modern React.js) front end as clients.
+          We wrote Python code using XPath to look at thousands of freelancer
+          profiles to experiment with <b>models</b>.
         </p>
         <p>
-          We hope you will tell us where we are wrong and need to change our
-          thinking. For example, initially we thought evaluation of meetings
+          We hope you will <b>tell us</b> where we are wrong and need to change
+          our thinking. For example, initially we thought evaluation of meetings
           after the fact would be important. Then we realized that would be a
-          waste of time, because the tech freelancer&apos;s profiles should be
-          like a TV &quot;remote control&quot; here -- change the wording in
-          your profile to change your virtual network. We also decided not to
+          waste of time, because the tech freelancer&apos;s profiles should be{' '}
+          <b>like a TV &quot;remote control&quot;</b> here -- change the wording
+          in your profile to change your virtual network. We also decided not to
           use work history and education history, even though we had those,
-          because tech freelancers already express their focus clearly enough in
-          their profile text.
+          because tech freelancers already express their focus in their
+          profiles.
         </p>
         <p>
           We have many, many questions you can help with, and we reserve the
           right to be wrong and change our thinking. For example, will you be
-          open to communication with people you do not know? We think if the
-          context is vague, the answer is no. But if the context is relevant,
-          the answer is yes. Or, we think this eventually should be a
-          subscription service free of ads, with pay-for-use for communications.
-          The idea is monetizing based on creating actual value.
+          open to <b>communication with people you do not know?</b> We think if
+          the context is vague, the answer is no. But if the context is
+          relevant, the answer is yes. Or, we think this eventually should be a{' '}
+          <b>subscription</b> service free of ads, with <b>pay-for-use</b> for
+          communications. The idea is monetizing based on creating actual value.
         </p>
         <p>
           Marmalade AI is not going to try to deliver a BERT or GPT-3 equivalent
           for NLP in networking. Why not? Mainly because we think any level of
-          matching that is more exact than what happens now will have value.
-          Does it need to become real-time? Not clear.
+          matching that is <b>more exact</b> than what happens now will have
+          value. Does it need to become real-time? Not clear.
         </p>
         <p>
           In the sign-up form, we ask freelancers in machine learning to
-          identify their specializations. So indicate in the registration your
+          identify their <b>specializations</b>. So please indicate your
           interest in areas such as classification, prediction, statistical
           analysis, model production, data preparation, supervised or
           unsupervised learning, deep learning, visual recognition, data
@@ -215,30 +221,31 @@ const MachineLearning = () => (
         <p>
           If we missed a machine learning specialization, please tick
           &quot;other&quot; and let us know. More broadly, platform evolution is
-          up to you. Please invite people you are already working with, think
-          you could be working with, and explore virtual networking. We are big
-          believers in self-organizing communities.
+          up to you. <b>Please invite people</b> you are already working with,
+          think you could be working with, and explore virtual networking. We
+          are big believers in self-organizing communities.
         </p>
         <h2>Sign up to try it!</h2>
         <p>
-          As a freelancer in machine learning, I would like to join the free
-          Early Access testing program to use the Marmalade AI peer networking
-          platform. I understand that &quot;Early Access&quot; means this is a
-          very early pre-release of the application with minimal functionality.
-          However:
+          As a freelancer in machine learning, I would like to <b>join</b> the
+          free Early Access testing program to use the Marmalade AI peer
+          networking platform. I understand that &quot;Early Access&quot; means
+          this is a very early pre-release of the application with minimal
+          functionality. However:
         </p>
         <div className="ml-10">
           <ul className="list-outside">
             <li>
-              I will be introduced to other freelancers, who I would probably
-              not meet otherwise.
+              I will be <b>introduced</b> to other freelancers, who I would
+              probably not meet otherwise.
             </li>
             <li>
-              I will be able to forward invitations to others I work with (or
-              others I would like to work with).
+              I will be able to forward <b>invitations</b> to others I work with
+              (or others I would like to work with).
             </li>
             <li>
-              I will participate in an Early Access discussion topic of the{' '}
+              I will <b>participate</b> in an Early Access discussion topic of
+              the{' '}
               <a
                 href="https://forum.marmalade.ai/"
                 rel="noreferrer"
