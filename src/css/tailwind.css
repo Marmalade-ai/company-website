@@ -20,6 +20,10 @@
     @apply mt-6 font-semibold text-xl;
   }
 
+  hr {
+    margin: 10px;
+  }
+
   p {
     @apply mt-2;
   }

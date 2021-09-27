@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Button from '../components/Button';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/seo';
 
@@ -9,123 +10,100 @@ const Faq = () => (
     <div className="container mx-auto mt-10">
       <h1>Frequently Asked Questions</h1>
     </div>
-    <article className="pt-2">
-      <div className="container mx-auto md:max-w-xl">
-        <h2>How does it work?</h2>
-        <p>
-          Create a login, then that information, especially your profile
-          (&quot;About&quot; section, which you can write from scratch or cut
-          and paste from Linkedin, About.me, etc.) is run through NLP
-          (&quot;machine learning,&quot; AI) to create a virtual network of
-          people it seems like you should know. If you change the wording of
-          your profile, your network changes. You can do searches for specific
-          topics, skills, geographies, too. This is the base upon which we hope
-          to build a lot more functionality, so please tell us what you need.
-        </p>
-
-        <h2>What does it cost?</h2>
-        <p>
-          Free forever for Early Access users with an invite code. Later, there
-          will be a monthly subscription, so there is some minimal cost of
-          entry. We are also considering whether some kind of &quot;pay per
-          use&quot; for functionality that will be added.
-        </p>
-
-        <h2>What do I need to do to get started?</h2>
-        <p>
-          First, <Link to="/alphaGoogleForm"> apply for early access</Link>.
-          Once you have been accepted into the Early Access program, you will
-          have a link to the app, where you can register, login, and complete
-          your profile. Then you can start connecting with people!
-        </p>
-
-        <h2>
-          Is it only for these specific tech communities in the Early Access
-          program?
-        </h2>
-        <p>
-          Yes and no. If you mark &quot;Other&quot; (and specify your area),
-          there cannot be the same kind of networking experience as if you were
-          in one of the Early Access communities. Down the road, we expect to
-          expand to other tech freelancing communities of practice, freelancing
-          in general, and then all professionals.
-        </p>
-
-        <h2>Is the information private?</h2>
-        <p>
-          Yes. See our <Link to="/privacy-policy">Privacy Policy</Link>.
-        </p>
-
-        <h2>Does this conform to GDPR (European Union privacy legislation)?</h2>
-        <p>
-          Until we have a chance to understand GDPR, we explicitly limit
-          registration to residents of North America.
-        </p>
-
-        <h2>How do I know who to connect to?</h2>
-        <p>
-          We use NLP (Natural Language Processing), a type of machine learning
-          (&quot;AI&quot;) to make matches based on what is included in
-          MyProfile. So the short answer is, you do not need to know who to
-          connect to, the platform creates a virtual network for you. However,
-          you can also do searches of your own.
-        </p>
-
-        <h2>Can I find a job through this?</h2>
-        <p>Yes, and see &quot;What is the roadmap?&quot; below.</p>
-
-        <h2>What can I learn through this?</h2>
-        <p>Anything you want. The idea is to share knowledge.</p>
-
-        <h2>What if I want to be mentored?/Want to mentor?</h2>
-        <p>Indicate that in MyProfile.</p>
-
-        <h2>What region is this for?</h2>
-        <p>North America only during the Early Access program.</p>
-
-        <h2>
-          What if I do not want somebody to contact me or be on my network?
-        </h2>
-        <p>
-          During the Early Access phase, you will need to send us an email about
-          the issue. We will contact the person and if there are repeated
-          issues, ban him or her. Later we hope to have a way to just block
-          someone yourself.
-        </p>
-
-        <h2>What is the roadmap?</h2>
-        <p>Initial: Get a networked community going for tech freelancers.</p>
-        <p>Longer term ...</p>
-        <p>
-          &quot;Pods&quot;: For example, you are working on a project and you
-          realize there is a part that calls for something you are not current
-          on, so you want to bring in someone from your network for that. It is
-          not a long-term thing. You are not forming an LLC or C-corp. Just
-          facilitate this. So enabling &quot;digital organization&quot; for
-          freelancers.
-        </p>
-        <p>
-          &quot;Two-side marketplace&quot;: Being able to indicate that you are
-          available (or not) for hire, maybe with some detail or filters, and
-          then companies or recruiters can have their own class of participation
-          in the platform and contact you.
-        </p>
-
-        <h2>How do I change my network?</h2>
-        <p>
-          Edit your profile and your network will change next time the
-          recommendation engine runs.
-        </p>
-
-        <h2>How do I save a specific network or query?</h2>
-        <p>We do not offer that capability now but hope to soon.</p>
-
-        <h2>How do I contact people?</h2>
-        <p>
-          For now, you will need to set up a Zoom or similar call. Down the
-          road, we plan to incorporate video chat capability, as well as
-          offering your availability / non-availability, in the platform.
-        </p>
+    <article className="pt-5">
+      <div className="container mx-auto">
+        <div className="pt-5 divide-y-4 divide-primary">
+          <div />
+          <div>
+            <h2>Getting Started</h2>
+            <h3>How do I get started?</h3>
+            <p>
+              <Link to="/alphaGoogleForm">Apply for Early Access</Link>. After
+              receiving an invitation to participate in the Early Access
+              Program, you will be able fill in your profile, which Marmalade AI
+              will use to create a virtual network of people for you to meet.
+            </p>
+            <h3>What does it cost?</h3>
+            <p>Free forever for Early Access users.</p>
+            <h3>Is this a global service?</h3>
+            <p>
+              The Early Access program is only available for those living in
+              North America.
+            </p>
+            <div className="pt-5" />
+          </div>
+          <div>
+            <h2>Building Your Network</h2>
+            <h3>How do I connect with other people?</h3>
+            <p>
+              Marmalade AI makes matches automatically based on what is included
+              in your profile. Then you can choose whether to connect to those
+              people suggested in your virtual network.
+            </p>
+            <h3>Can I find a job through this?</h3>
+            <p>
+              Marmalade AI helps you to build your professional network, which
+              is an important component of finding jobs and contracts.
+            </p>
+            <h3>What can I learn through this?</h3>
+            <p>
+              A professional network is a great resource for learning and
+              sharing whatever is relevant to your work.
+            </p>
+            <h3>What if I want to be mentored? Or to mentor?</h3>
+            <p>Indicate that in your profile.</p>
+            <h3>How do I contact people?</h3>
+            <p>
+              For now, you will need to set up a Zoom or similar call. Down the
+              road, we plan to incorporate video chat capability, as well as
+              offering your availability / non-availability, in the platform.
+            </p>
+            <h3>
+              What if my area of specialization is not in the list of{' '}
+              <Link to="/communities">Communities</Link>?
+            </h3>
+            <p>
+              Marmalade AI supports all areas of professional networking, but we
+              are currently focused on building a few specific communities. You
+              are welcome to participate from other areas of expertise, but you
+              may not find the matching experience to be as good as for those
+              supported <Link to="/communities">Communities</Link>. However, we
+              expect Marmalade AI to expand to other tech freelancing
+              communities of practice, freelancing in general, and then all
+              professionals in the future.
+            </p>
+            <h3>
+              Where can I give feedback and discuss my Early Access experience?
+            </h3>
+            <p>
+              Early Access participants have been invited to a{' '}
+              <a href="https://forum.marmalade.ai/t/marmalade-ai-early-access-users-lounge/82">
+                discussion forum
+              </a>
+              .
+            </p>
+            <div className="pt-5" />
+          </div>
+          <div>
+            <h2>Your Information</h2>
+            <h3>Will my information be protected?</h3>
+            <p>
+              Yes. See our <Link to="/privacy-policy">Privacy Policy</Link>.
+            </p>
+            <h3>Will my information be sold to third parties?</h3>
+            <p>No.</p>
+            <h3>Will there be advertising on the website?</h3>
+            <p>No.</p>
+            <div className="pt-5" />
+          </div>
+          <div>
+            <p className="mt-8">
+              <Link to="/alphaGoogleForm">
+                <Button size="lg">Apply for Early Access</Button>
+              </Link>
+            </p>
+          </div>
+        </div>
       </div>
     </article>
   </Layout>
