@@ -26,6 +26,9 @@ const Footer = () => (
             <li>
               <Link to="/communities">Communities</Link>
             </li>
+            <li>
+              <Link to="/contact">Contact Us</Link>
+            </li>
           </ul>
         </nav>
       </section>

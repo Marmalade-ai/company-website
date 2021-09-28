@@ -97,22 +97,22 @@ const Faq = () => (
             <p>No.</p>
             <div className="pt-5" />
           </div>
-          <div>
-            <h3>Where else can I ask questions about Marmalade AI?</h3>
-            <p>
-              Please <Link to="/contact">contact us</Link> directly or post in
-              one of the public{' '}
-              <a href="https://forum.marmalade.ai/">discussion forum</a> topics.
-            </p>
-            <div className="pt-5" />
-          </div>
-          <div>
-            <p className="mt-8">
-              <Link to="/alphaGoogleForm">
-                <Button size="lg">Apply for Early Access</Button>
-              </Link>
-            </p>
-          </div>
+          <div />{' '}
+        </div>
+        <div>
+          <h3>Where else can I ask questions about Marmalade AI?</h3>
+          <p>
+            Please <Link to="/contact">contact us</Link> directly or post in one
+            of the public{' '}
+            <a href="https://forum.marmalade.ai/">discussion forum</a> topics.
+          </p>
+        </div>
+        <div>
+          <p className="mt-8">
+            <Link to="/alphaGoogleForm">
+              <Button size="lg">Apply for Early Access</Button>
+            </Link>
+          </p>
         </div>
       </div>
     </article>
