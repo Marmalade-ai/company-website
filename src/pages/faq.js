@@ -76,11 +76,12 @@ const Faq = () => (
               Where can I give feedback and discuss my Early Access experience?
             </h3>
             <p>
-              Early Access participants have been invited to a{' '}
+              Early Access participants have been invited to the{' '}
               <a href="https://forum.marmalade.ai/t/marmalade-ai-early-access-users-lounge/82">
-                discussion forum
-              </a>
-              .
+                Early Access users lounge
+              </a>{' '}
+              in the Marmalade AI{' '}
+              <a href="https://forum.marmalade.ai/">discussion forum</a>.
             </p>
             <div className="pt-5" />
           </div>
@@ -94,6 +95,15 @@ const Faq = () => (
             <p>No.</p>
             <h3>Will there be advertising on the website?</h3>
             <p>No.</p>
+            <div className="pt-5" />
+          </div>
+          <div>
+            <h3>Where else can I ask questions about Marmalade AI?</h3>
+            <p>
+              Please <Link to="/contact">contact us</Link> directly or post in
+              one of the public{' '}
+              <a href="https://forum.marmalade.ai/">discussion forum</a> topics.
+            </p>
             <div className="pt-5" />
           </div>
           <div>
