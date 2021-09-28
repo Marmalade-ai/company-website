@@ -25,42 +25,45 @@ const DigitalMarketing = () => (
     </div>
     <article className="py-20 lg:pb-4 lg:pt-4">
       <div className="px-6 mx-auto lg:w-2/3">
-        <SplitSection
-          reverseOrder
-          primarySlot={
-            <div className="lg:pl-32 xl:pl-48">
-              <p className="splitBody">
-                Digital marketing means collaboration to get feedback.
-              </p>
-            </div>
-          }
-          secondarySlot={
-            <StaticImage
-              className="rounded-lg shadow-lg"
-              src="../../images/kobu-agency-7okkFhxrxNw-unsplash_300.jpg"
-              alt="Two women collaborating at a computer screen."
-              title="Collaborating to get feedback."
-            />
-          }
-        />
-        <SplitSection
-          primarySlot={
-            <div className="lg:pr-32 xl:pr-48">
-              <p className="splitBody">
-                Search Engine Optimization (SEO) is key to inbound marketing and
-                it is changing rapidly.
-              </p>
-            </div>
-          }
-          secondarySlot={
-            <StaticImage
-              className="rounded-lg shadow-lg	"
-              src="../../images/pexels-freeboilergrants-7119258_300.jpg"
-              alt="Scrabble tiles spelling SEO."
-              title="SEO is essential to inbound marketing."
-            />
-          }
-        />
+        <h2>Sign up to try it!</h2>
+        <p>
+          As a freelancer in digital marketing, I would like to <b>join</b> the
+          free Early Access testing program to use the Marmalade AI peer
+          networking platform. I understand that &quot;Early Access&quot; means
+          this is a very early pre-release of the application with minimal
+          functionality. However:
+        </p>
+        <div className="ml-10">
+          <ul className="list-outside">
+            <li>
+              I will be <b>introduced</b> to other freelancers, who I would
+              probably not meet otherwise.
+            </li>
+            <li>
+              I will be able to forward <b>invitations</b> to others I work with
+              (or others I would like to work with).
+            </li>
+            <li>
+              I will <b>participate</b> in an Early Access discussion topic of
+              the{' '}
+              <a
+                href="https://forum.marmalade.ai/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Marmalade AI Forum
+              </a>
+              , where I will provide feedback regarding this Early Access
+              version of the application.
+            </li>
+          </ul>
+        </div>
+        Yay, freelancers!
+        <p className="mt-8">
+          <Link to="/alphaGoogleForm">
+            <Button size="lg">Apply for Early Access</Button>
+          </Link>
+        </p>
         <h2>How Can I Do Better as a Freelancer in Digital Marketing?</h2>
         <p>
           &quot;How can you help me do <b>better</b> as a freelancer in digital
@@ -126,27 +129,42 @@ const DigitalMarketing = () => (
           forum boards, or maybe like the good parts of Quora.com or Clubhouse,
           but more exact.
         </p>
-        <h2>The Back Story</h2>
-        <p>
-          How did we come to focus on virtual networking for digital marketing
-          freelancers, what is in it for you, and how can you help guide its
-          evolution to be really useful for you?
-        </p>
-        <p>
-          We started from a lot of &quot;<b>user research</b>.&quot; We learned
-          many interesting, little details. For example: In the case of
-          Japanese-English simultaneous interpreting gigs in the financial
-          market (New York and Tokyo), the &quot;freelancers&quot; have 10
-          agency business cards and the agencies do all the work of talking to
-          clients and figuring out who is available when for what? Or, maybe
-          twice-weekly ping-pong meetups attended predominantly by software
-          engineers and bankers are 10x more efficient than monthly Meetup.com
-          events when it comes to networking.
-        </p>
-        <p>
-          Bottom line: <b>If the context is narrow enough</b>, people want to
-          participate in the network.
-        </p>
+        <SplitSection
+          reverseOrder
+          primarySlot={
+            <div className="lg:pl-32 xl:pl-48">
+              <p className="splitBody">
+                Digital marketing means collaboration to get feedback.
+              </p>
+            </div>
+          }
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg"
+              src="../../images/kobu-agency-7okkFhxrxNw-unsplash_300.jpg"
+              alt="Two women collaborating at a computer screen."
+              title="Collaborating to get feedback."
+            />
+          }
+        />
+        <SplitSection
+          primarySlot={
+            <div className="lg:pr-32 xl:pr-48">
+              <p className="splitBody">
+                Search Engine Optimization (SEO) is key to inbound marketing and
+                it is changing rapidly.
+              </p>
+            </div>
+          }
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg	"
+              src="../../images/pexels-freeboilergrants-7119258_300.jpg"
+              alt="Scrabble tiles spelling SEO."
+              title="SEO is essential to inbound marketing."
+            />
+          }
+        />
         <h2>Community First, Then Everything Else</h2>
         <p>
           The <b>road map is up to you</b>. The evolution of Marmalade AI is
@@ -163,42 +181,6 @@ const DigitalMarketing = () => (
           technology (NLP, virtualization) to enable more exact connections more
           easily. How exactly that plays out in creating a platform for
           community is really up to you.
-        </p>
-        <h2>Tech Deep Dive</h2>
-        <p>
-          OK, so Marmalade AI is using <b>NLP</b> in <b>R</b> with MLOps on{' '}
-          <b>Google Cloud</b> to connect with phones, tablets, laptops, desktops
-          using <b>Vue.js</b> (more modern React.js) on client devices. Before
-          that we wrote Python code using XPath to look at thousands of
-          freelancer profiles and develop <b>models</b>. In the Marmalade AI
-          app, the data is in the cloud and the client system is an interface to
-          it.
-        </p>
-        <p>
-          We hope you will <b>tell us</b> where we are wrong and need to change
-          our thinking. For example, initially we thought evaluation of meetings
-          after the fact would be important. Then we realized that would be a
-          waste of time. A freelancer&apos;s{' '}
-          <b>profile should be like a &quot;remote control&quot;</b> -- change
-          the wording in your profile to change your virtual network. We also
-          decided to not use work history and education history, even though we
-          had those, because tech freelancers express their focus in their
-          profiles.
-        </p>
-        <p>
-          We have many, many questions you can help with. Will you be open to{' '}
-          <b>communication with people you do not know?</b> We think if the
-          context is vague, the answer is no. If the context is relevant, the
-          answer is yes. Or, we think this eventually should be a{' '}
-          <b>subscription</b> service free of advertising, with{' '}
-          <b>pay-for-use</b> for working via the platform. The idea is
-          monetizing based on creating actual value.
-        </p>
-        <p>
-          Marmalade AI is not going to deliver a BERT or GPT-3 equivalent for
-          NLP in networking. Why not? Mainly because we think any level of
-          matching that is <b>more exact</b> than what happens now will have
-          value. Does it need to be real-time? We'll see.
         </p>
         <h2>About the Sign Up Form</h2>
         <p>

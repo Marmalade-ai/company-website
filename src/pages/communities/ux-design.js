@@ -22,41 +22,45 @@ const UXDesign = () => (
     </div>
     <article className="py-20 lg:pb-4 lg:pt-4">
       <div className="px-6 mx-auto lg:w-2/3">
-        <SplitSection
-          reverseOrder
-          primarySlot={
-            <div className="lg:pl-32 xl:pl-48">
-              <p className="splitBody">
-                UX design immerses the user in the experience.
-              </p>
-            </div>
-          }
-          secondarySlot={
-            <StaticImage
-              className="rounded-lg shadow-lg"
-              src="../../images/christina-wocintechchat-com-J7EDyqUwXJI-unsplash_300.jpg"
-              alt="A happy user viewing a phone app."
-              title="UX design improves the user experience."
-            />
-          }
-        />
-        <SplitSection
-          primarySlot={
-            <div className="lg:pr-32 xl:pr-48">
-              <p className="splitBody">
-                UX designers test interactions on multiple devices.
-              </p>
-            </div>
-          }
-          secondarySlot={
-            <StaticImage
-              className="rounded-lg shadow-lg	"
-              src="../../images/taras-shypka-iFSvn82XfGo-unsplash_300.jpg"
-              alt="Tablet in front of a large computer screen."
-              title="Designing for multiple devices."
-            />
-          }
-        />
+        <h2>Sign up to try it!</h2>
+        <p>
+          As a freelancer in UX design, I would like to <b>join</b> the free
+          Early Access testing program to use the Marmalade AI peer networking
+          platform. I understand that &quot;Early Access&quot; means this is a
+          very early pre-release of the application with minimal functionality.
+          However:
+        </p>
+        <div className="ml-10">
+          <ul className="list-outside">
+            <li>
+              I will be <b>introduced</b> to other freelancers, who I would
+              probably not meet otherwise.
+            </li>
+            <li>
+              I will be able to forward <b>invitations</b> to others I work with
+              (or others I would like to work with).
+            </li>
+            <li>
+              I will <b>participate</b> in an Early Access discussion topic of
+              the{' '}
+              <a
+                href="https://forum.marmalade.ai/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Marmalade AI Forum
+              </a>
+              , where I will provide feedback regarding this Early Access
+              version of the application.
+            </li>
+          </ul>
+        </div>
+        Yay, freelancers!
+        <p className="mt-8">
+          <Link to="/alphaGoogleForm">
+            <Button size="lg">Apply for Early Access</Button>
+          </Link>
+        </p>
         <h2>How Can I Do Better as a Freelancer in UX Design?</h2>
         <p>
           &quot;How can you help me do <b>better</b> as a freelancer in UX
@@ -107,24 +111,41 @@ const UXDesign = () => (
           . All you need to do is keep your profile current with the kind of
           work you do.
         </p>
-        <h2>Evolution</h2>
-        <p>
-          Our vision has evolved. Yes, everybody needs to network. Freelancers
-          even more frequently. Marmalade AI&apos;s initial goal is to be a
-          useful platform for <b>tech freelancer</b> communities, so we chose to
-          launch in three areas of tech freelancing.
-        </p>
-        <p>
-          We want this to be more about you, building a network of UX design
-          freelancers who can find each other more easily, share projects, keep
-          their knowledge up-to-date.
-        </p>
-        <p>
-          There is no shortage of applications that favor the buyer of freelance
-          UX design services. In some cases, these are very broad. In other
-          cases, they are very narrow. We are not doing that. We favor the{' '}
-          <b>provider</b> of freelance UX design.
-        </p>
+        <SplitSection
+          reverseOrder
+          primarySlot={
+            <div className="lg:pl-32 xl:pl-48">
+              <p className="splitBody">
+                UX design immerses the user in the experience.
+              </p>
+            </div>
+          }
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg"
+              src="../../images/christina-wocintechchat-com-J7EDyqUwXJI-unsplash_300.jpg"
+              alt="A happy user viewing a phone app."
+              title="UX design improves the user experience."
+            />
+          }
+        />
+        <SplitSection
+          primarySlot={
+            <div className="lg:pr-32 xl:pr-48">
+              <p className="splitBody">
+                UX designers test interactions on multiple devices.
+              </p>
+            </div>
+          }
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg	"
+              src="../../images/taras-shypka-iFSvn82XfGo-unsplash_300.jpg"
+              alt="Tablet in front of a large computer screen."
+              title="Designing for multiple devices."
+            />
+          }
+        />
         <h2>Community First, Then Everything Else</h2>
         <p>
           Marmalade AI&apos;s core idea is to make networking virtual. By doing
@@ -140,21 +161,6 @@ const UXDesign = () => (
             forum
           </a>{' '}
           and this is Early Access.
-        </p>
-        <h2>Behind the Scenes</h2>
-        <p>
-          Marmalade AI applies <b>NLP</b> (Natural Language Processing, machine
-          learning, AI) to freelancers&apos; profiles. Your virtual network
-          evolves as more people join. You can invite people you currently work
-          with or would like to connect with. It is automatic. If you change the
-          wording of your profile, eventually your virtual network will change.
-          It is like affective reality.
-        </p>
-        <p>
-          UX design freelancers tend to work from a <b>portfolio</b> and share
-          their design thinking over Dribbble, Behance, or similar sites. Do we
-          need to replicate that? We think probably not. Just put a link to your
-          portfolio in your profile.
         </p>
         <h2>About the Sign Up Form</h2>
         <p>
