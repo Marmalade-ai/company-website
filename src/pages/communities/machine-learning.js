@@ -23,8 +23,8 @@ const MachineLearning = () => (
         Machine Learning
       </h1>
     </div>
-    <article className="py-20 lg:pb-4 lg:pt-4">
-      <div className="px-6 mx-auto lg:w-2/3">
+    <article className="pt-5">
+      <div className="px-10 mx-auto">
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in machine learning, I would like to <b>join</b> the
