@@ -11,7 +11,7 @@ const Contact = () => (
     <article className="pt-5">
       <div className="container mx-auto">
         <h2>Email</h2>
-        <p>info@marmalade.ai</p>
+        <a href="mailto:info@marmalade.ai">info@marmalade.ai</a>
       </div>
     </article>
   </Layout>
