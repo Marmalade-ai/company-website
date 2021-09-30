@@ -115,7 +115,7 @@ const UXDesign = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 UX design immerses the user in the experience.
               </p>
             </div>
@@ -132,7 +132,7 @@ const UXDesign = () => (
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 UX designers test interactions on multiple devices.
               </p>
             </div>

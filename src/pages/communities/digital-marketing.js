@@ -133,7 +133,7 @@ const DigitalMarketing = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 Digital marketing means collaboration to get feedback.
               </p>
             </div>
@@ -150,9 +150,8 @@ const DigitalMarketing = () => (
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <p className="splitBody">
-                Search Engine Optimization (SEO) is key to inbound marketing and
-                it is changing rapidly.
+              <p className="splitBody font-semibold">
+                Search Engine Optimization (SEO) is key to inbound marketing.
               </p>
             </div>
           }

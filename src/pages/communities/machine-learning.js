@@ -130,9 +130,9 @@ const MachineLearning = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 Freelancers in machine learning are generally familiar with the
-                Python Pandas library for data preparation.
+                Pandas library for data preparation.
               </p>
             </div>
           }
@@ -148,7 +148,7 @@ const MachineLearning = () => (
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 Freelancers in machine learning often create charts of time
                 series data.
               </p>
