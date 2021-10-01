@@ -101,8 +101,8 @@ const CodeOfConduct = () => (
             https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
           </a>
           . For answers to common questions about that code of conduct, see{' '}
-          <a href="https://www.contributor-cov/faq">
-            https://www.contributor-cov/faq
+          <a href="https://www.contributor-covenant.org/faq">
+            https://www.contributor-covenant.org/faq
           </a>
           .
         </p>
