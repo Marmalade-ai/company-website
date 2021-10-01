@@ -12,7 +12,7 @@ const DigitalMarketing = () => (
       title="Digital Marketing"
       description="Digital Marketing community of freelancers."
     />
-    <div className="container mx-auto mt-10">
+    <div className="px-10 mx-auto mt-10">
       <h1>
         <StaticImage
           className="rounded-lg shadow-lg rounded-lg-vertical-align"
@@ -23,8 +23,8 @@ const DigitalMarketing = () => (
         Digital Marketing
       </h1>
     </div>
-    <article className="py-20 lg:pb-4 lg:pt-4">
-      <div className="px-6 mx-auto lg:w-2/3">
+    <article className="pt-5">
+      <div className="px-10 mx-auto">
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in digital marketing, I would like to <b>join</b> the
@@ -64,11 +64,8 @@ const DigitalMarketing = () => (
             <Button size="lg">Apply for Early Access</Button>
           </Link>
         </p>
+        <div className="pt-10" />
         <h2>How Can I Do Better as a Freelancer in Digital Marketing?</h2>
-        <p>
-          &quot;How can you help me do <b>better</b> as a freelancer in digital
-          marketing?&quot;
-        </p>
         <p>
           If you found us through a <b>search query</b>, was it something like
           that? Or did you get results that seemed like answers to a different
@@ -83,12 +80,12 @@ const DigitalMarketing = () => (
         <h2>Virtual Network</h2>
         <p>
           The <b>short answer</b> is: sign up and use Marmalade AI's virtual
-          network that applies NLP to your profile to connect you with other
-          specialists in digital marketing. So how do you get a profile? Well,
-          you can copy and paste from elsewhere, or write it from scratch.
-          Either way, it is quick to register. Instead of taking years to build
-          up a network, a virtual network takes minutes and reflects your
-          profile.
+          network that is derived from your profile. Marmalade AI will connect
+          you with other specialists in digital marketing. So how do you get a
+          profile? Well, you can copy and paste from elsewhere, or write it from
+          scratch. Either way, it is quick to register. Instead of taking years
+          to build up a network, a virtual network takes minutes and reflects
+          your profile.
         </p>
         <p>
           The <b>long answer</b> is: by using Marmalade AI you can have a
@@ -100,8 +97,7 @@ const DigitalMarketing = () => (
           for freelancers? It is the same idea. Your virtual network reflects
           your profile. It is normally composed of other digital marketing
           freelancers with related specializations. It changes when you change
-          your profile (caveat: in &quot;Early Access,&quot; it changes the next
-          time our matching engine runs; which is not in real time currently).
+          your profile.
         </p>
         <p>
           This means you can use your virtual network to <b>find help</b> on
@@ -120,7 +116,7 @@ const DigitalMarketing = () => (
           you to focus on what you are good at.
         </p>
         <p>
-          <b>Transactions</b> are one part of the story; <b>and</b> the other is{' '}
+          <b>Transactions</b> are one part of the story; the other is{' '}
           <b>learning</b>. How do you efficiently stay current in topics that
           are important to, but not core to, your expertise? How about, for
           example, if you could create a virtual room at 12:00pm (EST){' '}
@@ -132,7 +128,7 @@ const DigitalMarketing = () => (
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className="lg:pl-32 xl:pl-48">
+            <div className="pl-8">
               <p className="splitBody font-semibold">
                 Digital marketing means collaboration to get feedback.
               </p>
@@ -147,23 +143,7 @@ const DigitalMarketing = () => (
             />
           }
         />
-        <SplitSection
-          primarySlot={
-            <div className="lg:pr-32 xl:pr-48">
-              <p className="splitBody font-semibold">
-                Search Engine Optimization (SEO) is key to inbound marketing.
-              </p>
-            </div>
-          }
-          secondarySlot={
-            <StaticImage
-              className="rounded-lg shadow-lg	"
-              src="../../images/pexels-freeboilergrants-7119258_300.jpg"
-              alt="Scrabble tiles spelling SEO."
-              title="SEO is essential to inbound marketing."
-            />
-          }
-        />
+        <div className="pt-10" />
         <h2>Community First, Then Everything Else</h2>
         <p>
           The <b>road map is up to you</b>. The evolution of Marmalade AI is
@@ -181,26 +161,34 @@ const DigitalMarketing = () => (
           easily. How exactly that plays out in creating a platform for
           community is really up to you.
         </p>
-        <h2>About the Sign Up Form</h2>
+        <SplitSection
+          primarySlot={
+            <div className="pr-8">
+              <p className="splitBody font-semibold">
+                Search Engine Optimization (SEO) is key to inbound marketing and
+                it is changing rapidly.
+              </p>
+            </div>
+          }
+          secondarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg	"
+              src="../../images/pexels-freeboilergrants-7119258_300.jpg"
+              alt="Scrabble tiles spelling SEO."
+              title="SEO is essential to inbound marketing."
+            />
+          }
+        />
+        <div className="pt-10" />
+        <h2>We Are Open To Input From The Community!</h2>
         <p>
-          In the sign-up form, we ask freelancers in digital marketing to
-          identify their <b>specializations</b>. So please indicate your focus
-          in areas such as SEO, WordPress, content, new market development,
-          website development, positioning, competitive analysis, collateral,
-          influencer marketing, branding, inbound marketing, growth, data
-          analytics, ecommerce, paid media and advertising, social media,
-          events, and customer journeys.
-        </p>
-        <h2>Please Tell Use What to Do Next!</h2>
-        <p>
-          If we missed a digital marketing specialization, please tick
-          &quot;other&quot; and let us know. More broadly, we said a little
-          about what we think is on the road map: community, co-working,
-          control. But that is subject to what we hear from you.{' '}
-          <b>Please invite people</b> you are already working with, think you
+          We said a little about what we think is on the road map: community,
+          co-working, control. But that is subject to what we hear from you.{' '}
+          <b>Please invite people</b> you are already working with or think you
           could be working with, and explore virtual networking. We are big
           believers in self-organizing communities.
         </p>
+        <div className="pt-10" />
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in digital marketing, I would like to <b>join</b> the

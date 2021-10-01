@@ -9,7 +9,7 @@ import SplitSection from '../../components/SplitSection';
 const UXDesign = () => (
   <Layout>
     <SEO title="UX Design" description="UX Design community of freelancers." />
-    <div className="container mx-auto mt-10">
+    <div className="px-10 mx-auto mt-10">
       <h1>
         <StaticImage
           className="rounded-lg shadow-lg rounded-lg-vertical-align"
@@ -20,8 +20,8 @@ const UXDesign = () => (
         UX Design
       </h1>
     </div>
-    <article className="py-20 lg:pb-4 lg:pt-4">
-      <div className="px-6 mx-auto lg:w-2/3">
+    <article className="pt-5">
+      <div className="px-10 mx-auto">
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in UX design, I would like to <b>join</b> the free
@@ -61,15 +61,12 @@ const UXDesign = () => (
             <Button size="lg">Apply for Early Access</Button>
           </Link>
         </p>
+        <div className="pt-10" />
         <h2>How Can I Do Better as a Freelancer in UX Design?</h2>
         <p>
-          &quot;How can you help me do <b>better</b> as a freelancer in UX
-          design?&quot;
-        </p>
-        <p>
           We hope that is the kind of <b>search query</b> that brought you to
-          us. If so, you maybe had to sort through a LOT of irrelevant results
-          that assumed you wanted to be siloed, commoditized, and
+          us. If so, you maybe had to sort through <b>many</b> irrelevant
+          results that assumed you wanted to be siloed, commoditized, and
           undifferentiated.
         </p>
         <p>
@@ -112,9 +109,8 @@ const UXDesign = () => (
           work you do.
         </p>
         <SplitSection
-          reverseOrder
           primarySlot={
-            <div className="lg:pl-32 xl:pl-48">
+            <div className="pl-8">
               <p className="splitBody font-semibold">
                 UX design immerses the user in the experience.
               </p>
@@ -129,23 +125,7 @@ const UXDesign = () => (
             />
           }
         />
-        <SplitSection
-          primarySlot={
-            <div className="lg:pr-32 xl:pr-48">
-              <p className="splitBody font-semibold">
-                UX designers test interactions on multiple devices.
-              </p>
-            </div>
-          }
-          secondarySlot={
-            <StaticImage
-              className="rounded-lg shadow-lg	"
-              src="../../images/taras-shypka-iFSvn82XfGo-unsplash_300.jpg"
-              alt="Tablet in front of a large computer screen."
-              title="Designing for multiple devices."
-            />
-          }
-        />
+        <div className="pt-10" />
         <h2>Community First, Then Everything Else</h2>
         <p>
           Marmalade AI&apos;s core idea is to make networking virtual. By doing
@@ -162,26 +142,33 @@ const UXDesign = () => (
           </a>{' '}
           and this is Early Access.
         </p>
-        <h2>About the Sign Up Form</h2>
+        <SplitSection
+          primarySlot={
+            <StaticImage
+              className="rounded-lg shadow-lg	"
+              src="../../images/taras-shypka-iFSvn82XfGo-unsplash_300.jpg"
+              alt="Tablet in front of a large computer screen."
+              title="Designing for multiple devices."
+            />
+          }
+          secondarySlot={
+            <div className="pr-8">
+              <p className="splitBody font-semibold">
+                UX designers test interactions on multiple devices.
+              </p>
+            </div>
+          }
+        />
+        <div className="pt-10" />
+        <h2>We Are Open To Input From The Community!</h2>
         <p>
-          In the sign-up form, we ask freelancers in UX design to identify their{' '}
-          <b>specializations</b>. NLP will be the engine, once we scale up. In
-          the near term, we use simple matching. So indicate in the sign up form
-          your interest in areas such as graphic design, creative design, UX
-          design, CX, wireframing, conversational design, prototyping, A/B
-          testing, mobile, packaging, healthcare, industrial, research,
-          information architecture, UI developer, interaction design, and UX
-          writer.
+          We said a little about what we think is on the road map: community,
+          co-working, control. But that is subject to what we hear from you.{' '}
+          <b>Please invite people</b> you are already working with or think you
+          could be working with, and explore virtual networking. We are big
+          believers in self-organizing communities.
         </p>
-        <h2>Please Tell Use What to Do Next!</h2>
-        <p>
-          If we missed a UX design specialization, please tick &quot;other&quot;
-          and let us know. More broadly, we said a little about what we think is
-          on the road map: community, co-working, control. But that is subject
-          to what we hear from you. <b>Please invite people</b> you are already
-          working with, think you could be working with, and explore virtual
-          networking. We are big believers in self-organizing communities.
-        </p>
+        <div className="pt-10" />
         <h2>Sign up to try it!</h2>
         <p>
           As a freelancer in UX design, I would like to <b>join</b> the free
