@@ -72,17 +72,6 @@ const Faq = () => (
               communities of practice, freelancing in general, and then all
               professionals in the future.
             </p>
-            <h3>
-              Where can I give feedback and discuss my Early Access experience?
-            </h3>
-            <p>
-              Early Access participants have been invited to the{' '}
-              <a href="https://forum.marmalade.ai/t/marmalade-ai-early-access-users-lounge/82">
-                Early Access users lounge
-              </a>{' '}
-              in the Marmalade AI{' '}
-              <a href="https://forum.marmalade.ai/">discussion forum</a>.
-            </p>
             <div className="pt-5" />
           </div>
           <div>
