@@ -79,13 +79,13 @@ const DigitalMarketing = () => (
         </p>
         <h2>Virtual Network</h2>
         <p>
-          The <b>short answer</b> is: sign up and use Marmalade AI's virtual
-          network that is derived from your profile. Marmalade AI will connect
-          you with other specialists in digital marketing. So how do you get a
-          profile? Well, you can copy and paste from elsewhere, or write it from
-          scratch. Either way, it is quick to register. Instead of taking years
-          to build up a network, a virtual network takes minutes and reflects
-          your profile.
+          The <b>short answer</b> is: sign up and use Marmalade AI&apos;s
+          virtual network that is derived from your profile. Marmalade AI will
+          connect you with other specialists in digital marketing. So how do you
+          get a profile? Well, you can copy and paste from elsewhere, or write
+          it from scratch. Either way, it is quick to register. Instead of
+          taking years to build up a network, a virtual network takes minutes
+          and reflects your profile.
         </p>
         <p>
           The <b>long answer</b> is: by using Marmalade AI you can have a
@@ -129,7 +129,7 @@ const DigitalMarketing = () => (
           reverseOrder
           primarySlot={
             <div className="pl-8">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 Digital marketing means collaboration to get feedback.
               </p>
             </div>
@@ -164,7 +164,7 @@ const DigitalMarketing = () => (
         <SplitSection
           primarySlot={
             <div className="pr-8">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 Search Engine Optimization (SEO) is key to inbound marketing and
                 it is changing rapidly.
               </p>

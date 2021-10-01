@@ -111,7 +111,7 @@ const UXDesign = () => (
         <SplitSection
           primarySlot={
             <div className="pl-8">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 UX design immerses the user in the experience.
               </p>
             </div>
@@ -153,7 +153,7 @@ const UXDesign = () => (
           }
           secondarySlot={
             <div className="pr-8">
-              <p className="splitBody">
+              <p className="splitBody font-semibold">
                 UX designers test interactions on multiple devices.
               </p>
             </div>

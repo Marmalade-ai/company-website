@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/seo';
-import { StaticImage } from 'gatsby-plugin-image';
 
 const Communities = () => (
   <Layout>
