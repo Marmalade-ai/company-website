@@ -5,11 +5,11 @@ import SEO from '../components/seo';
 const PrivacyPolicy = () => (
   <Layout>
     <SEO title="Privacy Policy" description="Privacy Policy" />
-    <div className="container mx-auto mt-10">
+    <div className="px-10 mx-auto mt-10">
       <h1>Privacy Policy</h1>
     </div>
-    <article className="py-20 lg:pb-4 lg:pt-4">
-      <div className="px-6 mx-auto lg:w-2/3">
+    <article className="pt-5">
+      <div className="px-10 mx-auto">
         <p className="mt-6 font-semibold text-xl">
           Last Updated: <time dateTime="2021-07-14 11:42">July 14, 2021</time>
         </p>
