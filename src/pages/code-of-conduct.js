@@ -5,11 +5,11 @@ import SEO from '../components/seo';
 const CodeOfConduct = () => (
   <Layout>
     <SEO title="Code of Conduct" description="Code of Conduct" />
-    <div className="container mx-auto mt-10">
+    <div className="px-10 mx-auto mt-10">
       <h1>Code of Conduct</h1>
     </div>
-    <article className="py-20 lg:pb-4 lg:pt-4">
-      <div className="px-6 mx-auto lg:w-2/3">
+    <article className="pt-5">
+      <div className="px-10 mx-auto">
         <h2>Our Pledge</h2>
         <p>
           In the interest of fostering an open and welcoming environment, we as

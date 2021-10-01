@@ -12,7 +12,7 @@ const MachineLearning = () => (
       title="Machine Learning"
       description="Machine Learning community of freelancers."
     />
-    <div className="container mx-auto mt-10">
+    <div className="px-10 mx-auto mt-10">
       <h1>
         <StaticImage
           className="rounded-lg shadow-lg rounded-lg-vertical-align"
