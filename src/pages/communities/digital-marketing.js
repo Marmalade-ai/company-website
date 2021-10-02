@@ -15,11 +15,12 @@ const DigitalMarketing = () => (
     <div className="px-10 mx-auto mt-10">
       <h1>
         <StaticImage
-          className="rounded-lg shadow-lg rounded-lg-vertical-align"
+          className="rounded-lg shadow-lg"
           src="../../images/digitalmarketing_earth_64.png"
           alt="Marmalade AI digital marketing community."
           title="Marmalade AI digital marketing community."
         />{' '}
+        <StaticImage src="../../images/spacer10x64.png" />
         Digital Marketing
       </h1>
     </div>
@@ -129,7 +130,7 @@ const DigitalMarketing = () => (
           reverseOrder
           primarySlot={
             <div className="pl-8">
-              <p className="splitBody font-semibold">
+              <p className="splitBody font-semibold test-font-color">
                 Digital marketing means collaboration to get feedback.
               </p>
             </div>

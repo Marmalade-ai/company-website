@@ -1,0 +1,14 @@
+/* Borrowing the global.css concept from https://www.gatsbyjs.com/docs/recipes/styling-css/ */
+
+html {
+  /* background-color: lavenderblush; */
+}
+h1 {
+  display: flex;
+  padding: 5px;
+  font-size: 180%;
+  line-height: 64px;
+  text-align: center;
+  vertical-align: middle;
+  gap: 0px 5px;
+}
