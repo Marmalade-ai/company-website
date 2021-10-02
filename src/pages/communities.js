@@ -11,7 +11,7 @@ const Communities = () => (
       description="Marmalade AI is specifically designed to help several freelancer communities of practice."
     />
     <div className="container mx-auto mt-10">
-      <h1>Communities</h1>
+      <h1>Freelancer Communities</h1>
     </div>
     <article className="pt-2">
       <div className="container mx-auto">

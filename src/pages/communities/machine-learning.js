@@ -14,13 +14,18 @@ const MachineLearning = () => (
     />
     <div className="px-10 mx-auto mt-10">
       <h1>
-        <StaticImage
-          className="rounded-lg shadow-lg rounded-lg-vertical-align"
-          src="../../images/machinelearning_minerals_64.png"
-          alt="Marmalade AI machine learning community."
-          title="Marmalade AI machine learning community."
-        />{' '}
-        Machine Learning
+        <div className="flex items-center">
+          <div>
+            <StaticImage
+              className="rounded-lg shadow-lg"
+              src="../../images/machinelearning_minerals_64.png"
+              alt="Marmalade AI machine learning community."
+              title="Marmalade AI machine learning community."
+            />
+          </div>
+          &nbsp;
+          <div>Machine Learning</div>
+        </div>
       </h1>
     </div>
     <article className="pt-5">

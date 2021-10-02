@@ -11,13 +11,18 @@ const UXDesign = () => (
     <SEO title="UX Design" description="UX Design community of freelancers." />
     <div className="px-10 mx-auto mt-10">
       <h1>
-        <StaticImage
-          className="rounded-lg shadow-lg rounded-lg-vertical-align"
-          src="../../images/UXdesign_soil_64.png"
-          alt="Marmalade AI UX design community."
-          title="Marmalade AI UX design community."
-        />{' '}
-        UX Design
+        <div className="flex items-center">
+          <div>
+            <StaticImage
+              className="rounded-lg shadow-lg"
+              src="../../images/UXdesign_soil_64.png"
+              alt="Marmalade AI UX design community."
+              title="Marmalade AI UX design community."
+            />
+          </div>
+          &nbsp;
+          <div>UX Design</div>
+        </div>
       </h1>
     </div>
     <article className="pt-5">
