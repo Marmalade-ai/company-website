@@ -12,7 +12,7 @@ const About = () => (
     </div>
     <section id="founders" className="pt-4">
       <div className="container mx-auto">
-        <h2 className="aboutSubHeading">Founders</h2>
+        <h2>Founders</h2>
         <div className="container">
           <p>
             It is an understatement to say we live in interesting times.
@@ -31,7 +31,7 @@ const About = () => (
                 alt="Photo of Craig Fisk."
                 title="Craig Fisk, CEO"
               />
-              <h3 className="cardHeading">Craig Fisk</h3>
+              <h3 className="mt-0">Craig Fisk</h3>
               <p className="cardSubHeading">CEO</p>
               <p>
                 Series A mobile CRM, new software products/channels at Intel.
@@ -48,7 +48,7 @@ const About = () => (
                 alt="Photo of Jim Tyhurst."
                 title="Jim Tyhurst, CTO"
               />
-              <h3 className="cardHeading">Jim Tyhurst</h3>
+              <h3 className="mt-0">Jim Tyhurst</h3>
               <p className="cardSubHeading">CTO</p>
               <p>
                 Software architect, Machine Learning / Natural Language
@@ -66,7 +66,7 @@ const About = () => (
                 alt="Photo of Vivian Tran."
                 title="Vivian Tran, Marketing Advisor"
               />
-              <p className="cardHeading">Vivian Tran</p>
+              <h3 className="mt-0">Vivian Tran</h3>
               <p className="cardSubHeading">Marketing Advisor</p>
               <p>
                 New segment marketing, healthcare industry marketing manager.
@@ -83,7 +83,7 @@ const About = () => (
                 alt="Photo of Michael Porto."
                 title="Michael Porto, Product Management Advisor"
               />
-              <p className="cardHeading">Michael Porto</p>
+              <h3 className="mt-0">Michael Porto</h3>
               <p className="cardSubHeading">Product Management Advisor</p>
               <p>Big data, mobile, ML, Intel, Wells Fargo, EY.</p>
               <p>Princeton MS CS.</p>
@@ -95,7 +95,7 @@ const About = () => (
     </section>
     <section id="mission" className="pt-8">
       <div className="container mx-auto">
-        <h2 className="aboutSubHeading">What&apos;s in it for you?</h2>
+        <h2>What&apos;s in it for you?</h2>
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
           <div className="flex-1 px-3 pt-4">
             <ul>
@@ -134,7 +134,7 @@ const About = () => (
     </section>
     <section id="logoInfo" className="pt-8">
       <div className="container mx-auto">
-        <h2 className="aboutSubHeading">What&apos;s with the logo and name?</h2>
+        <h2>What&apos;s with the logo and name?</h2>
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
           <div className="flex-1 px-3 pt-4">
             <p className="pt-2">

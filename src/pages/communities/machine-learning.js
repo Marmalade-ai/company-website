@@ -23,7 +23,7 @@ const MachineLearning = () => (
               title="Marmalade AI machine learning community."
             />
           </div>
-          &nbsp;
+          <div>&nbsp;</div>
           <div>Machine Learning</div>
         </div>
       </h1>
