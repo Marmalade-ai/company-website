@@ -9,15 +9,15 @@
   }
 
   h1 {
-    @apply mb-4 font-semibold text-4xl lg:text-5xl;
+    @apply font-semibold text-2xl md:text-3xl lg:text-4xl;
   }
 
   h2 {
-    @apply mt-6 font-semibold text-2xl lg:text-3xl;
+    @apply mt-6 font-semibold text-xl md:text-2xl lg:text-3xl;
   }
 
   h3 {
-    @apply mt-6 font-semibold text-xl;
+    @apply mt-6 font-semibold text-lg md:text-xl lg:text-2xl;
   }
 
   hr {
@@ -49,16 +49,8 @@
 }
 
 /** Application-specific classes **/
-.aboutSubHeading {
-  @apply leading-none font-semibold text-3xl lg:text-4xl;
-}
-
-.cardHeading {
-  @apply mt-0 font-semibold text-xl;
-}
-
 .cardSubHeading {
-  @apply font-semibold text-lg;
+  @apply mt-0 font-semibold text-lg lg:text-xl;
 }
 
 .cardBody {
@@ -79,12 +71,9 @@
    `@apply` cannot be used with lg:text-5xl because 
    lg:text-5xl is nested inside of an at-rule (@media).
 */
-.homeSubHeading {
-  @apply text-3xl font-semibold;
-}
 
 .splitHeading {
-  @apply mt-0 text-3xl font-semibold leading-tight;
+  @apply mt-0 leading-none font-semibold text-xl lg:text-2xl;
 }
 
 .splitBody {

@@ -23,7 +23,7 @@ const DigitalMarketing = () => (
               title="Marmalade AI digital marketing community."
             />
           </div>
-          &nbsp;
+          <div>&nbsp;</div>
           <div>Digital Marketing</div>
         </div>
       </h1>

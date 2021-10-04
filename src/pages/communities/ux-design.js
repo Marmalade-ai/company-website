@@ -20,7 +20,7 @@ const UXDesign = () => (
               title="Marmalade AI UX design community."
             />
           </div>
-          &nbsp;
+          <div>&nbsp;</div>
           <div>UX Design</div>
         </div>
       </h1>

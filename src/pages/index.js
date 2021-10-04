@@ -17,10 +17,10 @@ const Index = () => (
     <section className="pt-10">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-2/3">
-          <h1 className="text-4xl lg:text-left lg:text-5xl xl:text-6xl font-bold leading-none">
+          <h1 className="md:text-left text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
             Making freelancer networking easier.
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
+          <p className="mt-6 text-xl lg:text-2xl font-light">
             How freelancers connect with peers to share projects and stay
             up-to-date.
           </p>
@@ -40,7 +40,7 @@ const Index = () => (
     </div>
     <section id="features" className="pt-10">
       <div className="container mx-auto text-center">
-        <h2 className="homeSubHeading">Why Choose Marmalade?</h2>
+        <h2>Why Choose Marmalade?</h2>
         <SplitSection
           reverseOrder
           primarySlot={
@@ -108,11 +108,11 @@ const Index = () => (
     </div>
     <section id="benefits" className="pt-10">
       <div className="container mx-auto text-center">
-        <h2 className="homeSubHeading">Get Started with Marmalade AI</h2>
+        <h2>Get Started with Marmalade AI</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Learn Something New</h3>
+              <h3 className="mt-0">Learn Something New</h3>
               <p className="cardBody">
                 Keep up with the latest tools, techniques, and technologies by
                 way of other freelancers.
@@ -121,7 +121,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Collaborate</h3>
+              <h3 className="mt-0">Collaborate</h3>
               <p className="cardBody">
                 Find freelancers with whom you would like to collaborate on paid
                 projects, for side projects, or just to stay current.
@@ -130,7 +130,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="cardHeading">Sharpen your Specialization</h3>
+              <h3 className="mt-0">Sharpen your Specialization</h3>
               <p className="cardBody">
                 Out of a larger network of accurate matches, you may form a
                 small group with deeper relationships.
