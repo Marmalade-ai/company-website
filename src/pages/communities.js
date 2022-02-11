@@ -64,6 +64,14 @@ const Communities = () => (
               </div>
             </Link>
           </h2>
+          <div>
+            <br />
+            <p>
+              Because these areas are the focus for Early Access, they will have
+              the strongest virtual networks. Of course, you are welcome to join
+              with other specializations as appropriate to you.
+            </p>
+          </div>
         </nav>
       </div>
     </article>
