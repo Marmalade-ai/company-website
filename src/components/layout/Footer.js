@@ -9,7 +9,7 @@ const Footer = () => (
       <section className="flex-1 px-3 order-last md:order-first">
         <h2 className="text-lg font-semibold">Marmalade AI, Inc.</h2>
         <ul className="mt-4 leading-loose list-none">
-          <li>Making freelancer networking easier.</li>
+          <li>Virtual networking.</li>
           <li>Copyright © 2021-2022 Marmalade AI, Inc.</li>
         </ul>
       </section>
