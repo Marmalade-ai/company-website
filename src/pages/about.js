@@ -16,10 +16,12 @@ const About = () => (
         <div className="container">
           <p>
             It is an understatement to say we live in interesting times.
-            Collective spirit and innovation are key to the future. We came
-            together through user research into the problems people have with
-            networking and each of us decided it was possible to contribute to
-            making it better.
+            Innovation is key to the future. <br />
+            It's great to be developing something where the people using it and
+            the people developing it can be one and the same. We came together
+            through user research into the problems people have with networking
+            and each of us decided it was possible to contribute to making it
+            better.
           </p>
         </div>
         <div className="pt-8 grid grid-cols-1 flex-col -mx-3 md:grid-cols-2">
@@ -100,32 +102,29 @@ const About = () => (
           <div className="flex-1 px-3 pt-4">
             <ul>
               <li className="pt-2">
-                For everyone, but especially for younger, multicultural
-                freelancers, we want to <b>remove bias</b> and make it easier to
-                build out a useful network. Marmalade AI{' '}
-                <b>matches you to people you might not otherwise meet</b>.
+                <b>Reduce bias</b> and make it easy to build out a network that
+                is right for you. Marmalade AI creates a <b>virtual network</b>
+                with people you might not otherwise meet.
               </li>
               <li className="pt-2">
-                We want to make it easier to <b>build stronger relationships</b>
-                , rather than just accumulating a list of contacts or providing
-                networking as entertainment.
+                <b>Accurate relationships</b> make a <b>virtual network</b>{' '}
+                useful, rather than just accumulating a list of contacts or
+                hoping for serendipity.
               </li>
               <li className="pt-2">
-                We want to <b>encourage collaboration</b>,{' '}
-                <b>finding skills that match</b> or <b>complement your own</b>,
-                and <b>fostering small working groups</b> that relieve the
-                isolation of solo work without needing to join a company.
+                <b>Collaborate!</b> You can find specializations and skills to{' '}
+                <b>match</b> or <b>complement</b> you. You can create small
+                working groups.
               </li>
               <li className="pt-2">
-                We want to provide a place for <b>mentoring</b>, where those
-                with <b>more experience</b> and those with{' '}
-                <b>less experience</b> can <b>both grow</b> in their
-                professional life.
+                <b>Mentor</b> and <b>be mentored</b>, so people with{' '}
+                <b>more experience</b> and those with <b>less experience</b> in
+                an area can both <b>grow</b> and <b>contribute</b>.
               </li>
               <li className="pt-2">
-                Let&apos;s be environmentally progressive! In particular, make
-                it easier to work remotely and to{' '}
-                <b>reduce our ecological footprint</b>.
+                <b>Be environmentally progressive</b>! In particular, make it
+                easier to work remotely and to{' '}
+                <b>reduce your ecological footprint</b>.
               </li>
             </ul>
           </div>
@@ -138,14 +137,14 @@ const About = () => (
         <div className="grid sm:flex-row sm:-mx-3 mt-0">
           <div className="flex-1 px-3 pt-4">
             <p className="pt-2">
-              The <b>splat logo</b> (
+              Our <b>"splat" logo</b> (
               <StaticImage
                 className="w-6 h-6"
                 src="../images/marmalade-logo-tiny.png"
                 alt="The Marmalade AI Logo."
                 title="Marmalade AI, Inc."
               />
-              ) suggests quickness and informality (thanks,{' '}
+              ) suggests quickness and informality (thanks, über-designer{' '}
               <a
                 href="https://www.linkedin.com/in/jujube/"
                 rel="noreferrer"
@@ -153,9 +152,8 @@ const About = () => (
               >
                 Jujube Li
               </a>
-              ), while &quot;<b>Marmalade AI</b>&quot; combines the stickiness
-              of marmalade preserves with harnessing the power of Artificial
-              Intelligence.
+              ). &quot;<b>Marmalade AI</b>&quot; combines stickiness and
+              Artificial Intelligence.
             </p>
           </div>
         </div>
