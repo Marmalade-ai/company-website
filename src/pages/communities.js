@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/seo';
+import Button from '../components/Button';
 
 const Communities = () => (
   <Layout>
@@ -11,7 +12,7 @@ const Communities = () => (
       description="Marmalade AI Early Access is specifically designed for virtual networking in tech communities (including freelancers)."
     />
     <div className="container mx-auto mt-10">
-      <h1>Early Access</h1>
+      <h1>Communities for Early Access</h1>
     </div>
     <article className="pt-2">
       <div className="container mx-auto">
@@ -67,9 +68,15 @@ const Communities = () => (
           <div>
             <br />
             <p>
-              Because these areas are the focus for Early Access, they will have
-              the strongest virtual networks. Of course, you are welcome to join
-              with other specializations as appropriate to you.
+              Because these areas are the focus for <b>Early Access</b>, they
+              will have the strongest <b>virtual networks</b>. Of course, you
+              are welcome to join with other specializations as appropriate to
+              you.
+            </p>
+            <p className="mt-8">
+              <Link to="/alphaGoogleForm">
+                <Button size="lg">Apply for Early Access</Button>
+              </Link>
             </p>
           </div>
         </nav>
