@@ -63,7 +63,7 @@ module.exports = {
       options: {
         name: 'Marmalade.ai | Home',
         short_name: 'Marmalade.ai',
-        description: 'Marmalade.ai | Making freelancer networking easier.',
+        description: 'Marmalade.ai | Making software personnetworking easier.',
         start_url: '/',
         background_color: '#6b37bf',
         theme_color: '#6b37bf',

@@ -8,20 +8,17 @@ import SplitSection from '../../components/SplitSection';
 
 const DigitalMarketing = () => (
   <Layout>
-    <SEO
-      title="Digital Marketing"
-      description="Digital Marketing community of freelancers."
-    />
+    <SEO title="Digital Marketing" description="Digital Marketing community." />
     <div className="px-10 mx-auto mt-10">
       <h1>
         <div className="flex items-center">
           <div>
-            <StaticImage
+            {/* <StaticImage
               className="rounded-lg shadow-lg"
               src="../../images/digitalmarketing_earth_64.png"
               alt="Marmalade AI digital marketing community."
               title="Marmalade AI digital marketing community."
-            />
+            /> */}
           </div>
           <div>&nbsp;</div>
           <div>Digital Marketing</div>
@@ -32,24 +29,23 @@ const DigitalMarketing = () => (
       <div className="px-10 mx-auto">
         <h2>Sign up to try it!</h2>
         <p>
-          As a freelancer in digital marketing, I would like to <b>join</b> the
-          free Early Access testing program to use the Marmalade AI peer
-          networking platform. I understand that &quot;Early Access&quot; means
-          this is a very early pre-release of the application with minimal
-          functionality. However:
+          As a digital marketing person, I would like to <b>join</b> the free
+          Early Access testing program to use Marmalade AI networking. I
+          understand that &quot;Early Access&quot; means this is a very early
+          pre-release of the application with minimal functionality:
         </p>
         <div className="ml-10">
           <ul className="list-outside">
             <li>
-              I will be <b>introduced</b> to other freelancers, who I would
-              probably not meet otherwise.
+              I will be <b>introduced</b> to other freelancers, many of whom I
+              probably would not meet otherwise.
             </li>
             <li>
-              I will be able to forward <b>invitations</b> to others I work with
-              (or others I would like to work with).
+              I can forward <b>invitations</b> to people I work with or would
+              like to work with.
             </li>
             <li>
-              I will <b>participate</b> in an Early Access discussion topic of
+              I can <b>participate</b> in an Early Access discussion topic of
               the{' '}
               <a
                 href="https://forum.marmalade.ai/"
@@ -58,29 +54,28 @@ const DigitalMarketing = () => (
               >
                 Marmalade AI Forum
               </a>
-              , where I will provide feedback regarding this Early Access
-              version of the application.
+              , where I can provide feedback regarding this Early Access version
+              of the application.
             </li>
           </ul>
         </div>
-        Yay, freelancers!
+        Yay, digital marketing!
         <p className="mt-8">
           <Link to="/alphaGoogleForm">
             <Button size="lg">Apply for Early Access</Button>
           </Link>
         </p>
         <div className="pt-10" />
-        <h2>How Can I Do Better as a Freelancer in Digital Marketing?</h2>
+        <h2>How Can I Have a Better Network in Digital Marketing?</h2>
         <p>
           If you found us through a <b>search query</b>, was it something like
           that? Or did you get results that seemed like answers to a different
-          question: How can I be kept away from my peers, fall into the trap of
-          price competition, and be commoditized as a freelancer?
+          question?
         </p>
         <p>
           We are so glad you found us after all! We hope you can use Marmalade
           AI to actually answer that very <b>question</b>: &quot;How can you
-          help me do better as a freelancer in digital marketing?&quot;
+          help me have better network in digital marketing?&quot;
         </p>
         <h2>Virtual Network</h2>
         <p>
@@ -99,10 +94,9 @@ const DigitalMarketing = () => (
           <b>
             <i>virtual network</i>
           </b>{' '}
-          for freelancers? It is the same idea. Your virtual network reflects
-          your profile. It is normally composed of other digital marketing
-          freelancers with related specializations. It changes when you change
-          your profile.
+          for digital marketing? Your virtual network reflects your profile. It
+          is composed of other digital marketing people with related
+          specializations. It changes when you change your profile.
         </p>
         <p>
           This means you can use your virtual network to <b>find help</b> on
@@ -114,28 +108,26 @@ const DigitalMarketing = () => (
           marketing.
         </p>
         <p>
-          Similarly, a lot of projects have <b>scope</b> in which I can do what
-          I am good at, but one-tenth of the scope might be in a less familiar
-          area that will make it end up being a money-losing project. The goal
-          of Marmalade AI is to be a platform where your virtual network enables
-          you to focus on what you are good at.
+          A lot of projects have <b>scope</b> in which I can do what I am good
+          at, but one-tenth of the scope might be in a less familiar area that
+          will make it end up being a money-loser. The goal of Marmalade AI is
+          to be a platform where your virtual network enables you to focus on
+          what you are good at.
         </p>
         <p>
-          <b>Transactions</b> are one part of the story; the other is{' '}
-          <b>learning</b>. How do you efficiently stay current in topics that
-          are important to, but not core to, your expertise? How about, for
-          example, if you could create a virtual room at 12:00pm (EST){' '}
-          <b>today</b> to discuss the latest in SEO and send notifications about
-          it to people who indicate an interest in that. It is like wikis or
-          forum boards, or maybe like the good parts of Quora.com or Clubhouse,
-          but more exact.
+          How do you efficiently stay current in topics that important to, but
+          not core to, your expertise? How about, for example, if you could
+          create a virtual room this afternoon to discuss the latest in SEO, and
+          bring it to the attention of people who have indicated an expertise in
+          that. It is like wikis or forum boards, or maybe like the good parts
+          of Quora.com or Clubhouse, but more exact.
         </p>
         <SplitSection
           reverseOrder
           primarySlot={
             <div className="pl-8">
               <p className="splitBody font-semibold">
-                Digital marketing means collaboration to get feedback.
+                Digital marketing often requires collaboration.
               </p>
             </div>
           }
@@ -144,7 +136,7 @@ const DigitalMarketing = () => (
               className="rounded-lg shadow-lg"
               src="../../images/kobu-agency-7okkFhxrxNw-unsplash_300.jpg"
               alt="Two women collaborating at a computer screen."
-              title="Collaborating to get feedback."
+              title="Collaboration."
             />
           }
         />
@@ -162,16 +154,16 @@ const DigitalMarketing = () => (
             forum
           </a>{' '}
           and this is Early Access. We think that a core idea is using
-          technology (NLP, virtualization) to enable more exact connections more
-          easily. How exactly that plays out in creating a platform for
-          community is really up to you.
+          technology (ML, NLP, virtualization, communications) to enable more
+          exact connections more easily. How exactly that plays out in creating
+          a platform for community is really up to you.
         </p>
         <SplitSection
           primarySlot={
             <div className="pr-8">
               <p className="splitBody font-semibold">
                 Search Engine Optimization (SEO) is key to inbound marketing and
-                it is changing rapidly.
+                is changing rapidly.
               </p>
             </div>
           }
@@ -188,32 +180,30 @@ const DigitalMarketing = () => (
         <h2>We Are Open To Input From The Community!</h2>
         <p>
           We said a little about what we think is on the road map: community,
-          co-working, control. But that is subject to what we hear from you.{' '}
-          <b>Please invite people</b> you are already working with or think you
-          could be working with, and explore virtual networking. We are big
-          believers in self-organizing communities.
+          co-working, control.
+          <b>Please invite people</b> you work with or would like to work with,
+          and explore virtual networking. This is a self-organizing community.
         </p>
         <div className="pt-10" />
         <h2>Sign up to try it!</h2>
         <p>
-          As a freelancer in digital marketing, I would like to <b>join</b> the
-          free Early Access testing program to use the Marmalade AI peer
-          networking platform. I understand that &quot;Early Access&quot; means
-          this is a very early pre-release of the application with minimal
-          functionality. However:
+          As a digital marketing person, I would like to <b>join</b> the free
+          Early Access testing program to use Marmalade AI networking. I
+          understand that &quot;Early Access&quot; means this is a very early
+          pre-release of the application with minimal functionality:
         </p>
         <div className="ml-10">
           <ul className="list-outside">
             <li>
-              I will be <b>introduced</b> to other freelancers, who I would
+              I will be <b>introduced</b> to other people, many of whom I would
               probably not meet otherwise.
             </li>
             <li>
-              I will be able to forward <b>invitations</b> to others I work with
-              (or others I would like to work with).
+              I can forward <b>invitations</b> to others I work with or would
+              like to work with.
             </li>
             <li>
-              I will <b>participate</b> in an Early Access discussion topic of
+              I can <b>participate</b> in an Early Access discussion topic of
               the{' '}
               <a
                 href="https://forum.marmalade.ai/"
@@ -227,7 +217,7 @@ const DigitalMarketing = () => (
             </li>
           </ul>
         </div>
-        Yay, freelancers!
+        Yay, digital marketing!
         <p className="mt-8">
           <Link to="/alphaGoogleForm">
             <Button size="lg">Apply for Early Access</Button>

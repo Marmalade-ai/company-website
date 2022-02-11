@@ -12,7 +12,7 @@ const Index = () => (
   <Layout>
     <SEO
       title="Marmalade AI Home"
-      description="Marmalade AI is making freelancer networking easier"
+      description="Marmalade AI is making virtual networking easier"
     />
     <section className="pt-10">
       <div className="container mx-auto px-8 lg:flex">
@@ -21,8 +21,7 @@ const Index = () => (
             Virtual networking
           </h1>
           <p className="mt-6 text-xl lg:text-2xl font-light">
-            How to have a network that is
-            <br /> accurate, automatic, and appropriate.
+            Accurate, automatic, and appropriate.
           </p>
           <p className="mt-8 md:mt-12">
             <Link to="/alphaGoogleForm">
@@ -40,15 +39,14 @@ const Index = () => (
     </div>
     <section id="features" className="pt-10">
       <div className="container mx-auto text-center">
-        <h2>Why Marmalade AI?</h2>
+        <h2>Why &quot;virtual networking&quot;?</h2>
         <SplitSection
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">1. Accurate Networking</h3>
+              <h3 className="splitHeading">1. Accurate</h3>
               <p className="splitBody">
-                Have instant access to a network that is actually relevant to
-                you.
+                A network that is relevant to you.
               </p>
             </div>
           }
@@ -57,17 +55,16 @@ const Index = () => (
               className="rounded-lg shadow-lg"
               src="../images/iStockphoto-1220226086-400.jpg"
               alt="Marmalade AI provides accurate networking of people so they can collaborate."
-              title="Marmalade AI gives you access to a network that accurately reflects you."
+              title="Marmalade AI gives you a network that reflects you."
             />
           }
         />
         <SplitSection
           primarySlot={
             <div className="lg:pr-32 xl:pr-48">
-              <h3 className="splitHeading">2. Automatic Networking</h3>
+              <h3 className="splitHeading">2. Automatic</h3>
               <p className="splitBody">
-                Provide your profile and description, and you get a virtual
-                network automatically. It&apos;s that easy.
+                Provide your profile, you automatically get a virtual network.
               </p>
             </div>
           }
@@ -75,8 +72,8 @@ const Index = () => (
             <StaticImage
               className="rounded-lg shadow-lg	"
               src="../images/matching.jpg"
-              alt="Marmalade AI virtual networks are based on your profile. Want to change your network? Change your profile."
-              title="Marmalade AI automatically matches you with people with whom you should network."
+              alt="Marmalade AI networking is based on your profile. Want to change your network? Change your profile."
+              title="Marmalade AI automatically matches you with people."
             />
           }
         />
@@ -84,10 +81,9 @@ const Index = () => (
           reverseOrder
           primarySlot={
             <div className="lg:pl-32 xl:pl-48">
-              <h3 className="splitHeading">3. Appropriate Networking</h3>
+              <h3 className="splitHeading">3. Appropriate</h3>
               <p className="splitBody">
-                Break out of the bias built into traditional networks. Shape
-                your network to be more multicultural, like the real world.
+                Escape conventional networking.
               </p>
             </div>
           }
@@ -96,7 +92,7 @@ const Index = () => (
               className="rounded-lg shadow-lg	"
               src="../images/chatting.jpg"
               alt="A person chatting through a phone app."
-              title="Marmalade AI lets you do culturally appropriate networking."
+              title="Marmalade AI enables appropriate networking."
             />
           }
         />
@@ -107,11 +103,11 @@ const Index = () => (
     </div>
     <section id="benefits" className="pt-10">
       <div className="container mx-auto text-center">
-        <h2>Get Started with Marmalade AI</h2>
+        <h2>Get Started with &quot;virtual networking&quot; with Marmalade AI</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <h3 className="mt-0">Learn What's New</h3>
+              <h3 className="mt-0">Learn What&apos;s New</h3>
               <p className="cardBody">
                 Keep up with the latest tools, techniques, and technologies by
                 way of people in your virtual network.
@@ -122,8 +118,8 @@ const Index = () => (
             <Card className="mb-8">
               <h3 className="mt-0">Collaborate</h3>
               <p className="cardBody">
-                In your virtual network, you may find people with whom you would
-                like to collaborate, or just chat and stay current.
+                In your virtual network, you will find people with whom you
+                would like to collaborate, or just chat and stay current.
               </p>
             </Card>
           </div>
