@@ -40,7 +40,7 @@ const Index = () => (
     </div>
     <section id="features" className="pt-10">
       <div className="container mx-auto text-center">
-        <h2>Why Choose Marmalade?</h2>
+        <h2>Why Choose Marmalade AI?</h2>
         <SplitSection
           reverseOrder
           primarySlot={
