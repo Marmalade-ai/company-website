@@ -18,17 +18,17 @@ const Faq = () => (
             <h2>Getting Started</h2>
             <h3>How do I get started?</h3>
             <p>
-              <Link to="/alphaGoogleForm">Apply for Early Access</Link>. After
-              receiving an invitation to participate in the Early Access
-              Program, you will be able fill in your profile, which Marmalade AI
-              will use to create a virtual network of people for you to meet.
+              Click this link to{' '}
+              <Link to="/alphaGoogleForm">apply for Early Access</Link>. Fill in
+              your profile, which Marmalade AI will use to create a virtual
+              network.
             </p>
             <h3>What does it cost?</h3>
             <p>Free forever for Early Access users.</p>
             <h3>Is this a global service?</h3>
             <p>
-              The Early Access program is only available for those living in
-              North America.
+              The Early Access program is only available for residents of the
+              Americas.
             </p>
             <div className="pt-5" />
           </div>
@@ -36,14 +36,13 @@ const Faq = () => (
             <h2>Building Your Network</h2>
             <h3>How do I connect with other people?</h3>
             <p>
-              Marmalade AI makes matches automatically based on what is included
-              in your profile. Then you can choose whether to connect to those
-              people suggested in your virtual network.
+              Marmalade AI creates a virtual network automatically based on your
+              profile. You choose whether to connect or be connected.
             </p>
             <h3>Can I find a job through this?</h3>
             <p>
-              Marmalade AI helps you to build your professional network, which
-              is an important component of finding jobs and contracts.
+              Marmalade AI helps build your professional network, which is a key
+              part of finding work.
             </p>
             <h3>What can I learn through this?</h3>
             <p>
@@ -56,21 +55,18 @@ const Faq = () => (
             <p>
               For now, you will need to set up a Zoom or similar call. Down the
               road, we plan to incorporate video chat capability, as well as
-              offering your availability / non-availability, in the platform.
+              indicating your availability and interests.
             </p>
             <h3>
-              What if my area of specialization is not in the list of{' '}
-              <Link to="/communities">Communities</Link>?
+              What if my specialization is not in the list of{' '}
+              <Link to="/communities">Communities for Early Access</Link>?
             </h3>
             <p>
-              Marmalade AI supports all areas of professional networking, but we
-              are currently focused on building a few specific communities. You
-              are welcome to participate from other areas of expertise, but you
-              may not find the matching experience to be as good as for those
-              supported <Link to="/communities">Communities</Link>. However, we
-              expect Marmalade AI to expand to other tech freelancing
-              communities of practice, freelancing in general, and then all
-              professionals in the future.
+              Although virtual networking applies to everyone, for "Early
+              Access" the focus is on specific areas. If you are outside of
+              that, you are welcome to participate, but you may not find the
+              matching to be as good. Marmalade AI expects to expand, so you
+              definitely can get in on the ground floor.
             </p>
             <div className="pt-5" />
           </div>

@@ -11,7 +11,8 @@ const PrivacyPolicy = () => (
     <article className="pt-5">
       <div className="px-10 mx-auto">
         <p className="mt-6 font-semibold text-xl">
-          Last Updated: <time dateTime="2021-07-14 11:42">July 14, 2021</time>
+          Last Updated:{' '}
+          <time dateTime="2021-2022-07-14 11:42">July 14, 2021-2022</time>
         </p>
 
         <p>

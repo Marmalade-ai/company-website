@@ -13,7 +13,7 @@ const CodeOfConduct = () => (
         <h2>Our Pledge</h2>
         <p>
           In the interest of fostering an open and welcoming environment, we as
-          Marmalade networking members pledge to make participation in our
+          Marmalade AI networking members pledge to make participation in our
           meetings and in our community a harassment-free experience for
           everyone, regardless of age, body size, disability, ethnicity, sex
           characteristics, gender identity and expression, level of experience,
