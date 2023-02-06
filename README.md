@@ -43,6 +43,6 @@ We use several extensions to [vscode](https://code.visualstudio.com/Download) in
 
 ## License
 
-Copyright &#169; 2021-2022 [Marmalade AI, Inc.](https://marmalade.ai)
+Copyright &#169; 2021-2023 [Marmalade AI, Inc.](https://marmalade.ai)
 
 This source code is licensed under the [MIT License](./LICENSE). See the [LICENSE](./LICENSE) file for more details.
