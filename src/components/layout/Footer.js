@@ -10,7 +10,7 @@ const Footer = () => (
         <h2 className="text-lg font-semibold">Marmalade AI, Inc.</h2>
         <ul className="mt-4 leading-loose list-none">
           <li>Virtual networking.</li>
-          <li>Copyright © 2021-2022 Marmalade AI, Inc.</li>
+          <li>Copyright © 2021-2023</li>
         </ul>
       </section>
       <section className="flex-1 px-3">
